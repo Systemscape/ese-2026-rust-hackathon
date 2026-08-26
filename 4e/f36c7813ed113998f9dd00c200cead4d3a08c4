@@ -1,0 +1,14 @@
+hardware/README.md
+  h_2e4fad1f0ddac3 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "4ef36c7813ed113998f9dd00c200cead4d3a08c4",
+  "prompts": {},
+  "humans": {
+    "h_2e4fad1f0ddac3": {
+      "author": "JuliDi <julian@systemscape.de>"
+    }
+  }
+}
