@@ -9,6 +9,7 @@
 - 2x LED (power und user)
 - 2x user button
 - Pin-header (size tbd) to connect more peripherals, e.g. SPI/I2C displays
+- 4x1 2.54 mm Pitch that has GND, VCC, SDA, SCL _or_ VCC, GNC, SDA, SCL (unfortunately both pinouts exist and are common) for an SSD1306 display, they are so cheap we can buy one for every participant
 - 7-Segment display like <https://shop.theembeddedrustacean.com/products/uferris-megalops-baseboard?variant=45514286530721> or an LED matrix (5x5) like <https://tech.microbit.org/hardware/>
 
 ### Optional
