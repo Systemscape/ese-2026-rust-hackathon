@@ -11188,7 +11188,7 @@
 				(justify left top)
 			)
 		)
-		(pin "PG" input
+		(pin "PG" output
 			(at 40.64 95.25 0)
 			(uuid "6bb76b79-4cff-4196-95e7-83590d0446b9")
 			(effects

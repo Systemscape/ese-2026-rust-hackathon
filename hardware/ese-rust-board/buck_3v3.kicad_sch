@@ -1543,7 +1543,7 @@
 		(uuid "33aab406-291b-42e7-ab8e-2ddd536489af")
 	)
 	(hierarchical_label "PG"
-		(shape input)
+		(shape output)
 		(at 90.17 78.74 180)
 		(effects
 			(font
