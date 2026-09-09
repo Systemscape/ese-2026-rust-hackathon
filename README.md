@@ -13,7 +13,7 @@ Als Kurzfassung eines hiervon?
 
 Rust ist auch in der Embedded-Entwicklung auf dem Vormarsch. Aber wie funktioniert “dieses Rust” auf echter Hardware? Wie schreibe ich einen Sensor-Treiber? Wie steuere ich ein Display an? Und wie sieht “Fearless Concurrency” in der Praxis aus?
 
-Im ESE Hackathon finden Sie es heraus: In kleinen Teams bringen Sie in Eigenregie einen Gassensor zum Laufen und bewerten die Luftqualität auf dem Kongressgelände – mit Rust, Embassy und async.
+Im ESE Hackathon finden Sie es heraus: In kleinen Teams entwickeln Sie mit Rust, Embassy und async eine eigene Anwendung zur Erfassung und Darstellung der Luftqualität auf dem Kongressgelände. Wie Sie Messwerte aufbereiten, darstellen und die Bedienung gestalten, entscheiden Sie selbst. Die überzeugendsten Anwendungen werden zum Abschluss ausgezeichnet.
 
 Grundlage ist das exklusive ESE Rust Devboard mit RP2354-Mikrocontroller, Bosch BME690 Gassensor, Display, Buttons und integrierter Debug-Probe. Weitere Peripherie ist steckbar, damit Sie Ihre Anwendung später noch beliebig erweitern können.
 
