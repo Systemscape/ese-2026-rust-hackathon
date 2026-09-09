@@ -1,6 +1,6 @@
 # Embedded Rust zum Anfassen: Hackathon auf dem exklusiven ESE 2026 Rust Devboard
 
-[Hardware](hardware/README.md) · [PCB-Downloads](https://systemscape.github.io/ese-2026-rust-hackathon/downloads/) · [CI](docs/ci.md)
+[Hardware](hardware/README.md) · [PCB-Downloads](downloads.md) · [CI](docs/ci.md)
 
 ## Worum geht es?
 
