@@ -1,13 +1,4 @@
-# ese-2026-rust-hackathon
-Hardware und Software für den ersten Rust Hackathon beim ESE Kongress 2026
-
-Als Kurzfassung eines hiervon?
-* Fearless Concurrency in der Praxis: Embedded-Rust-Hackathon mit dem ESE 2026 Devboard
-* Embedded Rust zum Anfassen: Hackathon auf dem exklusiven ESE 2026 Rust Devboard
-* From Zero to Rust – Bare-Metal-Hacking auf dem ESE 2026 Devboard
-* Embedded Rust auf dem exklusiven ESE 2026 Rust Devboard
-* Rapid Prototyping mit Embedded Rust auf dem ESE 2026 Rust Devboard
-* Bare-Metal-Hacking mit Rust
+# Embedded Rust zum Anfassen: Hackathon auf dem exklusiven ESE 2026 Rust Devboard
 
 ## Worum geht es?
 
@@ -38,7 +29,7 @@ Nach dem Hackathon können Sie mit einer modernen, speichersicheren Sprache Embe
 
 Konkret nehmen Sie mit:
 
-* Das exklusive ESE Rust Devboard mit Bosch BME690 Gassensor, einem RP2354 Microcontroller (in Cortex-M und RISC-V cores bootbar) und integriertem Debugger
+* Das exklusive ESE Rust Devboard mit Bosch BME690 Gassensor, einem RP2354 Microcontroller (in Cortex-M und RISC-V Cores bootbar) und integriertem Debugger
 * Ein Embedded-Rust-Projekt mit Embassy von Grund auf aufsetzen
 * Einen Treiber für einen I²C-Sensor schreiben und ein Display ansteuern
 * Nebenläufigkeit mit async Rust umsetzen – ohne RTOS und ohne Data Races
