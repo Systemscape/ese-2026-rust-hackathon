@@ -38,7 +38,7 @@ Nach dem Hackathon können Sie mit einer modernen, speichersicheren Sprache Embe
 
 Konkret nehmen Sie mit:
 
-* Das exklusive ESE Rust Devboard mit Bosch BME690 Gassensor, einem RP2354 Microcontroller und integriertem Debugger
+* Das exklusive ESE Rust Devboard mit Bosch BME690 Gassensor, einem RP2354 Microcontroller (in Cortex-M und RISC-V cores bootbar) und integriertem Debugger
 * Ein Embedded-Rust-Projekt mit Embassy von Grund auf aufsetzen
 * Einen Treiber für einen I²C-Sensor schreiben und ein Display ansteuern
 * Nebenläufigkeit mit async Rust umsetzen – ohne RTOS und ohne Data Races
