@@ -1,0 +1,21 @@
+README.md
+  s_a585854616206f::t_9dae31046ac0c4 3
+hardware/README.md
+  s_a585854616206f::t_9dae31046ac0c4 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0999a4cf344822d6b8bd90c5c7656a46c1749bf4",
+  "prompts": {},
+  "sessions": {
+    "s_a585854616206f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a086f6-ada7-7fd0-8a87-0bbb4421cfe0",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Joël Schulz-Andres <joel@systemscape.de>"
+    }
+  }
+}
