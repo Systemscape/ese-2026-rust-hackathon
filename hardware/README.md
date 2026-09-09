@@ -1,6 +1,6 @@
 # ESE Rust Devboard
 
-[Hackathon](../README.md) · [PCB downloads](https://systemscape.github.io/ese-2026-rust-hackathon/downloads/) · [Hardware CI](../docs/ci.md)
+[Hackathon](../README.md) · [PCB downloads](../downloads.md) · [Hardware CI](../docs/ci.md)
 
 ## MCU Foundation
 - 2x Raspberry Pi RP2354B (SC1512-A4) https://mou.sr/4yLfwo5 ca. 0.80 €
