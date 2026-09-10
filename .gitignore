@@ -56,3 +56,8 @@ fp-info-cache
 **/node_modules/
 .github/site/dist/
 artifact/
+# Generated PCB exports and GitHub Pages build
+/outputs/
+/downloads/
+/_site/
+/.jekyll-cache/
