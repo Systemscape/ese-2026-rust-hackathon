@@ -10,719 +10,6 @@
 		(company "Systemscape GmbH")
 	)
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 22.225 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "USB_C_Receptacle_USB2.0_16P"
-				(at 0 19.685 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-				(at 3.81 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "USB*C*Receptacle*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
-				(rectangle
-					(start -0.254 -17.78)
-					(end 0.254 -16.764)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 15.494)
-					(end 9.144 14.986)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 10.414)
-					(end 9.144 9.906)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 7.874)
-					(end 9.144 7.366)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 2.794)
-					(end 9.144 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 0.254)
-					(end 9.144 -0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -2.286)
-					(end 9.144 -2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -4.826)
-					(end 9.144 -5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -12.446)
-					(end 9.144 -12.954)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -14.986)
-					(end 9.144 -15.494)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
-				(rectangle
-					(start -10.16 17.78)
-					(end 10.16 -17.78)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 -3.81) (xy -8.89 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 -3.81)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -7.62 3.81)
-					(mid -6.985 4.4423)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.62 3.81)
-					(mid -6.985 4.4423)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -8.89 3.81)
-					(mid -6.985 5.7067)
-					(end -5.08 3.81)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 -3.81)
-					(mid -6.985 -5.7067)
-					(end -8.89 -3.81)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -3.81)
-					(mid -6.985 -4.4423)
-					(end -7.62 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -3.81)
-					(mid -6.985 -4.4423)
-					(end -7.62 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 3.81) (xy -5.08 -3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 1.143)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.842) (xy 0 4.318)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.905 1.778)
-					(end 3.175 3.048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 10.16 180)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -12.7 180)
-					(length 5.08)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -22.86 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -4981,9 +4268,9 @@
 		)
 		(uuid "3edd506b-3616-4d93-a927-578fe6e813e6")
 	)
-	(text "TBD:\n- LED Matrix or 7-segment display(s)\n- RP2354 Debugger\n- USB Connection\n"
+	(text "TBD:\n- LED Matrix or 7-segment display(s)\n- RP2354 Debugger"
 		(exclude_from_sim no)
-		(at 68.326 22.86 0)
+		(at 86.868 23.368 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5409,16 +4696,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 63.5) (xy 29.21 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1114e1f1-052f-4d80-8b97-a1898ba619be")
-	)
-	(wire
-		(pts
 			(xy 113.03 129.54) (xy 115.57 129.54)
 		)
 		(stroke
@@ -5636,6 +4913,16 @@
 			(type default)
 		)
 		(uuid "38334d8f-a6bb-473c-a652-cd8f3ea12b86")
+	)
+	(wire
+		(pts
+			(xy 43.18 26.67) (xy 50.8 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38bcd5eb-ef83-43d6-9657-5fad8e2401eb")
 	)
 	(wire
 		(pts
@@ -6009,6 +5296,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 26.67) (xy 21.59 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c2da4a4-e6a7-4d2f-a289-2c7854cb2d7b")
+	)
+	(wire
+		(pts
 			(xy 88.9 124.46) (xy 91.44 124.46)
 		)
 		(stroke
@@ -6156,16 +5453,6 @@
 			(type default)
 		)
 		(uuid "81eb0280-9d36-42c0-9368-a259ba96eb6a")
-	)
-	(wire
-		(pts
-			(xy 40.64 95.25) (xy 44.45 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8294e4ab-0fe6-4e6d-9fca-06fc49c19f20")
 	)
 	(wire
 		(pts
@@ -6326,16 +5613,6 @@
 			(type default)
 		)
 		(uuid "9d8b015f-e324-4b7f-8750-1f2e0e417c90")
-	)
-	(wire
-		(pts
-			(xy 166.37 86.36) (xy 176.53 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f67b6cd-4cd4-44ac-ae75-739402a4b36c")
 	)
 	(wire
 		(pts
@@ -6769,13 +6046,13 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 95.25) (xy 23.368 95.25)
+			(xy 43.18 30.48) (xy 50.8 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edc2f9d9-4c4c-4a92-9951-c47139a81931")
+		(uuid "ef376cae-c8cf-4b59-92c9-fc87e2d43e37")
 	)
 	(wire
 		(pts
@@ -6816,26 +6093,6 @@
 			(type default)
 		)
 		(uuid "f8caf379-d7e2-424e-a47e-9f81919066fd")
-	)
-	(wire
-		(pts
-			(xy 40.64 99.06) (xy 49.53 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbfec006-4851-49ab-b86e-eb979681aaa2")
-	)
-	(wire
-		(pts
-			(xy 44.45 25.4) (xy 50.8 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd1d0bab-e589-42d7-8d12-7a22dc1437e6")
 	)
 	(wire
 		(pts
@@ -6927,16 +6184,6 @@
 		)
 		(uuid "4ceb81f9-1d8c-4666-b3bc-99ffc2a7c894")
 	)
-	(label "PG"
-		(at 44.45 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5af159f3-a852-4e8a-88af-e5f8be2634f9")
-	)
 	(label "BME_SCK"
 		(at 176.53 78.74 180)
 		(effects
@@ -7007,16 +6254,6 @@
 		)
 		(uuid "e60344ab-43c2-4afa-a182-c7c23da9cdb4")
 	)
-	(label "PG"
-		(at 176.53 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f50b513f-7a9e-4f1c-9695-f6ac6a21a3b3")
-	)
 	(label "SSD_SDA"
 		(at 275.59 146.05 180)
 		(effects
@@ -7038,7 +6275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "047bc43a-47e1-4484-a32c-1e89dcdb8c12")
-		(property "Reference" "Y1101"
+		(property "Reference" "Y101"
 			(at 95.25 121.666 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7130,7 +6367,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "Y1101")
+					(reference "Y101")
 					(unit 1)
 				)
 			)
@@ -7147,7 +6384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d196af9-598f-4f57-bdff-75ba2d3d4fcf")
-		(property "Reference" "C1103"
+		(property "Reference" "C103"
 			(at 43.561 185.5216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7233,7 +6470,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "C1103")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -7251,7 +6488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1361ae61-a0e3-4646-b8d2-cd599d4d47b4")
-		(property "Reference" "#PWR01112"
+		(property "Reference" "#PWR0113"
 			(at 179.07 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7311,7 +6548,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR01112")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -7328,7 +6565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14816e76-7b41-48d6-8dd2-cbd0cd326440")
-		(property "Reference" "#PWR01106"
+		(property "Reference" "#PWR0109"
 			(at 82.55 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7388,7 +6625,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR01106")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -7406,7 +6643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1745ec11-c076-4441-84df-48d46e91c22b")
-		(property "Reference" "BTN_RESET"
+		(property "Reference" "BTN_RESET101"
 			(at 100.33 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7468,7 +6705,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "BTN_RESET")
+					(reference "BTN_RESET101")
 					(unit 1)
 				)
 			)
@@ -7486,7 +6723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d569c86-9d8b-4c58-a471-c377531f5c7d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0117"
 			(at 238.76 83.312 0)
 			(hide yes)
 			(show_name no)
@@ -7546,7 +6783,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR08")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -7563,7 +6800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e72b34d-f1ef-4629-8e33-4ecd58e2a6dd")
-		(property "Reference" "#PWR01105"
+		(property "Reference" "#PWR0106"
 			(at 74.93 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7623,7 +6860,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR01105")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -7641,7 +6878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2034358b-abd6-4ca5-b93d-393053570d00")
-		(property "Reference" "U1"
+		(property "Reference" "U102"
 			(at 143.1133 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7964,7 +7201,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "U1")
+					(reference "U102")
 					(unit 1)
 				)
 			)
@@ -7982,7 +7219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23db8831-b172-44e9-9e94-844f8304e074")
-		(property "Reference" "D2"
+		(property "Reference" "D101"
 			(at 267.97 89.8524 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8057,210 +7294,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 29.21 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27be0447-e79a-4825-883c-29270ad22569")
-		(property "Reference" "J1"
-			(at 29.21 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 29.21 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-			(at 33.02 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 33.02 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 29.21 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A8"
-			(uuid "bc27cc56-9599-42d8-ae33-b135255aab6c")
-		)
-		(pin "A9"
-			(uuid "6e96f1eb-aa1c-4acf-b326-38bb956c7bec")
-		)
-		(pin "SH"
-			(uuid "a49ec424-e468-4956-ba82-3b4e1bee3220")
-		)
-		(pin "B4"
-			(uuid "8472efad-96ff-4867-9f20-c84581a94985")
-		)
-		(pin "A12"
-			(uuid "afb387d0-381a-42db-a562-0292ebf88078")
-		)
-		(pin "A4"
-			(uuid "f10ec285-6814-40dc-923c-fb9fe230898b")
-		)
-		(pin "B8"
-			(uuid "0951499a-0a2c-45b7-afa3-beaec4fb8595")
-		)
-		(pin "A1"
-			(uuid "69e40ade-372a-4ff7-95e2-804e818dbd58")
-		)
-		(pin "B12"
-			(uuid "a36d9f1c-3ec0-403e-a08b-72985671dfc4")
-		)
-		(pin "B1"
-			(uuid "4f0c2659-0c8c-4afd-a966-d84d36773cc5")
-		)
-		(pin "B5"
-			(uuid "324018ef-e39d-4d39-bda3-b5cefa3ba4cb")
-		)
-		(pin "B6"
-			(uuid "82cd2f1b-66ae-4edf-8d56-d4a33d52209d")
-		)
-		(pin "B7"
-			(uuid "2621c246-16a7-4404-a267-05239e8bbf98")
-		)
-		(pin "A7"
-			(uuid "13e79bd0-946c-4aa2-a1a4-06934ebd059f")
-		)
-		(pin "A6"
-			(uuid "05e25d02-372c-4c10-bb3d-82c126efd16c")
-		)
-		(pin "B9"
-			(uuid "4f064def-9c8b-4d5c-9978-36a0dca2440a")
-		)
-		(pin "A5"
-			(uuid "29d6df21-9606-481a-846a-a9516728a352")
-		)
-		(instances
-			(project "ese-rust-board"
-				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 29.21 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2895615c-a50c-46b4-8844-7e8a022f14ca")
-		(property "Reference" "#PWR01"
-			(at 29.21 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 29.21 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "36a7398f-bf40-48d7-b79e-1a47b88c9f4d")
-		)
-		(instances
-			(project "ese-rust-board"
-				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR01")
+					(reference "D101")
 					(unit 1)
 				)
 			)
@@ -8278,7 +7312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28f237dd-abf1-462d-bb1e-1840f8033b9e")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0108"
 			(at 82.55 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8338,7 +7372,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR06")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -8355,7 +7389,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a163760-17b7-48d0-a676-f7ec01c28536")
-		(property "Reference" "C1112"
+		(property "Reference" "C112"
 			(at 126.111 185.5216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8441,7 +7475,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "C1112")
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -8458,7 +7492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "315a5b1d-74de-4be2-b3fd-792592bda789")
-		(property "Reference" "C1106"
+		(property "Reference" "C106"
 			(at 77.851 185.5216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8544,7 +7578,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "C1106")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -8561,7 +7595,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "328f00a1-284d-4f7f-8c84-a235478a3a7f")
-		(property "Reference" "#PWR01109"
+		(property "Reference" "#PWR0111"
 			(at 128.27 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8621,85 +7655,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR01109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 50.8 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3992c435-181b-4567-b486-90357d309845")
-		(property "Reference" "#PWR02"
-			(at 50.8 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 50.8 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-10-1EP_2x3mm_P0.5mm_EP0.84x2.4mm_ThermalVias"
-			(at 50.8 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 50.8 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bcc85918-1500-46bc-a8f0-6579c6fa4d57")
-		)
-		(instances
-			(project "ese-rust-board"
-				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR02")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -8716,7 +7672,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3aa02611-f519-430c-a781-ac0cf6e5093b")
-		(property "Reference" "C1105"
+		(property "Reference" "C105"
 			(at 66.421 185.5216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8802,7 +7758,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "C1105")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -8819,7 +7775,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "464b27b5-74c2-4c77-b24e-56e2a0c23898")
-		(property "Reference" "R6"
+		(property "Reference" "R112"
 			(at 271.526 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8881,7 +7837,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "R6")
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -8898,7 +7854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49b68f9c-d938-4149-987a-05296d0b9060")
-		(property "Reference" "C1109"
+		(property "Reference" "C107"
 			(at 81.1784 122.301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8984,7 +7940,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "C1109")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -9002,7 +7958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4db0b563-d182-47a9-a377-63456d5fc725")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0118"
 			(at 245.11 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9062,7 +8018,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR010")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -9080,7 +8036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "540b2ec3-99a3-41bb-94f0-e6b6ad798444")
-		(property "Reference" "BTN_BOOTSEL"
+		(property "Reference" "BTN_BOOTSEL101"
 			(at 100.33 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9142,7 +8098,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "BTN_BOOTSEL")
+					(reference "BTN_BOOTSEL101")
 					(unit 1)
 				)
 			)
@@ -9160,7 +8116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5500f92f-f9e8-49f8-b895-c8e02b8da2e5")
-		(property "Reference" "#PWR01110"
+		(property "Reference" "#PWR0112"
 			(at 138.43 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9220,7 +8176,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR01110")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -9237,7 +8193,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58b66b5e-6e9c-40ff-9ae8-755976790639")
-		(property "Reference" "#PWR01101"
+		(property "Reference" "#PWR0101"
 			(at 15.24 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9297,7 +8253,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR01101")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -9315,7 +8271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "595430bf-c03a-4a1f-847f-6d0a0d650b61")
-		(property "Reference" "R9"
+		(property "Reference" "R101"
 			(at 34.29 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9377,7 +8333,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "R9")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -9396,7 +8352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b82f7f0-d86e-4ddb-87cb-a18ed1702ded")
-		(property "Reference" "C1113"
+		(property "Reference" "C113"
 			(at 140.97 30.4862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9482,7 +8438,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "C1113")
+					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -9500,7 +8456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5de2c23b-6458-42ab-b341-a4d7c952904a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0119"
 			(at 245.11 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -9560,7 +8516,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR011")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -9578,7 +8534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60c57bc7-7e4c-48c2-89ba-2c8b416d7823")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0115"
 			(at 233.68 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9638,7 +8594,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR09")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -9657,7 +8613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62feb2ef-39c2-4e59-a1a5-f575e8cca3fc")
-		(property "Reference" "C1115"
+		(property "Reference" "C115"
 			(at 181.61 41.9162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9743,7 +8699,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "C1115")
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -9761,7 +8717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "634d7d0d-7edb-4eec-b91d-f5d450d4e40d")
-		(property "Reference" "U3"
+		(property "Reference" "U104"
 			(at 236.22 144.7801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9831,7 +8787,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "U3")
+					(reference "U104")
 					(unit 1)
 				)
 			)
@@ -9850,7 +8806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6635d2e4-b95b-4a45-b939-240998f205c2")
-		(property "Reference" "C1114"
+		(property "Reference" "C114"
 			(at 170.18 41.9162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9936,7 +8892,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "C1114")
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -9944,7 +8900,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 49.53 99.06 0)
+		(at 17.78 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9954,8 +8910,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66845bba-5855-43e1-bd76-d53e626df08b")
-		(property "Reference" "#PWR04"
-			(at 49.53 102.87 0)
+		(property "Reference" "#PWR0105"
+			(at 17.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9966,7 +8922,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 49.53 93.98 0)
+			(at 17.78 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9976,7 +8932,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 49.53 99.06 0)
+			(at 17.78 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9987,7 +8943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 99.06 0)
+			(at 17.78 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9998,7 +8954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 49.53 99.06 0)
+			(at 17.78 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10014,7 +8970,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR04")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -10032,7 +8988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f6a21ff-16dd-472c-97ec-2b15ad62e644")
-		(property "Reference" "R5"
+		(property "Reference" "R103"
 			(at 88.9 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10094,7 +9050,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "R5")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -10111,7 +9067,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7341fa60-1e0a-43a4-8c3e-469dfe8ed4c2")
-		(property "Reference" "R1106"
+		(property "Reference" "R105"
 			(at 110.49 124.2822 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10195,85 +9151,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "R1106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 19.05 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83d487a9-f26f-40b4-b670-1b9eb51377a2")
-		(property "Reference" "#PWR03"
-			(at 19.05 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 19.05 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 19.05 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef01fc69-3520-4763-8f2f-17988c408387")
-		)
-		(instances
-			(project "ese-rust-board"
-				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR03")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -10291,7 +9169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "878cd485-7314-4f43-ad60-4d323ea3e9b1")
-		(property "Reference" "U2"
+		(property "Reference" "U103"
 			(at 224.79 60.9601 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10373,7 +9251,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "U2")
+					(reference "U103")
 					(unit 1)
 				)
 			)
@@ -10390,7 +9268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90ec009c-146e-4dff-92a6-38ce0113e8a0")
-		(property "Reference" "C1111"
+		(property "Reference" "C111"
 			(at 112.141 185.5216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10476,7 +9354,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "C1111")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -10494,7 +9372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90ee2ca7-50a5-4167-a90b-8c31f7baa717")
-		(property "Reference" "PWR_LED"
+		(property "Reference" "PWR_LED101"
 			(at 25.7175 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10567,7 +9445,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "PWR_LED")
+					(reference "PWR_LED101")
 					(unit 1)
 				)
 			)
@@ -10585,7 +9463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92171bbb-7ee8-4c79-8c4a-6328e0b3a0fe")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0102"
 			(at 16.51 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10645,7 +9523,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR012")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -10663,7 +9541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9372c912-095c-4bc4-adf9-05e588387a27")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR0104"
 			(at 40.64 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10723,7 +9601,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR013")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -10740,7 +9618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ae8e173-c9e5-46ca-929e-d2fa84ba6c8f")
-		(property "Reference" "#PWR01108"
+		(property "Reference" "#PWR0110"
 			(at 123.19 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -10800,7 +9678,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR01108")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -10817,7 +9695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c943544-b500-4111-9d27-08245cff71a4")
-		(property "Reference" "#PWR01113"
+		(property "Reference" "#PWR0114"
 			(at 179.07 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10877,7 +9755,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR01113")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -10894,7 +9772,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e0f211f-0e84-4bd5-b960-cef797635cb3")
-		(property "Reference" "C1101"
+		(property "Reference" "C101"
 			(at 20.066 185.5216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10980,7 +9858,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "C1101")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -10997,7 +9875,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f13b397-3b08-400f-9896-cca889ed3c51")
-		(property "Reference" "R8"
+		(property "Reference" "R109"
 			(at 258.826 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11059,7 +9937,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "R8")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -11076,7 +9954,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1089ee7-9f5c-4d32-ad2c-2ecdedad269f")
-		(property "Reference" "R12"
+		(property "Reference" "R107"
 			(at 251.968 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11138,7 +10016,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "R12")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -11155,7 +10033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2c69b50-c6df-4f87-975b-6929929bd57a")
-		(property "Reference" "C1110"
+		(property "Reference" "C108"
 			(at 81.1784 132.461 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11241,7 +10119,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "C1110")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -11259,7 +10137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2da2001-3f69-41da-9b96-724d406c9479")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0116"
 			(at 233.68 83.312 0)
 			(hide yes)
 			(show_name no)
@@ -11319,7 +10197,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR07")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -11337,7 +10215,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b7ea8447-154c-457a-a5ff-c37ba593bfa5")
-		(property "Reference" "U4"
+		(property "Reference" "U101"
 			(at -32.1467 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11458,7 +10336,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "U4")
+					(reference "U101")
 					(unit 1)
 				)
 			)
@@ -11475,7 +10353,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcdb0175-6d30-4aae-b3ea-fcddf0d3cac3")
-		(property "Reference" "R7"
+		(property "Reference" "R111"
 			(at 265.43 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11537,7 +10415,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "R7")
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -11554,7 +10432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd84c448-ad24-4b15-804e-8ddf714180a7")
-		(property "Reference" "C1104"
+		(property "Reference" "C104"
 			(at 54.991 185.5216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11640,7 +10518,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "C1104")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -11648,7 +10526,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 256.54 120.65 0)
+		(at 252.73 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11658,8 +10536,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bffc9e65-3e1a-478b-b6c1-eda6bf52436e")
-		(property "Reference" "SW2"
-			(at 256.54 113.03 0)
+		(property "Reference" "SW101"
+			(at 252.73 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11669,7 +10547,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 256.54 115.57 0)
+			(at 252.73 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11679,7 +10557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 115.57 0)
+			(at 252.73 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11690,7 +10568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 115.57 0)
+			(at 252.73 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11701,7 +10579,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 256.54 120.65 0)
+			(at 252.73 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11720,7 +10598,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "SW2")
+					(reference "SW101")
 					(unit 1)
 				)
 			)
@@ -11738,7 +10616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c36d6a4a-6843-4ab3-955e-bb54ee5aa90d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0107"
 			(at 82.55 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -11798,7 +10676,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR05")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -11815,7 +10693,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cab33042-94a1-49fc-ae99-d72f1fdec07c")
-		(property "Reference" "R10"
+		(property "Reference" "R108"
 			(at 256.032 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11877,7 +10755,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "R10")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -11894,7 +10772,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd973b4b-e9b9-4b3b-8f85-aa0bcce6ef56")
-		(property "Reference" "R11"
+		(property "Reference" "R110"
 			(at 262.382 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11956,7 +10834,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "R11")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -11973,7 +10851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d08c5001-3a07-49a7-8e77-8ffececccf86")
-		(property "Reference" "C1108"
+		(property "Reference" "C110"
 			(at 100.711 185.5216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12059,7 +10937,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "C1108")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -12077,7 +10955,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d25cad4d-0653-4c1a-b076-9da176114472")
-		(property "Reference" "#FLG01102"
+		(property "Reference" "#FLG0102"
 			(at 156.21 33.655 0)
 			(hide yes)
 			(show_name no)
@@ -12137,7 +11015,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#FLG01102")
+					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
@@ -12155,7 +11033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6fd020c-ba49-46c1-b3f0-3c17eb62e74f")
-		(property "Reference" "R1103"
+		(property "Reference" "R104"
 			(at 102.87 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12219,7 +11097,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "R1103")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -12237,7 +11115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d941c345-e084-4362-8c67-2cd1758baffc")
-		(property "Reference" "R4"
+		(property "Reference" "R102"
 			(at 88.9 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12299,7 +11177,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "R4")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -12316,7 +11194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de2b3cea-10e2-46b4-a5de-80941b64919d")
-		(property "Reference" "L1101"
+		(property "Reference" "L101"
 			(at 155.194 46.736 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12457,7 +11335,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "L1101")
+					(reference "L101")
 					(unit 1)
 				)
 			)
@@ -12474,7 +11352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9a62977-805a-4c37-bbd6-6cad5d551388")
-		(property "Reference" "C1107"
+		(property "Reference" "C109"
 			(at 89.281 185.5216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12560,7 +11438,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "C1107")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -12579,7 +11457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb9a702e-4a24-41a5-8b2d-0b3dd3532751")
-		(property "Reference" "#FLG01101"
+		(property "Reference" "#FLG0101"
 			(at 142.24 22.225 0)
 			(hide yes)
 			(show_name no)
@@ -12639,7 +11517,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#FLG01101")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -12656,7 +11534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed228b9a-69a4-45ea-b2e5-d546da07e62e")
-		(property "Reference" "C1102"
+		(property "Reference" "C102"
 			(at 32.131 185.5216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12742,7 +11620,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "C1102")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -12760,7 +11638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efc68aea-9a06-4d39-823a-775c2d9c3bb5")
-		(property "Reference" "R1107"
+		(property "Reference" "R106"
 			(at 149.7584 24.892 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12846,15 +11724,90 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "R1107")
+					(reference "R106")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 23.368 93.218)
-		(size 17.272 8.128)
+		(at 21.59 24.13)
+		(size 21.59 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "59f503e8-ae1d-4175-aa29-6c2128bfb9e8")
+		(property "Sheetname" "USB"
+			(at 21.59 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 21.59 33.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWR_OUT" output
+			(at 21.59 26.67 180)
+			(uuid "68866a46-ca84-480f-864b-44ff23e83387")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 43.18 26.67 0)
+			(uuid "cd3fc6dc-be48-425c-baf3-8e7752df4043")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 43.18 30.48 0)
+			(uuid "abe83847-6c6c-4b79-9450-25f3c2a4ed43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 24.13)
+		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12867,9 +11820,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "59f503e8-ae1d-4175-aa29-6c2128bfb9e8")
-		(property "Sheetname" "BUCK_3V3"
-			(at 23.368 92.5064 0)
+		(uuid "c9ab159d-5081-41fc-b3e3-47af1eb16f33")
+		(property "Sheetname" "Debugger"
+			(at 50.8 23.4184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12879,8 +11832,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "buck_3v3.kicad_sch"
-			(at 23.368 101.9306 0)
+		(property "Sheetfile" "RP_DEBUGGER.kicad_sch"
+			(at 50.8 37.4146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12890,19 +11843,9 @@
 				(justify left top)
 			)
 		)
-		(pin "PG" output
-			(at 40.64 95.25 0)
-			(uuid "6bb76b79-4cff-4196-95e7-83590d0446b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PWR_IN" input
-			(at 23.368 95.25 180)
-			(uuid "b44c9a7f-384e-4370-a907-46ece883fbe2")
+		(pin "USB_DM" bidirectional
+			(at 50.8 26.67 180)
+			(uuid "f776eb41-00c3-4807-acad-b9cbdd639249")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12910,20 +11853,20 @@
 				(justify left)
 			)
 		)
-		(pin "PWR_OUT" output
-			(at 40.64 99.06 0)
-			(uuid "de9a4d32-401a-456e-94dd-dbf9e4066ebc")
+		(pin "USB_DP" bidirectional
+			(at 50.8 30.48 180)
+			(uuid "1c711f79-09a3-474d-bad2-33ac60843d26")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
