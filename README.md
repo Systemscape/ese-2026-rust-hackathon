@@ -1,5 +1,7 @@
 # Embedded Rust zum Anfassen: Hackathon auf dem exklusiven ESE 2026 Rust Devboard
 
+[Hardware](hardware/README.md) · [PCB-Downloads](https://systemscape.github.io/ese-2026-rust-hackathon/downloads/) · [CI](docs/ci.md)
+
 ## Worum geht es?
 
 Rust ist auch in der Embedded-Entwicklung auf dem Vormarsch. Aber wie funktioniert “dieses Rust” auf echter Hardware? Wie schreibe ich einen Sensor-Treiber? Wie steuere ich ein Display an? Und wie sieht “Fearless Concurrency” in der Praxis aus?
