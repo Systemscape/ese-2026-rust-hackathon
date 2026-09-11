@@ -1,0 +1,24 @@
+title: ESE 2026 Rust Hackathon
+description: Embedded Rust zum Anfassen
+url: https://systemscape.github.io
+baseurl: /ese-2026-rust-hackathon
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-relative-links
+  - jekyll-readme-index
+readme_index:
+  remove_originals: true
+relative_links:
+  enabled: true
+  collections: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - LICENSE
+  - hardware/config.kibot.yaml
+  - hardware/ese-rust-board
+  - outputs
+  - target

@@ -1,0 +1,118 @@
+name: PCB exports and GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pcb-pages-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  pcb:
+    runs-on: ubuntu-latest
+    container: ghcr.io/systemscape/kicad_and_pandoc:10
+    env:
+      PCB: hardware/ese-rust-board/ese-rust-board
+    outputs:
+      available: ${{ steps.board.outputs.available }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check board sources
+        id: board
+        shell: bash
+        run: |
+          files=("$PCB.kicad_pro" "$PCB.kicad_sch" "$PCB.kicad_pcb")
+          count=0
+          for file in "${files[@]}"; do
+            if [[ -f "$file" ]]; then
+              count=$((count + 1))
+            fi
+          done
+          if [[ "$count" == 0 ]]; then
+            echo 'available=false' >> "$GITHUB_OUTPUT"
+            echo 'No board sources yet; publishing documentation only.' >> "$GITHUB_STEP_SUMMARY"
+          elif [[ "$count" != 3 ]]; then
+            echo '::error::The board needs matching .kicad_pro, .kicad_sch and .kicad_pcb files.'
+            exit 1
+          else
+            echo 'available=true' >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run ERC/DRC and generate exports
+        if: steps.board.outputs.available == 'true'
+        run: |
+          kibot -c hardware/config.kibot.yaml \
+            -b "$PCB.kicad_pcb" -e "$PCB.kicad_sch" -d outputs
+
+      - name: Package manufacturing files
+        if: steps.board.outputs.available == 'true'
+        run: |
+          python3 - <<'PY'
+          import shutil
+          shutil.make_archive('outputs/gerbers', 'zip', 'outputs/gerber')
+          PY
+
+      - name: Upload PCB exports and check reports
+        if: ${{ !cancelled() && steps.board.outputs.available == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: pcb-outputs
+          path: outputs/
+          if-no-files-found: error
+          retention-days: 90
+
+  site:
+    needs: pcb
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download PCB exports
+        if: needs.pcb.outputs.available == 'true'
+        uses: actions/download-artifact@v4
+        with:
+          name: pcb-outputs
+          path: downloads/
+
+      - name: Configure Pages
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+
+      - name: Render Markdown with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Upload site preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-preview
+          path: _site/
+          if-no-files-found: error
+
+      - name: Upload Pages artifact
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: site
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
