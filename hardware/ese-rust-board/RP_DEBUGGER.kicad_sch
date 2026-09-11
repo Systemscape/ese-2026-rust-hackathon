@@ -284,7 +284,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -334,7 +334,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -3096,6 +3096,28 @@
 		)
 		(uuid "97b2194f-4006-4ef8-8925-dd1409893996")
 	)
+	(text "Open question: what do we do with the RUN pin? Connect to the App Processor's reset btn?\nThe RP Debug Probe connects is to the SWD-4-pin-header"
+		(exclude_from_sim no)
+		(at 62.23 89.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "ba35c215-0940-40b6-8ff0-7f937bef3ff7")
+	)
+	(text "Open question: does the DBG need a BOOTSEL button?"
+		(exclude_from_sim no)
+		(at 83.82 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "dc4b85f9-df84-44cf-90ab-7640419ada47")
+	)
 	(junction
 		(at 157.48 46.99)
 		(diameter 0)
@@ -3197,6 +3219,210 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb84f97c-023a-40b3-bda7-ad384bc2bfea")
+	)
+	(no_connect
+		(at 165.1 130.81)
+		(uuid "035e7a6c-947d-4bb7-a14f-d84c11d32a5e")
+	)
+	(no_connect
+		(at 114.3 115.57)
+		(uuid "039ade79-06f1-4aa2-8bec-642983604d40")
+	)
+	(no_connect
+		(at 114.3 163.83)
+		(uuid "07efdad2-fd9b-43ba-be0f-00a3f77c2d2a")
+	)
+	(no_connect
+		(at 165.1 166.37)
+		(uuid "082bf467-8c2f-40e4-bd5c-748c8630decb")
+	)
+	(no_connect
+		(at 165.1 125.73)
+		(uuid "0f3cac33-8ad5-4c5f-918b-a4044a866e73")
+	)
+	(no_connect
+		(at 165.1 163.83)
+		(uuid "0f9afa95-f608-4614-8bcd-feee4e99dc2d")
+	)
+	(no_connect
+		(at 165.1 158.75)
+		(uuid "10d8b1bb-d178-4d90-acbf-235b9703dc5a")
+	)
+	(no_connect
+		(at 165.1 102.87)
+		(uuid "11033c3b-5cf4-4d7a-a141-ccc5e6b5437c")
+	)
+	(no_connect
+		(at 165.1 85.09)
+		(uuid "122f8f8c-ba98-4422-a9b3-dd4121b79b13")
+	)
+	(no_connect
+		(at 114.3 107.95)
+		(uuid "14bb4b8f-ed05-4531-8ddd-212672cf3906")
+	)
+	(no_connect
+		(at 165.1 133.35)
+		(uuid "1b815e2e-f446-4160-9bd9-91ec3e831db3")
+	)
+	(no_connect
+		(at 165.1 120.65)
+		(uuid "1bc66310-1253-4abb-9523-af5c2b6c7e19")
+	)
+	(no_connect
+		(at 165.1 128.27)
+		(uuid "1df19390-7bd4-4948-94c4-43c2e57ab09a")
+	)
+	(no_connect
+		(at 114.3 173.99)
+		(uuid "1fb2069a-ebc2-4eec-8ae6-2963947ce8d2")
+	)
+	(no_connect
+		(at 165.1 74.93)
+		(uuid "229c9227-5c23-457b-8032-19e7275211ea")
+	)
+	(no_connect
+		(at 165.1 92.71)
+		(uuid "2b434427-7979-43ab-897c-709753f5d7e5")
+	)
+	(no_connect
+		(at 114.3 113.03)
+		(uuid "304ababf-bc9f-4a2b-863d-4bd0cdb61ce8")
+	)
+	(no_connect
+		(at 165.1 161.29)
+		(uuid "37d89aa2-2da4-4be5-a8ff-747b98220602")
+	)
+	(no_connect
+		(at 165.1 107.95)
+		(uuid "45890c72-99a6-4ce5-af42-677dbb9bcd82")
+	)
+	(no_connect
+		(at 114.3 168.91)
+		(uuid "4f776d06-55e7-4127-aa2b-7f77e4b4f8d9")
+	)
+	(no_connect
+		(at 165.1 168.91)
+		(uuid "58b9f6b8-7f6b-4994-a017-2c62cc5a1c9b")
+	)
+	(no_connect
+		(at 114.3 118.11)
+		(uuid "59234f11-1600-4cf0-8cbb-365b687bbe67")
+	)
+	(no_connect
+		(at 165.1 153.67)
+		(uuid "5f925087-985a-4c0f-9131-ff3f9d3aa246")
+	)
+	(no_connect
+		(at 165.1 151.13)
+		(uuid "6027bb55-2629-46ef-9df7-2c9d0cfa8608")
+	)
+	(no_connect
+		(at 165.1 146.05)
+		(uuid "6207722a-8dce-4224-a106-4d3e938504c2")
+	)
+	(no_connect
+		(at 114.3 156.21)
+		(uuid "6a99cbc3-c4f4-4393-9ea2-fd41da2e2515")
+	)
+	(no_connect
+		(at 165.1 171.45)
+		(uuid "78173b29-b606-4bb0-87b3-90634660492a")
+	)
+	(no_connect
+		(at 165.1 123.19)
+		(uuid "7dba6223-84c7-44f8-8b72-d0c4c75d225d")
+	)
+	(no_connect
+		(at 165.1 97.79)
+		(uuid "80fd7a10-b4c8-4d51-8fdf-8b2e35278992")
+	)
+	(no_connect
+		(at 114.3 158.75)
+		(uuid "926fc8a9-bb56-451b-86a8-e73cee07b64d")
+	)
+	(no_connect
+		(at 165.1 100.33)
+		(uuid "9bd1044c-ec73-400a-9602-91c1de041843")
+	)
+	(no_connect
+		(at 114.3 171.45)
+		(uuid "a2a4cea5-517b-4ba1-82d2-879839b22e2b")
+	)
+	(no_connect
+		(at 165.1 80.01)
+		(uuid "a4948b15-a5d6-4939-b58d-ec985b2637a5")
+	)
+	(no_connect
+		(at 165.1 135.89)
+		(uuid "ad494694-5ef0-493d-a918-ee59e2e792a6")
+	)
+	(no_connect
+		(at 165.1 95.25)
+		(uuid "b08cc5f9-1a54-4acc-87ab-0f5fb6a99e95")
+	)
+	(no_connect
+		(at 165.1 87.63)
+		(uuid "b48138e4-5aea-4219-9446-e66a46da6a7e")
+	)
+	(no_connect
+		(at 165.1 173.99)
+		(uuid "b4ceff27-877f-463e-b76e-7167530d1e5a")
+	)
+	(no_connect
+		(at 165.1 113.03)
+		(uuid "b9fd2116-2b0c-472b-864c-622f0af13e51")
+	)
+	(no_connect
+		(at 165.1 138.43)
+		(uuid "ba9b7d96-aa45-48de-b044-ba1d47cb24a0")
+	)
+	(no_connect
+		(at 165.1 140.97)
+		(uuid "bf531f2f-6f37-4d0a-a7a2-81fb7967542e")
+	)
+	(no_connect
+		(at 114.3 120.65)
+		(uuid "c555b2e3-342a-4dd9-aa12-967235e783cd")
+	)
+	(no_connect
+		(at 165.1 143.51)
+		(uuid "d9f7846d-cfaa-4a75-9978-8f93e6c757b8")
+	)
+	(no_connect
+		(at 165.1 156.21)
+		(uuid "df43f209-575f-4204-97af-7ddad285672e")
+	)
+	(no_connect
+		(at 114.3 110.49)
+		(uuid "e2da7303-20a3-4805-af23-d75ed1a58413")
+	)
+	(no_connect
+		(at 165.1 90.17)
+		(uuid "e9e714c3-40e5-4c6e-b3b9-0e00dde4e68e")
+	)
+	(no_connect
+		(at 165.1 118.11)
+		(uuid "eb7392b7-2959-4deb-9a3b-077838d6834e")
+	)
+	(no_connect
+		(at 114.3 161.29)
+		(uuid "ecac6b9f-588b-4279-a4c9-c000347dbbc3")
+	)
+	(no_connect
+		(at 165.1 115.57)
+		(uuid "ef82ed93-aced-46fe-a4b2-3f0829886682")
+	)
+	(no_connect
+		(at 165.1 148.59)
+		(uuid "f18ef6f8-87b7-48d7-afaf-22db6708d663")
+	)
+	(no_connect
+		(at 165.1 82.55)
+		(uuid "f662325d-bc51-494b-a585-e3b8f7188514")
+	)
+	(no_connect
+		(at 114.3 166.37)
+		(uuid "f9708a33-f083-493c-b587-efa2820aa52c")
 	)
 	(wire
 		(pts
@@ -3567,6 +3793,16 @@
 			(type default)
 		)
 		(uuid "9302ae51-3e1e-40ee-853e-8460df87ab7f")
+	)
+	(wire
+		(pts
+			(xy 109.22 90.17) (xy 114.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d35453-dbeb-4f3a-8201-a9b93e5441a7")
 	)
 	(wire
 		(pts
@@ -3959,6 +4195,16 @@
 		(uuid "f0733a23-9c70-474d-ab53-1383b6e5b5e0")
 	)
 	(label "RUN"
+		(at 109.22 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01fa80ef-d721-49bd-aff9-445c4d6f56aa")
+	)
+	(label "RUN"
 		(at 40.64 161.29 180)
 		(effects
 			(font
@@ -4139,7 +4385,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 147.32 35.56 0)
 			(hide yes)
 			(show_name no)
