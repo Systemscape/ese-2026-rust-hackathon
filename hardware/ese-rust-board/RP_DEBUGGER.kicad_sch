@@ -4,7 +4,228 @@
 	(generator_version "10.0")
 	(uuid "f00f1e27-98c4-475c-99fe-01c4d5392ccf")
 	(paper "A4")
+	(title_block
+		(title "ESE Rust Board")
+		(rev "1.0")
+		(company "Systemscape GmbH")
+	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -2948,6 +3169,12 @@
 		(uuid "7428b6d6-4e5a-4977-9f02-22a1969440be")
 	)
 	(junction
+		(at 139.7 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88f2f673-d431-4ab4-adce-cf4e75920a98")
+	)
+	(junction
 		(at 154.94 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3003,6 +3230,26 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 110.49) (xy 176.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164532e8-26e9-4caa-b33d-3ff4ab0fef06")
+	)
+	(wire
+		(pts
+			(xy 33.02 166.37) (xy 40.64 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16965612-9191-4f2e-a793-e282815de063")
+	)
+	(wire
+		(pts
 			(xy 87.63 133.35) (xy 90.17 133.35)
 		)
 		(stroke
@@ -3033,6 +3280,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 163.83) (xy 40.64 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c90e5d4-1d6c-41f8-b365-a5b43f127829")
+	)
+	(wire
+		(pts
 			(xy 76.2 138.43) (xy 73.66 138.43)
 		)
 		(stroke
@@ -3040,6 +3297,16 @@
 			(type default)
 		)
 		(uuid "1e38571a-63df-4004-a7f2-7ad5193d7545")
+	)
+	(wire
+		(pts
+			(xy 34.29 168.91) (xy 33.02 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4827b0-2249-4b35-8654-f893d4b8f612")
 	)
 	(wire
 		(pts
@@ -3060,6 +3327,16 @@
 			(type default)
 		)
 		(uuid "1f9d7fa2-2827-47ec-ac2e-54c81df0d5bd")
+	)
+	(wire
+		(pts
+			(xy 137.16 181.61) (xy 137.16 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304de231-2c55-4533-be1b-02cd084d6e4f")
 	)
 	(wire
 		(pts
@@ -3123,6 +3400,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 161.29) (xy 40.64 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435fda9e-52f2-4286-b9d4-1532ee70e4f5")
+	)
+	(wire
+		(pts
 			(xy 154.94 59.69) (xy 144.78 59.69)
 		)
 		(stroke
@@ -3150,6 +3437,26 @@
 			(type default)
 		)
 		(uuid "61ebcc82-a9ac-46a6-93fb-3604277a05de")
+	)
+	(wire
+		(pts
+			(xy 34.29 170.18) (xy 34.29 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67dad41e-e19a-4039-80ad-22df13ff6c55")
+	)
+	(wire
+		(pts
+			(xy 137.16 182.88) (xy 139.7 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d27dc9-a124-424d-94b5-8ffdd4147dba")
 	)
 	(wire
 		(pts
@@ -3203,6 +3510,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 148.59) (xy 114.3 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833fe9af-ea5b-49a8-b3a6-25ddecc2fe2e")
+	)
+	(wire
+		(pts
 			(xy 109.22 97.79) (xy 114.3 97.79)
 		)
 		(stroke
@@ -3210,6 +3527,16 @@
 			(type default)
 		)
 		(uuid "8de64745-9e64-45a1-abb7-44bed9c63402")
+	)
+	(wire
+		(pts
+			(xy 105.41 146.05) (xy 114.3 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ecb4dec-5c62-479b-a3a1-8a56cf3ee9c4")
 	)
 	(wire
 		(pts
@@ -3230,6 +3557,16 @@
 			(type default)
 		)
 		(uuid "927ae284-38e4-4011-bf7a-af5bf3c9d3f7")
+	)
+	(wire
+		(pts
+			(xy 139.7 182.88) (xy 139.7 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9302ae51-3e1e-40ee-853e-8460df87ab7f")
 	)
 	(wire
 		(pts
@@ -3303,6 +3640,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 110.49) (xy 167.64 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afaa5733-116b-4970-802a-dab03a13439a")
+	)
+	(wire
+		(pts
 			(xy 137.16 35.56) (xy 140.97 35.56)
 		)
 		(stroke
@@ -3330,6 +3677,16 @@
 			(type default)
 		)
 		(uuid "b2a0bf31-754c-49df-ab0d-f911380e2c0c")
+	)
+	(wire
+		(pts
+			(xy 165.1 105.41) (xy 167.64 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c59209-2c5e-48d8-aae5-88aa255a6171")
 	)
 	(wire
 		(pts
@@ -3453,6 +3810,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 182.88) (xy 139.7 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f1980d-ce01-4d20-9618-44ce04b441b1")
+	)
+	(wire
+		(pts
 			(xy 166.37 54.61) (xy 166.37 57.15)
 		)
 		(stroke
@@ -3513,6 +3880,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 105.41) (xy 176.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e942b750-3b70-4e06-8342-bbf6aa8942ef")
+	)
+	(wire
+		(pts
 			(xy 157.48 46.99) (xy 157.48 62.23)
 		)
 		(stroke
@@ -3520,6 +3897,16 @@
 			(type default)
 		)
 		(uuid "ec66c812-9763-4f67-8a7c-3a5c41758228")
+	)
+	(wire
+		(pts
+			(xy 165.1 77.47) (xy 167.64 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca2f602-f2e2-4b71-ba28-a7762298a60d")
 	)
 	(wire
 		(pts
@@ -3571,6 +3958,26 @@
 		)
 		(uuid "f0733a23-9c70-474d-ab53-1383b6e5b5e0")
 	)
+	(label "RUN"
+		(at 40.64 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3feb6fc5-ec3d-4c6d-aee6-a4d30480dfc2")
+	)
+	(label "SWCLK"
+		(at 40.64 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84cf8d4b-045c-4a1a-abe0-55582ffd0b08")
+	)
 	(label "VREG_AVDD"
 		(at 125.73 35.56 0)
 		(effects
@@ -3580,6 +3987,26 @@
 			(justify left bottom)
 		)
 		(uuid "ae9d5965-445d-4f57-957d-83d7ec7d61ca")
+	)
+	(label "SWCLK"
+		(at 105.41 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3d6b451-7ee9-4b25-9b99-f73c16e277ee")
+	)
+	(label "SWDIO"
+		(at 40.64 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6e3e9b6-1bc3-4f0d-a285-6a8a8483d253")
 	)
 	(label "+1V1"
 		(at 161.29 46.99 0)
@@ -3591,6 +4018,38 @@
 		)
 		(uuid "eeff70bd-448f-4029-b552-72f73d17ece9")
 	)
+	(label "SWDIO"
+		(at 105.41 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9e59551-b940-47fd-bc74-b656ba41f177")
+	)
+	(hierarchical_label "DBG_SWCLK"
+		(shape output)
+		(at 176.53 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f33bf14-e423-4984-952e-7e0eb8779f6d")
+	)
+	(hierarchical_label "DBG_RUN"
+		(shape output)
+		(at 167.64 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39cec8f6-9610-4b44-98c5-26c5d3532dd8")
+	)
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
 		(at 109.22 100.33 180)
@@ -3601,6 +4060,17 @@
 			(justify right)
 		)
 		(uuid "4d4495bb-829b-4957-a9fe-753a4d91173d")
+	)
+	(hierarchical_label "DBG_SWDIO"
+		(shape bidirectional)
+		(at 176.53 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "633711b7-242f-4e1c-b153-1166ed3ffaba")
 	)
 	(hierarchical_label "USB_DM"
 		(shape bidirectional)
@@ -3817,6 +4287,171 @@
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
 					(reference "C305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 170.18 110.49 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1fd73dc8-3788-4351-9e60-45b6aa49679f")
+		(property "Reference" "R305"
+			(at 170.18 108.966 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 170.18 112.268 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 170.18 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae280a9b-149a-41b1-b35b-18763d6afc27")
+		)
+		(pin "2"
+			(uuid "902ee554-ba04-4494-a554-924de68f0e99")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
+					(reference "R305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 27.94 166.37 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23377836-8583-457a-be5f-a00b693b62d7")
+		(property "Reference" "J301"
+			(at 27.94 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DBG Prog Interface"
+			(at 27.94 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+			(at 27.94 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 27.94 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "e21fe353-673f-475f-88fb-d6ebfeee89cf")
+		)
+		(pin "2"
+			(uuid "1ce627a0-140e-4d68-abf5-b6f2926e8287")
+		)
+		(pin "3"
+			(uuid "7b45ca73-1c14-4025-bde5-08408b8046a9")
+		)
+		(pin "1"
+			(uuid "d6bb839c-eda4-4e72-b9e8-531468a6a093")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
+					(reference "J301")
 					(unit 1)
 				)
 			)
@@ -4525,6 +5160,84 @@
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
 					(reference "C302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8172fe2e-a323-4542-850d-84c01f003d89")
+		(property "Reference" "#PWR0307"
+			(at 34.29 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb639892-70dd-49f8-bd46-3a7d35f75ba0")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -5339,6 +6052,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 170.18 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d83d497a-7b26-4f3e-8da7-db0fc1612652")
+		(property "Reference" "R304"
+			(at 170.18 103.886 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 170.18 107.188 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 170.18 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8d3419c-2241-4cc4-a235-66c66291c395")
+		)
+		(pin "2"
+			(uuid "4d45c080-8257-4e49-a205-150dd47030fb")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
+					(reference "R304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 177.8 59.69 0)
 		(unit 1)
@@ -5645,6 +6437,84 @@
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
 					(reference "#PWR0303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb3dd265-ad52-4bd7-b474-0598369be26b")
+		(property "Reference" "#PWR0308"
+			(at 139.7 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58d288fe-58bb-4c27-9a63-a56fb00bf558")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)

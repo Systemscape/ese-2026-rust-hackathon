@@ -5,7 +5,10 @@
 	(uuid "18b265d6-26f6-454f-9c6a-5c1ab3938d1c")
 	(paper "A5")
 	(title_block
+		(title "ESE Rust Board")
 		(date "2026-09-10")
+		(rev "1.0")
+		(company "Systemscape GmbH")
 	)
 	(lib_symbols
 		(symbol "C_Small_1"
