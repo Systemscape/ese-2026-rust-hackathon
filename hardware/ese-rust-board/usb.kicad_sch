@@ -2003,6 +2003,12 @@
 		(uuid "23e5bf29-b7cc-44b0-8d2a-c0dd6b4c7c2c")
 	)
 	(junction
+		(at 53.34 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16507988-36ca-4e14-8a1e-1783cb9237a7")
+	)
+	(junction
 		(at 86.36 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2045,16 +2051,10 @@
 		(uuid "886398be-41b1-48b0-afa4-bac3a559a354")
 	)
 	(junction
-		(at 53.34 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d88b6fed-19a4-457c-91df-f0346c3f4a7e")
-	)
-	(junction
 		(at 53.34 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee42d3f1-f3f3-49f1-b078-2d2a637d8b91")
+		(uuid "914e1124-4d22-49b5-a6d4-8790f590c0a1")
 	)
 	(junction
 		(at 83.82 52.07)
@@ -2084,7 +2084,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 71.12) (xy 53.34 72.39)
+			(xy 53.34 69.85) (xy 53.34 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2121,16 +2121,6 @@
 			(type default)
 		)
 		(uuid "09ae47d5-9e5e-4d22-8454-470368a39705")
-	)
-	(wire
-		(pts
-			(xy 53.34 69.85) (xy 53.34 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0afb3aba-9094-4f34-a160-b3ec979a97eb")
 	)
 	(wire
 		(pts
@@ -2244,13 +2234,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 66.04) (xy 53.34 66.04)
+			(xy 59.69 66.04) (xy 60.96 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5eac11a9-83e3-4ca1-a007-ae09565d5b91")
+		(uuid "56d04f74-e620-4caa-aae8-14280320ccc9")
 	)
 	(wire
 		(pts
@@ -2364,6 +2354,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 71.12) (xy 53.34 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895a95c8-2f99-400b-a071-87eae0781aa9")
+	)
+	(wire
+		(pts
 			(xy 83.82 44.45) (xy 83.82 46.99)
 		)
 		(stroke
@@ -2424,23 +2424,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 71.12) (xy 55.88 71.12)
+			(xy 53.34 66.04) (xy 54.61 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a518c974-fd0c-4647-bead-dc1ec6b82375")
-	)
-	(wire
-		(pts
-			(xy 53.34 66.04) (xy 53.34 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a86c97cf-3993-4d79-aa83-99452783651b")
+		(uuid "a7a5602c-153e-41df-8add-7bf35baf68c1")
 	)
 	(wire
 		(pts
@@ -2451,6 +2441,16 @@
 			(type default)
 		)
 		(uuid "c17a310c-17a9-4cc6-abcf-3116a8b4c599")
+	)
+	(wire
+		(pts
+			(xy 53.34 66.04) (xy 53.34 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2906048-05fc-4011-af94-5085f6328179")
 	)
 	(wire
 		(pts
@@ -2481,6 +2481,16 @@
 			(type default)
 		)
 		(uuid "d2a48e4b-7479-49bf-8916-a3a3e4ae49fc")
+	)
+	(wire
+		(pts
+			(xy 53.34 71.12) (xy 54.61 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6df9d3f-7d05-411e-90b5-49e03ec69980")
 	)
 	(wire
 		(pts
@@ -2521,6 +2531,16 @@
 			(type default)
 		)
 		(uuid "e94bd5dc-78b8-49e0-af2a-eb7881e69272")
+	)
+	(wire
+		(pts
+			(xy 59.69 71.12) (xy 60.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece52a3a-a9b9-4fe9-99e7-ca587c5eee39")
 	)
 	(wire
 		(pts
@@ -2565,7 +2585,7 @@
 	)
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
-		(at 55.88 71.12 0)
+		(at 60.96 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2576,7 +2596,7 @@
 	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
-		(at 55.88 66.04 0)
+		(at 60.96 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2819,6 +2839,85 @@
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
 					(reference "C201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 57.15 71.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "568235a5-33cf-43f5-864c-0f3f2b9932df")
+		(property "Reference" "R205"
+			(at 57.15 69.342 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "27R"
+			(at 57.15 72.898 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 57.15 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "31be90dc-6ae9-4c84-a65a-edd3b89737f6")
+		)
+		(pin "1"
+			(uuid "9c006f8d-c7f4-4b95-9c66-bc63616f7ffb")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
+					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -3631,6 +3730,85 @@
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
 					(reference "U201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 57.15 66.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb6ac076-6f83-4e8d-9043-1899f263eaaa")
+		(property "Reference" "R204"
+			(at 57.15 64.262 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "27R"
+			(at 57.15 67.818 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 57.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aa4804c3-2e06-4ec5-9e45-ea2310d136ec")
+		)
+		(pin "1"
+			(uuid "7cc7b362-d0d0-4d7d-8ca0-7ef6b9d94afa")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
+					(reference "R204")
 					(unit 1)
 				)
 			)
