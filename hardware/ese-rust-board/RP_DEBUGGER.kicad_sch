@@ -3260,17 +3260,6 @@
 		)
 		(uuid "97b2194f-4006-4ef8-8925-dd1409893996")
 	)
-	(text "Open question: what do we do with the RUN pin? Connect to the App Processor's reset btn?\nThe RP Debug Probe connects is to the SWD-4-pin-header"
-		(exclude_from_sim no)
-		(at 17.526 78.232 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "ba35c215-0940-40b6-8ff0-7f937bef3ff7")
-	)
 	(junction
 		(at 198.12 33.02)
 		(diameter 0)
