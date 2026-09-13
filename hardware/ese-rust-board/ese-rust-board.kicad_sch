@@ -6990,16 +6990,6 @@
 		(uuid "0bb9e225-7143-4cee-9647-a6726386c1b2")
 	)
 	(label "SSD_SCL"
-		(at 152.4 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1132de5a-30f4-4a53-a362-a3fbd6d1c32f")
-	)
-	(label "SSD_SCL"
 		(at 281.94 101.6 180)
 		(effects
 			(font
@@ -7088,6 +7078,16 @@
 			(justify left bottom)
 		)
 		(uuid "5f32e2e8-cd4f-4c8f-899d-aa696d519430")
+	)
+	(label "SSD_SCL"
+		(at 152.4 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6bba8711-3aa9-4875-8603-44074a669a2e")
 	)
 	(label "BME_SCK"
 		(at 152.4 77.47 180)
@@ -7209,6 +7209,16 @@
 		)
 		(uuid "c1aa83d8-2d25-4797-9a13-70eb14b90973")
 	)
+	(label "SSD_SDA"
+		(at 152.4 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce8a5232-a152-4920-a6e0-eb05aade768c")
+	)
 	(label "BME_SDI"
 		(at 284.48 62.23 180)
 		(effects
@@ -7228,16 +7238,6 @@
 			(justify right bottom)
 		)
 		(uuid "d576029f-9a83-446d-8c73-eece83460d71")
-	)
-	(label "SSD_SDA"
-		(at 152.4 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ddb4bf67-c098-4dd5-ae25-66b365e8f9e9")
 	)
 	(label "BME_SDI"
 		(at 152.4 74.93 180)
