@@ -5041,6 +5041,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 30.48) (xy 50.8 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03404a08-1185-4b35-81c9-21eaf361f516")
+	)
+	(wire
+		(pts
 			(xy 97.79 181.61) (xy 97.79 184.15)
 		)
 		(stroke
@@ -5448,16 +5458,6 @@
 			(type default)
 		)
 		(uuid "38334d8f-a6bb-473c-a652-cd8f3ea12b86")
-	)
-	(wire
-		(pts
-			(xy 43.18 26.67) (xy 50.8 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38bcd5eb-ef83-43d6-9657-5fad8e2401eb")
 	)
 	(wire
 		(pts
@@ -6161,6 +6161,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 26.67) (xy 50.8 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a050adb-c0a1-4386-9d00-ce9849a0488d")
+	)
+	(wire
+		(pts
 			(xy 109.22 189.23) (xy 109.22 191.77)
 		)
 		(stroke
@@ -6848,16 +6858,6 @@
 			(type default)
 		)
 		(uuid "ec7b7cc7-5a6b-448f-bc3b-ec00089f8cb8")
-	)
-	(wire
-		(pts
-			(xy 43.18 30.48) (xy 50.8 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef376cae-c8cf-4b59-92c9-fc87e2d43e37")
 	)
 	(wire
 		(pts
@@ -13458,7 +13458,7 @@
 			)
 		)
 		(pin "USB_DM" bidirectional
-			(at 50.8 26.67 180)
+			(at 50.8 30.48 180)
 			(uuid "f776eb41-00c3-4807-acad-b9cbdd639249")
 			(effects
 				(font
@@ -13468,7 +13468,7 @@
 			)
 		)
 		(pin "USB_DP" bidirectional
-			(at 50.8 30.48 180)
+			(at 50.8 26.67 180)
 			(uuid "1c711f79-09a3-474d-bad2-33ac60843d26")
 			(effects
 				(font
