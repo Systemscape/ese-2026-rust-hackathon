@@ -4620,18 +4620,6 @@
 		(uuid "5d8169b7-e497-4954-8583-7ac9dd39ac7c")
 	)
 	(junction
-		(at 257.81 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61540a22-c4a8-48f8-aebd-be884f9c75d4")
-	)
-	(junction
-		(at 265.43 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b77081f-81cb-49fa-8a3e-a5289aa8445c")
-	)
-	(junction
 		(at 114.3 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4644,7 +4632,7 @@
 		(uuid "7cb38960-b511-46be-afa1-199f3f84fbe6")
 	)
 	(junction
-		(at 231.14 40.64)
+		(at 231.14 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82f837cc-f1a8-41ae-bdf8-3b7a71a2e731")
@@ -4666,12 +4654,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ab1e1c4-88e4-47ae-b230-2e0172488d9a")
-	)
-	(junction
-		(at 250.19 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a190e06d-e050-4ccf-9a0d-801d8908a92a")
 	)
 	(junction
 		(at 154.94 25.4)
@@ -4702,6 +4684,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b053f5ce-e373-4099-946a-e27c83664930")
+	)
+	(junction
+		(at 236.22 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b278a316-265d-49ed-bd1b-64e1df37c22d")
 	)
 	(junction
 		(at 123.19 191.77)
@@ -4738,6 +4726,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c22e6202-908d-434b-998b-dd049c04cd42")
+	)
+	(junction
+		(at 215.9 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5a44da7-1ccb-48d2-8f01-6dc026a745ad")
 	)
 	(junction
 		(at 17.78 181.61)
@@ -4794,16 +4788,40 @@
 		(uuid "df2c5135-184e-47ae-b6bb-2c10c1af3f23")
 	)
 	(junction
+		(at 257.81 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3d16e31-a3b3-4759-acb5-86f2ce94a99f")
+	)
+	(junction
+		(at 231.14 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e86d3f9c-d476-4e04-9146-6630089d2ca2")
+	)
+	(junction
 		(at 154.94 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea8d1cf3-e4c9-45b0-bdc5-7de46e1b8984")
 	)
 	(junction
-		(at 236.22 40.64)
+		(at 236.22 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed277aca-7678-4a03-a33b-42f492d12fb8")
+	)
+	(junction
+		(at 265.43 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f02f633b-fc80-467d-ab0c-e147ad5ff53f")
+	)
+	(junction
+		(at 250.19 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7e50c52-f29b-4dda-bbb9-242393f5cb81")
 	)
 	(junction
 		(at 111.76 54.61)
@@ -5051,6 +5069,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 41.91) (xy 215.9 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a480c6-28dd-4725-be71-a8a7500cd876")
+	)
+	(wire
+		(pts
 			(xy 97.79 181.61) (xy 97.79 184.15)
 		)
 		(stroke
@@ -5261,6 +5289,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 39.37) (xy 236.22 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0c3617-1a21-4451-b828-c7305a0c4043")
+	)
+	(wire
+		(pts
 			(xy 104.14 54.61) (xy 104.14 57.15)
 		)
 		(stroke
@@ -5311,6 +5349,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 33.02) (xy 236.22 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fb5bc58-ee15-4912-8b69-07824b81ecbe")
+	)
+	(wire
+		(pts
 			(xy 132.08 36.83) (xy 132.08 40.64)
 		)
 		(stroke
@@ -5328,6 +5376,16 @@
 			(type default)
 		)
 		(uuid "20a6a9aa-018b-465f-91e5-8ea9fe3763d6")
+	)
+	(wire
+		(pts
+			(xy 231.14 31.75) (xy 231.14 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212fb19f-3350-4427-9b37-d8792a9a4031")
 	)
 	(wire
 		(pts
@@ -5351,7 +5409,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 40.64) (xy 257.81 43.18)
+			(xy 257.81 33.02) (xy 257.81 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5501,6 +5559,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 33.02) (xy 273.05 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c446235-19d0-4401-b8aa-2cde38eb9c5e")
+	)
+	(wire
+		(pts
 			(xy 248.92 67.31) (xy 284.48 67.31)
 		)
 		(stroke
@@ -5541,13 +5609,23 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 40.64) (xy 273.05 40.64)
+			(xy 236.22 33.02) (xy 250.19 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f95cddd-4747-424c-a8e5-301f20736d0d")
+	)
+	(wire
+		(pts
+			(xy 250.19 33.02) (xy 257.81 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b8ec4e-fbe2-4e3d-80c7-a18bd6ada63f")
 	)
 	(wire
 		(pts
@@ -5598,6 +5676,16 @@
 			(type default)
 		)
 		(uuid "43302e0f-50d0-4d7a-8b7b-c86f9b64b5e0")
+	)
+	(wire
+		(pts
+			(xy 224.79 39.37) (xy 236.22 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43526588-91f8-48c5-b482-758673d6b071")
 	)
 	(wire
 		(pts
@@ -5818,6 +5906,16 @@
 			(type default)
 		)
 		(uuid "605793e1-40c0-4318-a60c-601e4152719b")
+	)
+	(wire
+		(pts
+			(xy 257.81 33.02) (xy 265.43 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "613e069b-c7bd-4bff-9413-318142c49aac")
 	)
 	(wire
 		(pts
@@ -6091,16 +6189,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 40.64) (xy 250.19 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81eb0280-9d36-42c0-9368-a259ba96eb6a")
-	)
-	(wire
-		(pts
 			(xy 245.11 143.51) (xy 254 143.51)
 		)
 		(stroke
@@ -6181,16 +6269,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 40.64) (xy 265.43 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c7900e7-ce8f-49ff-aa4e-5f7f6face130")
-	)
-	(wire
-		(pts
 			(xy 53.34 118.11) (xy 50.8 118.11)
 		)
 		(stroke
@@ -6198,16 +6276,6 @@
 			(type default)
 		)
 		(uuid "8cb58132-4067-4d0d-821d-a80f03fd3df4")
-	)
-	(wire
-		(pts
-			(xy 236.22 40.64) (xy 236.22 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d9a7973-c502-4aad-9af4-6614b7601a47")
 	)
 	(wire
 		(pts
@@ -6251,7 +6319,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 43.18) (xy 273.05 40.64)
+			(xy 273.05 43.18) (xy 273.05 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6308,6 +6376,16 @@
 			(type default)
 		)
 		(uuid "96f59f82-9f48-44db-a42b-ebb006f57147")
+	)
+	(wire
+		(pts
+			(xy 250.19 33.02) (xy 250.19 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975afa08-ed07-47b6-bb20-7568642643c4")
 	)
 	(wire
 		(pts
@@ -6431,6 +6509,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 33.02) (xy 265.43 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2ff033-db7b-406e-82b5-c69bf9e9d069")
+	)
+	(wire
+		(pts
 			(xy 114.3 171.45) (xy 114.3 172.72)
 		)
 		(stroke
@@ -6448,16 +6536,6 @@
 			(type default)
 		)
 		(uuid "ad0a8b4d-4647-47bc-924c-68897bf3097a")
-	)
-	(wire
-		(pts
-			(xy 231.14 36.83) (xy 231.14 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae7a011e-9428-40e5-b421-d9c41aa5f3d4")
 	)
 	(wire
 		(pts
@@ -6601,6 +6679,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 35.56) (xy 215.9 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ede4ea-01e2-40b0-9ef8-b5e8c814d96b")
+	)
+	(wire
+		(pts
 			(xy 248.92 62.23) (xy 284.48 62.23)
 		)
 		(stroke
@@ -6608,6 +6696,16 @@
 			(type default)
 		)
 		(uuid "c866629d-4060-46a9-b25f-d41532ec14bb")
+	)
+	(wire
+		(pts
+			(xy 224.79 35.56) (xy 231.14 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd675ead-28c8-4454-9d22-0261bb0aae46")
 	)
 	(wire
 		(pts
@@ -6641,6 +6739,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 39.37) (xy 219.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5754652-0385-491c-be9b-6285f026ae66")
+	)
+	(wire
+		(pts
 			(xy 83.82 138.43) (xy 91.44 138.43)
 		)
 		(stroke
@@ -6651,7 +6759,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 40.64) (xy 236.22 40.64)
+			(xy 231.14 33.02) (xy 236.22 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6848,6 +6956,16 @@
 			(type default)
 		)
 		(uuid "ec7b7cc7-5a6b-448f-bc3b-ec00089f8cb8")
+	)
+	(wire
+		(pts
+			(xy 219.71 35.56) (xy 215.9 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc068f2-34cb-42c6-b695-77012980750e")
 	)
 	(wire
 		(pts
@@ -9064,6 +9182,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 215.9 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47398b20-4cf9-4823-bf43-933b19ab2dec")
+		(property "Reference" "#PWR0102"
+			(at 215.9 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b20da0f-fd4d-40bc-89d3-50d1e703ce19")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 55.88 118.11 270)
 		(unit 1)
@@ -9746,7 +9942,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 231.14 36.83 0)
+		(at 231.14 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9757,7 +9953,7 @@
 		(fields_autoplaced yes)
 		(uuid "60c57bc7-7e4c-48c2-89ba-2c8b416d7823")
 		(property "Reference" "#PWR0115"
-			(at 231.14 40.64 0)
+			(at 231.14 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9768,7 +9964,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 231.14 31.75 0)
+			(at 231.14 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9778,7 +9974,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 231.14 36.83 0)
+			(at 231.14 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9789,7 +9985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 36.83 0)
+			(at 231.14 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9800,7 +9996,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 231.14 36.83 0)
+			(at 231.14 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10273,6 +10469,109 @@
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
 					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 222.25 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70c7dbda-48ee-4eb4-9ffa-c149ec055c23")
+		(property "Reference" "C116"
+			(at 224.7265 31.9659 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 224.7265 29.6545 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 222.25 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 222.25 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 222.25 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 222.25 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89399923-5852-4dfa-b518-61772930cfdf")
+		)
+		(pin "2"
+			(uuid "c25744b2-84ea-4983-b8f7-96df1e13a70c")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -11409,6 +11708,110 @@
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
 					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 222.25 39.37 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a521c29f-c8f8-4374-892a-e4e33c96b22f")
+		(property "Reference" "C117"
+			(at 224.79 44.958 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 224.79 42.6466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 222.25 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 222.25 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 222.25 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 222.25 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bd95773-1d1b-48b0-9b21-7e42d6248184")
+		)
+		(pin "2"
+			(uuid "c2d48374-2fdf-4cf1-816b-f87e1ca19026")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
+					(reference "C117")
 					(unit 1)
 				)
 			)
