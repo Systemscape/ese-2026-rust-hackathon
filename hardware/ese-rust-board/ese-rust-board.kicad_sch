@@ -5059,6 +5059,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 97.79) (xy 71.12 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "029b453c-e9e3-43cc-af00-401235a31489")
+	)
+	(wire
+		(pts
 			(xy 43.18 30.48) (xy 50.8 30.48)
 		)
 		(stroke
@@ -5766,16 +5776,6 @@
 			(type default)
 		)
 		(uuid "4f925344-6801-46f8-a4ab-739b4cf521a1")
-	)
-	(wire
-		(pts
-			(xy 68.58 97.79) (xy 71.12 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fa729df-9395-421a-bd06-c508ba292e10")
 	)
 	(wire
 		(pts
@@ -6559,7 +6559,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 80.01) (xy 83.82 78.74)
+			(xy 83.82 77.47) (xy 83.82 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6919,7 +6919,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 68.58) (xy 83.82 71.12)
+			(xy 83.82 68.58) (xy 83.82 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6999,7 +6999,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 97.79) (xy 58.42 97.79)
+			(xy 58.42 97.79) (xy 62.23 97.79)
 		)
 		(stroke
 			(width 0)
@@ -10395,7 +10395,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Small")
 		(at 64.77 97.79 90)
 		(unit 1)
 		(body_style 1)
@@ -10404,10 +10404,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6f6a21ff-16dd-472c-97ec-2b15ad62e644")
 		(property "Reference" "R103"
-			(at 64.77 91.44 90)
+			(at 65.024 92.964 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10417,7 +10416,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 64.77 93.98 90)
+			(at 65.024 95.504 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10426,7 +10425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" ""
 			(at 64.77 99.568 90)
 			(hide yes)
 			(show_name no)
@@ -12963,7 +12962,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Small")
 		(at 83.82 74.93 180)
 		(unit 1)
 		(body_style 1)
@@ -12972,10 +12971,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d941c345-e084-4362-8c67-2cd1758baffc")
 		(property "Reference" "R102"
-			(at 86.36 73.6599 0)
+			(at 86.106 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12986,7 +12984,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 86.36 76.1999 0)
+			(at 86.106 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12996,8 +12994,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 85.598 74.93 90)
+		(property "Footprint" ""
+			(at 83.82 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13018,7 +13016,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 83.82 74.93 0)
 			(hide yes)
 			(show_name no)

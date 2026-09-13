@@ -2124,7 +2124,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 60.96) (xy 80.01 64.77)
+			(xy 80.01 63.5) (xy 80.01 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2174,7 +2174,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 55.88) (xy 80.01 52.07)
+			(xy 80.01 58.42) (xy 80.01 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2184,7 +2184,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 54.61) (xy 110.49 59.69)
+			(xy 110.49 54.61) (xy 110.49 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2534,6 +2534,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 64.77) (xy 110.49 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9d424be-7cbd-4fec-a35d-097779a03d18")
+	)
+	(wire
+		(pts
 			(xy 59.69 71.12) (xy 60.96 71.12)
 		)
 		(stroke
@@ -2764,7 +2774,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 80.01 58.42 0)
+		(at 80.01 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2775,17 +2785,6 @@
 		(fields_autoplaced yes)
 		(uuid "2ffb5b36-1627-4196-9154-4694f8e7ddd3")
 		(property "Reference" "C201"
-			(at 82.55 57.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
 			(at 82.55 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2796,8 +2795,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_MYRxP"
-			(at 80.01 58.42 0)
+		(property "Value" "4u7"
+			(at 82.55 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2808,7 +2818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 58.42 0)
+			(at 80.01 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2819,7 +2829,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 80.01 68.58 0)
+			(at 80.01 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2925,7 +2935,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 110.49 62.23 0)
+		(at 110.49 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2936,7 +2946,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a608e93-3ba4-4912-a19a-0fe46dcec466")
 		(property "Reference" "C202"
-			(at 113.03 60.9599 0)
+			(at 113.03 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2947,7 +2957,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 113.03 63.4999 0)
+			(at 113.03 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2957,8 +2967,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_MYRxP"
-			(at 110.49 62.23 0)
+		(property "Footprint" ""
+			(at 110.49 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2969,7 +2979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 62.23 0)
+			(at 110.49 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2980,7 +2990,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 110.49 72.39 0)
+			(at 110.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
