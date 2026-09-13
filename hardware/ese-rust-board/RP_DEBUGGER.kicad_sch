@@ -6250,7 +6250,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 60.96 130.4036 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7133,7 +7133,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 30.734 100.584 90)
 			(show_name no)
 			(do_not_autoplace no)
