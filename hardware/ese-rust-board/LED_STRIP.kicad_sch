@@ -1059,97 +1059,6 @@
 		(uuid "db50c702-350d-4a5a-b957-ef3f77b616f6")
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 44.45 71.12 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1f72d3bb-5b48-48d5-b5f1-a54e9f21f3f8")
-		(property "Reference" "D406"
-			(at 44.45 68.326 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 44.45 65.786 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 44.45 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d6201b7a-d8e8-432c-a6a4-5981941b47a4")
-		)
-		(pin "1"
-			(uuid "f0f4388c-cb44-4459-b725-dde5e522d8e7")
-		)
-		(instances
-			(project "ese-rust-board"
-				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
-					(reference "D406")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 33.02 80.01 90)
 		(unit 1)
@@ -1171,7 +1080,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "330R"
 			(at 33.02 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1181,7 +1090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.02 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1205,6 +1114,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 33.02 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR0603330R"
+			(at 33.02 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1251,7 +1171,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "330R"
 			(at 33.02 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1261,7 +1181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.02 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -1294,6 +1214,17 @@
 				)
 			)
 		)
+		(property "MPN" "GPR0603330R"
+			(at 33.02 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "642ae849-8360-445d-a676-60226f0dfd20")
 		)
@@ -1304,188 +1235,6 @@
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
 					(reference "R406")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 44.45 88.9 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "27766c17-f4d1-40e7-bffd-53f19abe22d5")
-		(property "Reference" "D408"
-			(at 44.45 86.106 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 44.45 83.566 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 44.45 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8642f0ff-b834-4592-b485-654f0f623e85")
-		)
-		(pin "1"
-			(uuid "deadcc88-ec49-427c-8176-dd0c2a16e985")
-		)
-		(instances
-			(project "ese-rust-board"
-				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
-					(reference "D408")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 44.45 44.45 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "29f120e0-d37b-4518-bdb3-944fe9b33fca")
-		(property "Reference" "D403"
-			(at 44.45 41.656 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 44.45 39.116 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 44.45 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f8e84751-6a3d-47a9-84fc-1567b8d69d57")
-		)
-		(pin "1"
-			(uuid "9a3fef97-4f71-4822-9780-280e77f287d9")
-		)
-		(instances
-			(project "ese-rust-board"
-				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
-					(reference "D403")
 					(unit 1)
 				)
 			)
@@ -1513,7 +1262,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "330R"
 			(at 33.02 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1523,7 +1272,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.02 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -1547,6 +1296,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 33.02 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR0603330R"
+			(at 33.02 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1584,7 +1344,7 @@
 		(dnp no)
 		(uuid "2fb8ee5e-9985-45e6-a375-63618e54ee96")
 		(property "Reference" "D401"
-			(at 44.45 23.876 0)
+			(at 44.45 21.082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1594,7 +1354,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 44.45 21.336 0)
+			(at 44.45 23.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1603,7 +1363,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 44.45 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -1637,6 +1397,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "150060BS75000"
 			(at 44.45 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -1657,97 +1428,6 @@
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
 					(reference "D401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 44.45 106.68 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "33563c8c-91db-43c7-a3c1-9a2acce1e681")
-		(property "Reference" "D410"
-			(at 44.45 103.886 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 44.45 101.346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 44.45 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7e96fb48-50ce-41f0-a52d-307d937f8914")
-		)
-		(pin "1"
-			(uuid "7ca92d22-720b-497b-80c2-8cebbd66bc9b")
-		)
-		(instances
-			(project "ese-rust-board"
-				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
-					(reference "D410")
 					(unit 1)
 				)
 			)
@@ -1775,7 +1455,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "330R"
 			(at 33.02 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1785,7 +1465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.02 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1809,6 +1489,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 33.02 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR0603330R"
+			(at 33.02 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1834,86 +1525,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 33.02 26.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a096788-7942-4e6b-b586-37a63d125284")
-		(property "Reference" "R401"
-			(at 33.02 21.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "470R"
-			(at 33.02 24.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 33.02 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87db2e8c-f6d5-45d1-a897-afedc080dce5")
-		)
-		(pin "2"
-			(uuid "a8e7818c-634d-45d4-90eb-a2570e129a4f")
-		)
-		(instances
-			(project "ese-rust-board"
-				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
-					(reference "R401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 44.45 35.56 0)
 		(mirror y)
@@ -1924,9 +1535,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5a403ab1-eec1-47da-9a4d-8fb44c50455e")
+		(uuid "524a4802-cb7c-456f-a459-9d3718155e79")
 		(property "Reference" "D402"
-			(at 44.45 32.766 0)
+			(at 44.45 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1936,7 +1547,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 44.45 30.226 0)
+			(at 44.45 32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1945,7 +1556,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 44.45 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -1989,16 +1600,118 @@
 				)
 			)
 		)
+		(property "MPN" "150060BS75000"
+			(at 44.45 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "3fb0126d-40f2-466e-883e-1b31c5e63f44")
+			(uuid "26df0e47-e23a-4f4a-a858-311ad6c1c4ce")
 		)
 		(pin "1"
-			(uuid "c3e47995-dfba-4ae0-98a5-d63d551f18ea")
+			(uuid "130ecf44-2cd6-427e-a287-82ade13d08b8")
 		)
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
 					(reference "D402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 33.02 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a096788-7942-4e6b-b586-37a63d125284")
+		(property "Reference" "R401"
+			(at 33.02 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 33.02 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 33.02 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 33.02 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR0603330R"
+			(at 33.02 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87db2e8c-f6d5-45d1-a897-afedc080dce5")
+		)
+		(pin "2"
+			(uuid "a8e7818c-634d-45d4-90eb-a2570e129a4f")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
+					(reference "R401")
 					(unit 1)
 				)
 			)
@@ -2026,7 +1739,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "330R"
 			(at 33.02 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2036,7 +1749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.02 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2060,6 +1773,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 33.02 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR0603330R"
+			(at 33.02 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2184,7 +1908,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "330R"
 			(at 33.02 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2194,7 +1918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.02 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2218,6 +1942,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 33.02 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR0603330R"
+			(at 33.02 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2264,7 +1999,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "330R"
 			(at 33.02 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2274,7 +2009,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.02 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2307,6 +2042,17 @@
 				)
 			)
 		)
+		(property "MPN" "GPR0603330R"
+			(at 33.02 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4aed40be-878a-44b2-9a4f-9e3ea52363d0")
 		)
@@ -2317,6 +2063,210 @@
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
 					(reference "R405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 44.45 71.12 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ac42415-f2f5-427e-b922-321096cdebb1")
+		(property "Reference" "D406"
+			(at 44.45 65.532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 44.45 68.072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 44.45 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 44.45 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "150060BS75000"
+			(at 44.45 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a144f046-188f-4a74-b28f-80b3a8f44532")
+		)
+		(pin "1"
+			(uuid "b0c28db7-bbb0-4631-96a0-9474fb643c21")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
+					(reference "D406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 44.45 44.45 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ae8712e-5387-4560-9ad7-d7f011ca9016")
+		(property "Reference" "D403"
+			(at 44.45 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 44.45 41.402 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 44.45 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 44.45 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "150060BS75000"
+			(at 44.45 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e86a588c-c814-4ee0-8f9c-738fa5bb4461")
+		)
+		(pin "1"
+			(uuid "cf9168ea-9f83-4680-82f2-49265a399c03")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
+					(reference "D403")
 					(unit 1)
 				)
 			)
@@ -2344,7 +2294,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "330R"
 			(at 33.02 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2354,7 +2304,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.02 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2378,6 +2328,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 33.02 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR0603330R"
+			(at 33.02 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2424,7 +2385,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "330R"
 			(at 33.02 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2434,7 +2395,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.02 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -2467,6 +2428,17 @@
 				)
 			)
 		)
+		(property "MPN" "GPR0603330R"
+			(at 33.02 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1714cda9-ced1-425f-812e-ef71c6ddb2a6")
 		)
@@ -2484,7 +2456,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 44.45 62.23 0)
+		(at 44.45 88.9 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2493,9 +2465,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "acf625e6-e4ad-409a-958c-6bd14de04f41")
-		(property "Reference" "D405"
-			(at 44.45 59.436 0)
+		(uuid "aa4b6f0e-6004-4a65-a156-0955cad02f9c")
+		(property "Reference" "D408"
+			(at 44.45 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2505,7 +2477,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 44.45 56.896 0)
+			(at 44.45 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2514,8 +2486,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 44.45 62.23 90)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 44.45 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2526,7 +2498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 62.23 90)
+			(at 44.45 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2537,7 +2509,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 44.45 62.23 0)
+			(at 44.45 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2548,7 +2520,18 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 62.23 0)
+			(at 44.45 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "150060BS75000"
+			(at 44.45 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2559,15 +2542,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2b03701b-3375-4290-9fa1-7cf9f8c5f2fb")
+			(uuid "5b841a42-aa1e-4ae0-a9e4-c781fb95d260")
 		)
 		(pin "1"
-			(uuid "f7c704fe-f7c7-490e-bd77-58f4ba18f646")
+			(uuid "66ba0233-ecec-4498-9845-6e88adae6326")
 		)
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
-					(reference "D405")
+					(reference "D408")
 					(unit 1)
 				)
 			)
@@ -2584,9 +2567,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bda67947-db19-4445-9a77-36dadd45ae33")
+		(uuid "ab054bdb-0720-4880-9998-4cef6568c347")
 		(property "Reference" "D409"
-			(at 44.45 94.996 0)
+			(at 44.45 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2596,7 +2579,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 44.45 92.456 0)
+			(at 44.45 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2605,7 +2588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 44.45 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -2649,11 +2632,22 @@
 				)
 			)
 		)
+		(property "MPN" "150060BS75000"
+			(at 44.45 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "5a8a7765-e54e-4ba5-9a23-da48a60cb8ce")
+			(uuid "d562282f-15c5-4dbd-a93c-9c794cf0a766")
 		)
 		(pin "1"
-			(uuid "b1acba95-2972-4887-bfee-562c36884c66")
+			(uuid "16699723-a893-461c-902b-ce0efbda1870")
 		)
 		(instances
 			(project "ese-rust-board"
@@ -2666,7 +2660,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 44.45 53.34 0)
+		(at 44.45 62.23 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2675,9 +2669,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c5ab3e49-9444-4cc8-84e7-36cd18b99148")
-		(property "Reference" "D404"
-			(at 44.45 50.546 0)
+		(uuid "bd2aead8-fd07-445a-a42d-be5f4a02257c")
+		(property "Reference" "D405"
+			(at 44.45 56.642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2687,7 +2681,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 44.45 48.006 0)
+			(at 44.45 59.182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2696,8 +2690,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 44.45 53.34 90)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 44.45 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2708,7 +2702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 53.34 90)
+			(at 44.45 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2719,7 +2713,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 44.45 53.34 0)
+			(at 44.45 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2730,7 +2724,18 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 53.34 0)
+			(at 44.45 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "150060BS75000"
+			(at 44.45 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2741,15 +2746,117 @@
 			)
 		)
 		(pin "2"
-			(uuid "27a000e9-a89f-4e2e-afdb-b8a76d87f2d5")
+			(uuid "2770c239-c183-4589-87f2-727f3a5be559")
 		)
 		(pin "1"
-			(uuid "d9102148-445f-4144-b9c9-34fdb159c3da")
+			(uuid "6ecd4f07-9d3e-4bdf-a1f8-8ad200498aff")
 		)
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
-					(reference "D404")
+					(reference "D405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 44.45 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bee2e1e0-335f-4bcd-bec6-39cddcbf71c2")
+		(property "Reference" "D410"
+			(at 44.45 101.092 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 44.45 103.632 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 44.45 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 44.45 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "150060BS75000"
+			(at 44.45 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1a4c2f33-ceeb-49d7-bc78-a1b5885fce7a")
+		)
+		(pin "1"
+			(uuid "eef67bd8-4d64-4810-9bdb-6488ffb5d38f")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
+					(reference "D410")
 					(unit 1)
 				)
 			)
@@ -2766,9 +2873,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fb6e8335-ddea-4e9d-8f02-6ab27f9d4a0d")
+		(uuid "f02b0cae-dfed-4b12-8ee9-18a1f40bbfa7")
 		(property "Reference" "D407"
-			(at 44.45 77.216 0)
+			(at 44.45 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2778,7 +2885,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 44.45 74.676 0)
+			(at 44.45 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2787,7 +2894,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 44.45 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -2831,16 +2938,129 @@
 				)
 			)
 		)
+		(property "MPN" "150060BS75000"
+			(at 44.45 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "0c982403-023f-4c45-8c84-426a82584ad9")
+			(uuid "e7ef939b-92fc-4cd1-b12f-08660da94d67")
 		)
 		(pin "1"
-			(uuid "e46414a4-455d-4f3f-a452-8928f17218a0")
+			(uuid "8e791825-a465-43ab-99a9-d084cf04c137")
 		)
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
 					(reference "D407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 44.45 53.34 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc027e93-c90c-4bee-8bf9-76f0ded346a0")
+		(property "Reference" "D404"
+			(at 44.45 47.752 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 44.45 50.292 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 44.45 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 44.45 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "150060BS75000"
+			(at 44.45 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3124ea3d-383b-4314-88c7-79c9f5361909")
+		)
+		(pin "1"
+			(uuid "ffe2208e-87c2-4354-a7cb-bb8f761a116c")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
+					(reference "D404")
 					(unit 1)
 				)
 			)

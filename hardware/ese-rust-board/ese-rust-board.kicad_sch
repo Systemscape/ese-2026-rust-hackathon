@@ -6982,6 +6982,17 @@
 				)
 			)
 		)
+		(property "MPN" "ABM8-272-T3"
+			(at 91.44 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d2b748ea-0b8a-4c26-ab81-df2be9fa802a")
 		)
@@ -7159,6 +7170,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 40.64 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPC0402104"
 			(at 40.64 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7371,7 +7393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 95.25 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7394,6 +7416,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 95.25 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PTS526SM15SMTR2 LFS"
 			(at 95.25 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7452,7 +7485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 212.09 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7475,6 +7508,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 212.09 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR060310K"
 			(at 212.09 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8185,7 +8229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 227.33 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8208,6 +8252,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 227.33 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR060310K"
 			(at 227.33 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8321,6 +8376,17 @@
 				)
 			)
 		)
+		(property "MPN" "GPC0805106-16-X7R"
+			(at 123.19 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dd0a945b-b95f-4be6-a718-7e19039da1b3")
 		)
@@ -8414,6 +8480,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 74.93 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPC0402104"
 			(at 74.93 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -8604,6 +8681,17 @@
 				)
 			)
 		)
+		(property "MPN" "GPC0402104"
+			(at 63.5 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a054f737-e432-48af-84ec-b4eebd045273")
 		)
@@ -8650,7 +8738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 274.828 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -8673,6 +8761,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 273.05 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR06031M"
 			(at 273.05 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8864,6 +8963,17 @@
 				)
 			)
 		)
+		(property "MPN" "GPC0402150"
+			(at 77.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "57d149c7-a27b-4007-948d-988799c21820")
 		)
@@ -8989,7 +9099,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9012,6 +9122,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 97.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PTS526SM15SMTR2 LFS"
 			(at 97.79 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9309,7 +9430,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0808_2012Metric"
 			(at 135.89 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9354,6 +9475,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 135.89 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPC0805475-16"
 			(at 135.89 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9570,7 +9702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0808_2012Metric"
 			(at 176.53 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9625,6 +9757,17 @@
 				)
 			)
 		)
+		(property "MPN" "GPC0805475-16"
+			(at 176.53 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5aa00d7-d481-4847-b4d7-e9a56526d57f")
 		)
@@ -9652,7 +9795,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "634d7d0d-7edb-4eec-b91d-f5d450d4e40d")
-		(property "Reference" "U104"
+		(property "Reference" "J101"
 			(at 241.554 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9674,7 +9817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 227.076 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9707,6 +9850,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 245.11 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "22c40514-8c02-4c7f-b64d-5fabb1f5016f")
 		)
@@ -9722,7 +9876,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "U104")
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -9763,7 +9917,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0808_2012Metric"
 			(at 165.1 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9808,6 +9962,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 165.1 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPC0805475-16"
 			(at 165.1 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9942,7 +10107,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 86.36 100.838 90)
 			(hide yes)
 			(show_name no)
@@ -9966,6 +10131,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 86.36 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR06031K"
+			(at 86.36 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10078,6 +10254,17 @@
 				)
 			)
 		)
+		(property "MPN" "GPC0402104"
+			(at 222.25 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "89399923-5852-4dfa-b518-61772930cfdf")
 		)
@@ -10124,7 +10311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10157,7 +10344,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" ""
 			(at 107.95 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -10169,6 +10356,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 107.95 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR06031K"
 			(at 107.95 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -10460,6 +10658,17 @@
 				)
 			)
 		)
+		(property "MPN" "GPC0402104"
+			(at 109.22 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6eb93b18-8dad-4fd4-80e1-5c7b6831dc06")
 		)
@@ -10506,7 +10715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.54 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -10530,6 +10739,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 256.54 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR0603150R"
+			(at 256.54 153.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10585,7 +10805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.54 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -10609,6 +10829,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 256.54 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR0603470R"
+			(at 256.54 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10875,6 +11106,17 @@
 				)
 			)
 		)
+		(property "MPN" "GPC0402104"
+			(at 17.78 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "44b9c334-7395-47a6-a5c6-ee2e5242186d")
 		)
@@ -10921,7 +11163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 259.588 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -10944,6 +11186,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 257.81 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR06032K"
 			(at 257.81 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11000,7 +11253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 251.968 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -11023,6 +11276,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 250.19 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR06031M"
 			(at 250.19 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11126,6 +11390,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 77.47 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPC0402150"
 			(at 77.47 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11318,6 +11593,17 @@
 				)
 			)
 		)
+		(property "MPN" "GPC0402104"
+			(at 222.25 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9bd95773-1d1b-48b0-9b21-7e42d6248184")
 		)
@@ -11364,7 +11650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 263.652 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -11387,6 +11673,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 265.43 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR06032K"
 			(at 265.43 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11490,6 +11787,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 52.07 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPC0402104"
 			(at 52.07 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -11706,7 +12014,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.54 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11730,6 +12038,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 256.54 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR0603470R"
+			(at 256.54 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11949,7 +12268,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 260.858 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -11972,6 +12291,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 259.08 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR060310K"
 			(at 259.08 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12028,7 +12358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 269.748 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -12051,6 +12381,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 267.97 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR060310K"
 			(at 267.97 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12154,6 +12495,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 97.79 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPC0402104"
 			(at 97.79 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -12291,7 +12643,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.79 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -12314,6 +12666,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 97.79 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR06031M"
 			(at 97.79 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -12372,7 +12735,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12395,6 +12758,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 105.41 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR06031K"
 			(at 105.41 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12666,6 +13040,17 @@
 				)
 			)
 		)
+		(property "MPN" "GPC0402104"
+			(at 86.36 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40b5d164-2c36-420a-b44a-94db977e7491")
 		)
@@ -12848,6 +13233,17 @@
 				)
 			)
 		)
+		(property "MPN" "GPC0402104"
+			(at 29.21 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7b93c957-d95f-4af7-9c1b-2c1bbfbc0ed1")
 		)
@@ -12886,7 +13282,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "33R"
 			(at 144.907 24.892 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12897,7 +13293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 146.05 28.448 90)
 			(hide yes)
 			(show_name no)
@@ -12930,7 +13326,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25105"
+		(property "LCSC" ""
 			(at 146.05 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12942,6 +13338,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 146.05 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR060333R"
 			(at 146.05 26.67 0)
 			(hide yes)
 			(show_name no)
