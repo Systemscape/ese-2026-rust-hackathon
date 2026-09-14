@@ -3487,6 +3487,10 @@
 		(uuid "082bf467-8c2f-40e4-bd5c-748c8630decb")
 	)
 	(no_connect
+		(at 116.84 105.41)
+		(uuid "0ceb8ac3-8b67-42ca-bdec-588926c56972")
+	)
+	(no_connect
 		(at 116.84 120.65)
 		(uuid "0f3cac33-8ad5-4c5f-918b-a4044a866e73")
 	)
@@ -3583,6 +3587,10 @@
 		(uuid "926fc8a9-bb56-451b-86a8-e73cee07b64d")
 	)
 	(no_connect
+		(at 116.84 100.33)
+		(uuid "92f776b9-2247-420e-a030-3c8906e4cd4e")
+	)
+	(no_connect
 		(at 116.84 95.25)
 		(uuid "9bd1044c-ec73-400a-9602-91c1de041843")
 	)
@@ -3653,6 +3661,10 @@
 	(no_connect
 		(at 116.84 143.51)
 		(uuid "f18ef6f8-87b7-48d7-afaf-22db6708d663")
+	)
+	(no_connect
+		(at 116.84 69.85)
+		(uuid "f80564b5-a1ed-49c4-ac47-8ef57ca1fc66")
 	)
 	(no_connect
 		(at 66.04 161.29)
@@ -5504,7 +5516,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0808_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 129.54 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5820,6 +5832,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 29.21 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -7934,7 +7957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0808_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 118.11 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8278,7 +8301,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0808_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 88.9 35.56 0)
 			(hide yes)
 			(show_name no)
