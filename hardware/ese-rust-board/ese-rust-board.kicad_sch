@@ -9347,7 +9347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 232.41 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11946,7 +11946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 217.17 142.24 0)
 			(hide yes)
 			(show_name no)
