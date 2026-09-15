@@ -1,0 +1,16 @@
+hardware/ese-rust-board/ese-rust-board.kicad_sch
+  h_2e4fad1f0ddac3 5060-5069,6562,6922,7002,10398,10409,10419,10428,12965,12976,12987,12997-12998,13019
+hardware/ese-rust-board/usb.kicad_sch
+  h_2e4fad1f0ddac3 2127,2177,2187,2535-2544,2777,2788,2799,2809-2810,2821,2832,2938,2949,2960,2970-2971,2982,2993
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "b1d6d8c10063407d7c98a2531180f5f1f2143ff6",
+  "prompts": {},
+  "humans": {
+    "h_2e4fad1f0ddac3": {
+      "author": "JuliDi <julian@systemscape.de>"
+    }
+  }
+}
