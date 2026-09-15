@@ -1,0 +1,127 @@
+# Single-board exports, adapted from the OnMCU hardware CI.
+kibot:
+  version: 1
+preflight:
+  erc:
+    dir: reports
+  drc:
+    dir: reports
+global:
+  output: '%f-%i.%x'
+outputs:
+- name: print_sch
+  comment: Print schematic (PDF)
+  type: pdf_sch_print
+  dir: pdf
+- name: print_top
+  comment: Print Top
+  type: pcb_print
+  dir: pdf
+  options:
+    format: PDF
+    output: '%f-pcb-top.%x'
+    pages:
+    - layers:
+      - layer: F.Paste
+      - layer: F.SilkS
+      - layer: F.Mask
+      - layer: F.CrtYd
+      - layer: Edge.Cuts
+- name: print_bottom
+  comment: Print Bottom
+  type: pcb_print
+  dir: pdf
+  options:
+    format: PDF
+    output: '%f-pcb-bottom.%x'
+    pages:
+    - layers:
+      - layer: B.Paste
+      - layer: B.SilkS
+      - layer: B.Mask
+      - layer: B.CrtYd
+      - layer: Edge.Cuts
+- name: interactive_bom
+  comment: Generates an interactive web page useful to identify the position of the
+    components in the PCB.
+  type: ibom
+  options:
+    blacklist: DNF*,DNP*
+    checkboxes: Sourced,Placed,Soldered
+    name_format: '%f_ibom'
+    dark_mode: true
+  dir: ibom
+- name: bom_csv
+  comment: Bill of Materials in CSV format
+  type: bom
+  options:
+    format: CSV
+    csv:
+      separator: ;
+  dir: bom
+- name: gerbers
+  comment: Gerbers for the board house
+  type: gerber
+  dir: gerber
+  options:
+    exclude_edge_layer: true
+    exclude_pads_from_silkscreen: true
+    use_aux_axis_as_origin: false
+    plot_sheet_reference: false
+    plot_footprint_refs: true
+    plot_footprint_values: true
+    force_plot_invisible_refs_vals: false
+    tent_vias: true
+    line_width: 0.1
+    subtract_mask_from_silk: false
+    use_protel_extensions: false
+    gerber_precision: 4.6
+    create_gerber_job_file: true
+    use_gerber_x2_attributes: true
+    use_gerber_net_attributes: true
+  layers: all
+- name: drills
+  comment: Excellon drill files, packaged with Gerbers
+  type: excellon
+  dir: gerber
+  options:
+    use_aux_axis_as_origin: false
+- name: position
+  comment: Pick and place file
+  type: position
+  dir: pickplace
+  options:
+    format: ASCII
+    units: millimeters
+    separate_files_for_front_and_back: true
+    only_smd: true
+- name: 3dstep
+  comment: 3D model (step)
+  type: step
+  dir: step
+- name: stencil_3d
+  comment: 3d-printable stencil
+  type: stencil_3d
+  dir: stencils
+- name: pcbdraw
+  comment: pcbdraw file
+  type: pcbdraw
+  dir: pcbdraw
+  options:
+    format: svg
+- name: svg
+  comment: SVG files
+  type: svg
+  dir: svg
+- name: netlist
+  comment: Schematic Netlist
+  type: netlist
+  options:
+    format: kicadxml
+  dir: netlist
+- name: netlist_kicad
+  comment: KiCad Format Netlist
+  type: netlist
+  options:
+    format: classic
+  dir: netlist
