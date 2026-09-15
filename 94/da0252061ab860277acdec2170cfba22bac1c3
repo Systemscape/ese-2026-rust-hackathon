@@ -1,0 +1,84 @@
+hardware/ese-rust-board/LED_STRIP.kicad_sch
+  h_2e4fad1f0ddac3 1062-1063,1071-1074,1079,1083-1084,1093-1094,1105,1115-1116,1126-1127,1138-1141,1146,1154,1163-1165,1174-1175,1184-1185,1196,1207-1218,1229,1232,1237,1245,1254-1256,1265-1266,1275-1276,1287,1298-1309,1320,1323,1328,1336,1345-1347,1357,1366-1367,1378,1389,1400-1411,1422,1425,1430,1437-1438,1446-1449,1454,1458-1459,1468-1469,1480,1490-1491,1501-1502,1513-1516,1521,1528-1530,1538-1540,1545,1549-1550,1559-1560,1571,1581-1582,1592-1612,1615-1618,1623,1630-1631,1639-1642,1647,1651-1652,1661-1662,1673,1683-1684,1694-1695,1706-1709,1714,1721-1722,1730-1733,1738,1742-1743,1752-1753,1764,1774-1775,1785-1786,1797-1800,1805,1812-1813,1822-1825,1830,1834-1835,1844-1845,1856,1866-1867,1878,1883,1891,1900-1902,1911-1912,1921-1922,1933,1944-1955,1966,1969,1974,1981-1982,1990-1993,1998,2002-2003,2012-2013,2024,2034-2035,2045-2046,2057-2060,2065,2072-2074,2082-2084,2089,2093-2094,2103-2104,2115,2125-2126,2136-2156,2159-2162,2167,2174-2176,2184-2206,2216-2218,2227-2228,2238-2239,2249-2250,2260-2262,2264,2269,2277,2286-2288,2297-2298,2307-2308,2319,2330-2341,2352,2355,2360,2368,2377-2379,2388-2389,2398-2399,2410,2421-2432,2443,2446,2451,2458-2460,2468-2470,2475,2479-2480,2489-2490,2501,2511-2512,2522-2542,2545-2548,2553,2560-2562,2570-2572,2577,2581-2582,2591-2592,2603,2613-2614,2624-2644,2647-2650,2655,2672,2674,2684,2693,2737-2747,2749,2752,2765,2774-2776,2786,2795-2796,2807,2818,2829-2840,2851,2854,2859,2867,2876-2878,2888,2897-2898,2909,2920,2931-2942,2953,2956,2961,2969,2978-2980,2990,2999-3000,3011,3022,3033-3044,3055,3058,3063
+hardware/ese-rust-board/RP_DEBUGGER.kicad_sch
+  h_2e4fad1f0ddac3 5217-5227,5266,5277,5310,5332-5342,5446-5456,5507,5562-5572,5619,5652-5662,5709,5742-5752,5800,6020-6030,6080,6113-6123,6305-6315,6362,6395,6417-6427,6610-6620,6730-6740,7077-7087,7289,7322-7332,7777-7787,7837,7870-7880,7937,7992-8002,8106-8116,8220-8230,8281,8336-8346,8547,8580-8590,8848-8858,8962-8972,9231-9241
+hardware/ese-rust-board/ese-rust-board.kicad_pro
+  h_2e4fad1f0ddac3 614-685,688,691,693,702-708
+hardware/ese-rust-board/ese-rust-board.kicad_sch
+  h_2e4fad1f0ddac3 6985-6995,7183-7193,7396,7429-7439,7488,7521-7531,8232,8265-8275,8379-8389,8493-8503,8684-8694,8741,8774-8784,8966-8976,9102,9135-9145,9433,9488-9498,9705,9760-9770,9798,9820,9853-9863,9879,9920,9975-9985,10110,10143-10153,10257-10267,10314,10347,10369-10379,10661-10671,10718,10751-10761,10808,10841-10851,11109-11119,11166,11199-11209,11256,11289-11299,11403-11413,11596-11606,11653,11686-11696,11800-11810,12017,12050-12060,12271,12304-12314,12361,12394-12404,12508-12518,12646,12679-12689,12738,12771-12781,13043-13053,13236-13246,13285,13296,13329,13351-13361
+hardware/ese-rust-board/fp-lib-table
+  h_2e4fad1f0ddac3 3-4
+hardware/ese-rust-board/libs/3dmodels/Connector_THT_Wurth.3dshapes/J_Wurth_WR-WST_490107670412.step
+  h_2e4fad1f0ddac3 1-65278
+hardware/ese-rust-board/libs/3dmodels/Connector_THT_Wurth.3dshapes/J_Wurth_WR-WST_490107670612.step
+  h_2e4fad1f0ddac3 1-81440
+hardware/ese-rust-board/libs/3dmodels/Connector_THT_Wurth.3dshapes/J_Wurth_WR-WST_490107670812.step
+  h_2e4fad1f0ddac3 1-98659
+hardware/ese-rust-board/libs/3dmodels/Connector_THT_Wurth.3dshapes/J_Wurth_WR-WST_490107671012.step
+  h_2e4fad1f0ddac3 1-117877
+hardware/ese-rust-board/libs/3dmodels/Connector_THT_Wurth.3dshapes/J_Wurth_WR-WST_490107671212.step
+  h_2e4fad1f0ddac3 1-133026
+hardware/ese-rust-board/libs/3dmodels/Connector_THT_Wurth.3dshapes/J_Wurth_WR-WST_490107671412.step
+  h_2e4fad1f0ddac3 1-150212
+hardware/ese-rust-board/libs/3dmodels/Connector_THT_Wurth.3dshapes/J_Wurth_WR-WST_490107671612.step
+  h_2e4fad1f0ddac3 1-167472
+hardware/ese-rust-board/libs/3dmodels/Connector_THT_Wurth.3dshapes/J_Wurth_WR-WST_490107671812.step
+  h_2e4fad1f0ddac3 1-184963
+hardware/ese-rust-board/libs/3dmodels/Connector_THT_Wurth.3dshapes/J_Wurth_WR-WST_490107672012.step
+  h_2e4fad1f0ddac3 1-202429
+hardware/ese-rust-board/libs/LICENSE_Wurth.txt
+  h_2e4fad1f0ddac3 1-7
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107670412.kicad_mod
+  h_2e4fad1f0ddac3 1-38
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107670412_DEBUGGING.kicad_mod
+  h_2e4fad1f0ddac3 1-38
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107670612.kicad_mod
+  h_2e4fad1f0ddac3 1-40
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107670612_DEBUGGING.kicad_mod
+  h_2e4fad1f0ddac3 1-40
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107670812.kicad_mod
+  h_2e4fad1f0ddac3 1-42
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107670812_DEBUGGING.kicad_mod
+  h_2e4fad1f0ddac3 1-42
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107671012.kicad_mod
+  h_2e4fad1f0ddac3 1-44
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107671012_DEBUGGING.kicad_mod
+  h_2e4fad1f0ddac3 1-44
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107671212.kicad_mod
+  h_2e4fad1f0ddac3 1-46
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107671212_DEBUGGING.kicad_mod
+  h_2e4fad1f0ddac3 1-46
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107671412.kicad_mod
+  h_2e4fad1f0ddac3 1-48
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107671412_DEBUGGING.kicad_mod
+  h_2e4fad1f0ddac3 1-48
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107671612.kicad_mod
+  h_2e4fad1f0ddac3 1-50
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107671612_DEBUGGING.kicad_mod
+  h_2e4fad1f0ddac3 1-50
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107671812.kicad_mod
+  h_2e4fad1f0ddac3 1-52
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107671812_DEBUGGING.kicad_mod
+  h_2e4fad1f0ddac3 1-52
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107672012.kicad_mod
+  h_2e4fad1f0ddac3 1-54
+hardware/ese-rust-board/libs/footprints/Connector_THT_Wurth.pretty/J_Wurth_WR-WST_490107672012_DEBUGGING.kicad_mod
+  h_2e4fad1f0ddac3 1-54
+hardware/ese-rust-board/libs/symbols/Connector_Wurth_WR-WST.kicad_sym
+  h_2e4fad1f0ddac3 1-2521
+hardware/ese-rust-board/sym-lib-table
+  h_2e4fad1f0ddac3 4
+hardware/ese-rust-board/usb.kicad_sch
+  h_2e4fad1f0ddac3 2059-2064,2153,2211-2220,2533,2539,2543,2549,2553,2559,2563,2569,2573,2579,2593,2603,2665,2698-2708,2836,2869-2890,2937,2970-2980,3030,3063-3084,3102,3113,3124,3131,3135,3146,3157,3416,3426,3435-3436,3445-3446,3457,3468-3479,3794,3827-3837,4009,4042-4052,4070,4080,4090,4099-4100,4110-4111,4122,4133-4155
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "94da0252061ab860277acdec2170cfba22bac1c3",
+  "prompts": {},
+  "humans": {
+    "h_2e4fad1f0ddac3": {
+      "author": "JuliDi <julian@systemscape.de>"
+    }
+  }
+}
