@@ -1,0 +1,19 @@
+.gitignore
+  s_b77b548d92da67::t_5eeed15b0ac3e4 23-59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "7a5f6e05cb911c92f15bd65989615f186299137a",
+  "prompts": {},
+  "sessions": {
+    "s_b77b548d92da67": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08a91-0e37-77a0-9eaf-6dbb055b24cf",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Joël Schulz-Andres <joel@systemscape.de>"
+    }
+  }
+}

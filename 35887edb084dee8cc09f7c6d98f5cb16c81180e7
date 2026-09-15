@@ -1,0 +1,46 @@
+_config.yml
+  s_a585854616206f::t_e5b5db0f832ff7 1-2,5-24
+  s_a585854616206f::t_7e6d04d7a1f7fc 3-4
+README.md
+  s_a585854616206f::t_e5b5db0f832ff7 3-4
+hardware/config.kibot.yaml
+  s_a585854616206f::t_e596f168842291 1-127
+.github/workflows/pcb.yaml
+  s_a585854616206f::t_e5b5db0f832ff7 1-118
+hardware/ese-rust-board/ese-rust-board.kicad_prl
+  s_ee8eef14389ae8::t_b85a5fd4caa4db 1-105
+  s_ee8eef14389ae8::t_0e47b64e40887d 106-108
+hardware/README.md
+  s_a585854616206f::t_e5b5db0f832ff7 1-4
+downloads.md
+  s_a585854616206f::t_e5b5db0f832ff7 1-21
+.gitignore
+  s_a585854616206f::t_e5b5db0f832ff7 22-27
+docs/ci.md
+  s_a585854616206f::t_e5b5db0f832ff7 1-6,8-9,11-15,17-42
+  s_a585854616206f::t_d3b3dce33f793e 7,10,16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "35887edb084dee8cc09f7c6d98f5cb16c81180e7",
+  "prompts": {},
+  "sessions": {
+    "s_a585854616206f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a086f6-ada7-7fd0-8a87-0bbb4421cfe0",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Joël Schulz-Andres <joel@systemscape.de>"
+    },
+    "s_ee8eef14389ae8": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a071be-40e4-7793-93fe-a52ef94a5652",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Joël Schulz-Andres <joel@systemscape.de>"
+    }
+  }
+}
