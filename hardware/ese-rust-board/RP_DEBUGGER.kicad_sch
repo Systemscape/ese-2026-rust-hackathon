@@ -3260,6 +3260,17 @@
 		)
 		(uuid "97b2194f-4006-4ef8-8925-dd1409893996")
 	)
+	(text "Datasheet Sec. 9.4\nGPIO 7: USB VBUS DET"
+		(exclude_from_sim no)
+		(at 144.526 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6b6f25c-5b40-478e-ab48-30202ce02b77")
+	)
 	(junction
 		(at 198.12 33.02)
 		(diameter 0)
@@ -3471,10 +3482,6 @@
 		(uuid "fbdf4642-d793-4dfc-a571-7e899b7ed2c2")
 	)
 	(no_connect
-		(at 116.84 125.73)
-		(uuid "035e7a6c-947d-4bb7-a14f-d84c11d32a5e")
-	)
-	(no_connect
 		(at 66.04 110.49)
 		(uuid "039ade79-06f1-4aa2-8bec-642983604d40")
 	)
@@ -3511,10 +3518,6 @@
 		(uuid "122f8f8c-ba98-4422-a9b3-dd4121b79b13")
 	)
 	(no_connect
-		(at 116.84 128.27)
-		(uuid "1b815e2e-f446-4160-9bd9-91ec3e831db3")
-	)
-	(no_connect
 		(at 116.84 115.57)
 		(uuid "1bc66310-1253-4abb-9523-af5c2b6c7e19")
 	)
@@ -3525,10 +3528,6 @@
 	(no_connect
 		(at 66.04 168.91)
 		(uuid "1fb2069a-ebc2-4eec-8ae6-2963947ce8d2")
-	)
-	(no_connect
-		(at 116.84 87.63)
-		(uuid "2b434427-7979-43ab-897c-709753f5d7e5")
 	)
 	(no_connect
 		(at 66.04 107.95)
@@ -3567,6 +3566,10 @@
 		(uuid "6207722a-8dce-4224-a106-4d3e938504c2")
 	)
 	(no_connect
+		(at 116.84 130.81)
+		(uuid "661aaeb3-4053-4d67-a775-9550b4f51d32")
+	)
+	(no_connect
 		(at 66.04 151.13)
 		(uuid "6a99cbc3-c4f4-4393-9ea2-fd41da2e2515")
 	)
@@ -3599,8 +3602,8 @@
 		(uuid "a2a4cea5-517b-4ba1-82d2-879839b22e2b")
 	)
 	(no_connect
-		(at 116.84 130.81)
-		(uuid "ad494694-5ef0-493d-a918-ee59e2e792a6")
+		(at 116.84 125.73)
+		(uuid "ae7e10ef-4470-46c8-a512-a8700916b532")
 	)
 	(no_connect
 		(at 116.84 90.17)
@@ -3629,6 +3632,10 @@
 	(no_connect
 		(at 66.04 115.57)
 		(uuid "c555b2e3-342a-4dd9-aa12-967235e783cd")
+	)
+	(no_connect
+		(at 116.84 128.27)
+		(uuid "d62988e9-2161-4f12-bd46-78c16d88db0c")
 	)
 	(no_connect
 		(at 116.84 138.43)
@@ -4822,6 +4829,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 87.63) (xy 121.92 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e691ffc6-8aef-4c88-aec9-9feeaeaeb90e")
+	)
+	(wire
+		(pts
 			(xy 232.41 22.86) (xy 243.84 22.86)
 		)
 		(stroke
@@ -5094,7 +5111,7 @@
 		)
 		(uuid "39cec8f6-9610-4b44-98c5-26c5d3532dd8")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "DBG_USB_DP"
 		(shape bidirectional)
 		(at 63.5 95.25 180)
 		(effects
@@ -5116,7 +5133,18 @@
 		)
 		(uuid "633711b7-242f-4e1c-b153-1166ed3ffaba")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "DBG_USB_VBUS_DET"
+		(shape input)
+		(at 121.92 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9059e6f1-c7c6-4eaa-8cd7-edff0108453a")
+	)
+	(hierarchical_label "DBG_USB_DM"
 		(shape bidirectional)
 		(at 63.5 92.71 180)
 		(effects
