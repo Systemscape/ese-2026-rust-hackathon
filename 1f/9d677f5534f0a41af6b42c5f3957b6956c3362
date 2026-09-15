@@ -1,0 +1,14 @@
+hardware/ese-rust-board/ese-rust-board.kicad_sch
+  h_2e4fad1f0ddac3 8900
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "1f9d677f5534f0a41af6b42c5f3957b6956c3362",
+  "prompts": {},
+  "humans": {
+    "h_2e4fad1f0ddac3": {
+      "author": "JuliDi <julian@systemscape.de>"
+    }
+  }
+}
