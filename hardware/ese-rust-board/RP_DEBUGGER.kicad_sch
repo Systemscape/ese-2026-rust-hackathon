@@ -3260,9 +3260,9 @@
 		)
 		(uuid "97b2194f-4006-4ef8-8925-dd1409893996")
 	)
-	(text "Datasheet Sec. 9.4\nGPIO 7: USB VBUS DET"
+	(text "Datasheet Sec. 9.4\nGPIO 7: USB VBUS DET -> Needs 3V3"
 		(exclude_from_sim no)
-		(at 144.526 87.376 0)
+		(at 140.97 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3366,6 +3366,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "568f0799-9001-4c3d-8778-30ce17ee9f55")
+	)
+	(junction
+		(at 139.7 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "602acc7e-2eaa-4ec0-beb2-7774757cd1be")
 	)
 	(junction
 		(at 25.4 133.35)
@@ -4409,6 +4415,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 85.09) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997cfdfc-7976-495b-bd8c-f08de989738a")
+	)
+	(wire
+		(pts
 			(xy 162.56 72.39) (xy 166.37 72.39)
 		)
 		(stroke
@@ -4536,6 +4552,16 @@
 			(type default)
 		)
 		(uuid "b0f6c969-6564-4afb-953c-b833a0b69311")
+	)
+	(wire
+		(pts
+			(xy 147.32 85.09) (xy 149.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e7e8ad-b570-4950-83cf-246ba3331943")
 	)
 	(wire
 		(pts
@@ -4699,6 +4725,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 87.63) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0454618-0c43-42ef-845f-374b25d8ae06")
+	)
+	(wire
+		(pts
 			(xy 99.06 33.02) (xy 99.06 52.07)
 		)
 		(stroke
@@ -4829,13 +4865,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 87.63) (xy 121.92 87.63)
+			(xy 139.7 85.09) (xy 142.24 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e691ffc6-8aef-4c88-aec9-9feeaeaeb90e")
+		(uuid "e4a4618e-5a26-46f6-abb1-17d3995798c3")
 	)
 	(wire
 		(pts
@@ -4939,6 +4975,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 85.09) (xy 132.08 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef433c1d-8cf3-467a-bdc8-e8370995b129")
+	)
+	(wire
+		(pts
 			(xy 88.9 62.23) (xy 88.9 59.69)
 		)
 		(stroke
@@ -4946,6 +4992,16 @@
 			(type default)
 		)
 		(uuid "ef81f2a3-4479-4bf3-9e55-d94fe2df3836")
+	)
+	(wire
+		(pts
+			(xy 137.16 85.09) (xy 139.7 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "effca22c-0418-4262-bcb4-743650fe7f93")
 	)
 	(wire
 		(pts
@@ -5135,7 +5191,7 @@
 	)
 	(hierarchical_label "DBG_USB_VBUS_DET"
 		(shape input)
-		(at 121.92 87.63 0)
+		(at 149.86 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6492,6 +6548,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 144.78 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "34cc4b99-b62c-48f2-af6f-9adf6bf17a05")
+		(property "Reference" "R308"
+			(at 144.78 80.772 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 144.78 82.804 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 144.78 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 144.78 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR060347K"
+			(at 144.78 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e67459a-46b4-4356-aff9-f0b82fc00790")
+		)
+		(pin "2"
+			(uuid "e9e01def-7694-4ba1-89bf-1c3594cab7d7")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
+					(reference "R308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 92.71 27.94 0)
 		(mirror y)
@@ -7223,6 +7369,85 @@
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
 					(reference "#PWR0312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 85.09 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8066ac68-9b98-4509-ab81-800838d7c42a")
+		(property "Reference" "#PWR0313"
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb5616ef-4535-4f42-bb25-df7716160cfb")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -9189,6 +9414,96 @@
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
 					(reference "L301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ea67545e-c65f-456d-8dd4-63d7789fce9d")
+		(property "Reference" "R307"
+			(at 134.62 80.772 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "27k"
+			(at 134.62 82.804 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.62 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR060327K"
+			(at 134.62 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73348925-803c-4f94-b3e3-6974e0850bac")
+		)
+		(pin "2"
+			(uuid "754b3f95-9513-4ec3-9228-d0f5846ce6e5")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
+					(reference "R307")
 					(unit 1)
 				)
 			)

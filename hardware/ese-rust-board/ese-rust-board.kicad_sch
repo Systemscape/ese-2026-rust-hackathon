@@ -3786,7 +3786,7 @@
 	)
 	(text "Datasheet Sec. 9.4\nGPIO 37: USB VBUS DET -> Needs 3V3\nGPIO 38: USB VBUS EN\nGPIO 39: USB OVCUR DET"
 		(exclude_from_sim no)
-		(at 191.008 159.258 0)
+		(at 192.024 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3876,6 +3876,18 @@
 		)
 		(uuid "f80f20ba-bd9a-4ad5-9a73-121088ae0b9f")
 	)
+	(text "TODO: Select a specific display\n(VND/GND likely swapped depending on model)\nOR add solderjumpers"
+		(exclude_from_sim no)
+		(at 225.298 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "f817aba0-d5e3-41b4-85fd-801c854d097d")
+	)
 	(junction
 		(at 139.7 26.67)
 		(diameter 0)
@@ -3919,7 +3931,7 @@
 		(uuid "1a432dc7-a463-4dc6-af14-c790f2784163")
 	)
 	(junction
-		(at 259.08 109.22)
+		(at 259.08 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a443f58-274b-4d27-a279-366ce4260396")
@@ -4063,7 +4075,7 @@
 		(uuid "b5119ad8-f794-4517-80b5-4952c03a5e1a")
 	)
 	(junction
-		(at 250.19 111.76)
+		(at 250.19 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b61c73c8-bf2c-4d9d-93f5-f81917fe04cd")
@@ -4135,7 +4147,7 @@
 		(uuid "ea8d1cf3-e4c9-45b0-bdc5-7de46e1b8984")
 	)
 	(junction
-		(at 186.69 151.13)
+		(at 186.69 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5771f21-55d2-4b5f-ada9-bbf43806e6c9")
@@ -4163,6 +4175,10 @@
 		(uuid "28ce8c3f-c044-42d4-a5a8-03afde947e95")
 	)
 	(no_connect
+		(at 163.83 157.48)
+		(uuid "2d5f181e-b5bc-4c5a-83ed-9e7ff8e184bc")
+	)
+	(no_connect
 		(at 163.83 149.86)
 		(uuid "2f15a231-9f64-41e6-8106-b1f6b606062f")
 	)
@@ -4177,10 +4193,6 @@
 	(no_connect
 		(at 163.83 152.4)
 		(uuid "46495a32-a04d-42bf-bb2f-462c4a4864e8")
-	)
-	(no_connect
-		(at 163.83 165.1)
-		(uuid "47257441-fbb2-4546-9241-c17959e8484d")
 	)
 	(no_connect
 		(at 113.03 152.4)
@@ -4494,7 +4506,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 109.22) (xy 269.24 109.22)
+			(xy 241.3 111.76) (xy 269.24 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4564,6 +4576,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 153.67) (xy 186.69 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd73a2e-c86f-447f-aa3e-5bdd9cf930d2")
+	)
+	(wire
+		(pts
 			(xy 153.67 38.1) (xy 153.67 41.91)
 		)
 		(stroke
@@ -4584,16 +4606,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 151.13) (xy 186.69 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20cfaa8d-f487-4d9e-96aa-8192ac396238")
-	)
-	(wire
-		(pts
 			(xy 163.83 99.06) (xy 175.26 99.06)
 		)
 		(stroke
@@ -4611,6 +4623,16 @@
 			(type default)
 		)
 		(uuid "25165fd4-521e-4d39-a251-85a8a624abda")
+	)
+	(wire
+		(pts
+			(xy 241.3 109.22) (xy 243.84 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297d14e8-caef-4cb3-82c9-eaec039213bd")
 	)
 	(wire
 		(pts
@@ -4864,7 +4886,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 106.68) (xy 250.19 111.76)
+			(xy 250.19 106.68) (xy 250.19 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4881,16 +4903,6 @@
 			(type default)
 		)
 		(uuid "44b77d9a-6bcc-46f8-9678-6dfa30940d22")
-	)
-	(wire
-		(pts
-			(xy 243.84 114.3) (xy 243.84 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44c3ca1f-a5ca-41c7-96fa-8158e797f847")
 	)
 	(wire
 		(pts
@@ -5054,7 +5066,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 162.56) (xy 186.69 162.56)
+			(xy 163.83 165.1) (xy 186.69 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5294,7 +5306,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 151.13) (xy 179.07 151.13)
+			(xy 177.8 153.67) (xy 179.07 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5364,7 +5376,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 106.68) (xy 259.08 109.22)
+			(xy 259.08 106.68) (xy 259.08 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5394,7 +5406,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 160.02) (xy 186.69 160.02)
+			(xy 163.83 162.56) (xy 186.69 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5764,7 +5776,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 151.13) (xy 189.23 151.13)
+			(xy 186.69 153.67) (xy 189.23 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5854,7 +5866,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 151.13) (xy 215.9 151.13)
+			(xy 194.31 153.67) (xy 215.9 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5914,16 +5926,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 114.3) (xy 241.3 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dceb156a-10e4-452e-9a47-3e92a449f772")
-	)
-	(wire
-		(pts
 			(xy 163.83 104.14) (xy 175.26 104.14)
 		)
 		(stroke
@@ -5934,7 +5936,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 157.48) (xy 163.83 157.48)
+			(xy 186.69 160.02) (xy 163.83 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6084,7 +6086,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 111.76) (xy 269.24 111.76)
+			(xy 241.3 114.3) (xy 269.24 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6094,7 +6096,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 151.13) (xy 186.69 151.13)
+			(xy 184.15 153.67) (xy 186.69 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6203,7 +6205,7 @@
 		(uuid "015f58e3-64f0-4c3c-8921-a74eb54246ed")
 	)
 	(label "SSD_SCL"
-		(at 269.24 109.22 180)
+		(at 269.24 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6223,7 +6225,7 @@
 		(uuid "21ceb597-45ae-4494-a3d0-4c8bc454c999")
 	)
 	(label "USER_USB_VBUS_EN"
-		(at 186.69 160.02 180)
+		(at 186.69 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6253,7 +6255,7 @@
 		(uuid "27fbb51f-2c7b-4e69-945c-0177bc516530")
 	)
 	(label "USER_USB_VBUS_DET"
-		(at 215.9 151.13 180)
+		(at 215.9 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6483,7 +6485,7 @@
 		(uuid "d576029f-9a83-446d-8c73-eece83460d71")
 	)
 	(label "USER_USB_OVCUR_DET"
-		(at 186.69 162.56 180)
+		(at 186.69 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6513,7 +6515,7 @@
 		(uuid "fab1626d-7ff4-4cfe-9235-ccf7c73d6fbc")
 	)
 	(label "SSD_SDA"
-		(at 269.24 111.76 180)
+		(at 269.24 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6722,7 +6724,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 191.77 151.13 90)
+		(at 191.77 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6733,7 +6735,7 @@
 		(fields_autoplaced yes)
 		(uuid "0babcf35-a761-4cb4-851d-ce4c631e2173")
 		(property "Reference" "R107"
-			(at 191.77 146.05 90)
+			(at 191.77 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6742,8 +6744,8 @@
 				)
 			)
 		)
-		(property "Value" "27k"
-			(at 191.77 148.59 90)
+		(property "Value" "47k"
+			(at 191.77 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6752,8 +6754,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 191.77 151.13 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 191.77 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6764,7 +6766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 151.13 0)
+			(at 191.77 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6775,7 +6777,18 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 191.77 151.13 0)
+			(at 191.77 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR060347K"
+			(at 191.77 153.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8974,84 +8987,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 243.84 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5de2c23b-6458-42ab-b341-a4d7c952904a")
-		(property "Reference" "#PWR0119"
-			(at 243.84 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 243.84 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dcc2b89d-1fe5-4b80-aa6c-c8a0c1a1e138")
-		)
-		(instances
-			(project "ese-rust-board"
-				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 176.53 43.18 0)
 		(mirror y)
@@ -9742,7 +9677,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 151.13 270)
+		(at 177.8 153.67 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9753,7 +9688,7 @@
 		(fields_autoplaced yes)
 		(uuid "80c94276-72fa-499d-9012-0ce0029ff805")
 		(property "Reference" "#PWR0102"
-			(at 171.45 151.13 0)
+			(at 171.45 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9764,7 +9699,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 151.1299 90)
+			(at 173.99 153.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9775,7 +9710,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 151.13 0)
+			(at 177.8 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9786,7 +9721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 151.13 0)
+			(at 177.8 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9797,7 +9732,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 151.13 0)
+			(at 177.8 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11115,7 +11050,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 181.61 151.13 90)
+		(at 181.61 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11126,7 +11061,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb19ccdd-a0fe-4115-b166-afff5e222d98")
 		(property "Reference" "R101"
-			(at 181.61 146.05 90)
+			(at 181.61 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11135,8 +11070,8 @@
 				)
 			)
 		)
-		(property "Value" "47k"
-			(at 181.61 148.59 90)
+		(property "Value" "27k"
+			(at 181.61 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11145,8 +11080,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 181.61 151.13 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 181.61 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11157,7 +11092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 151.13 0)
+			(at 181.61 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11168,7 +11103,18 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 181.61 151.13 0)
+			(at 181.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GPR060327K"
+			(at 181.61 153.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11470,6 +11416,84 @@
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
 					(reference "#FLG0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d311ef64-425f-4e5f-bc71-d9ec114e0ed9")
+		(property "Reference" "#PWR0104"
+			(at 250.19 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.872 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ec05e3c-7668-45db-9aba-4981e4dddc04")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
