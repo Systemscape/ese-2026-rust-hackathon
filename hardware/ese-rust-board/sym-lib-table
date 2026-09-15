@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Sensors_ESE") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/Sensor.kicad_sym") (options "") (descr ""))
+	(lib (name "Connector_Wurth_WR-WST") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/Connector_Wurth_WR-WST.kicad_sym") (options "") (descr ""))
+)
