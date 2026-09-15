@@ -1,0 +1,16 @@
+hardware/ese-rust-board/ese-rust-board.kicad_pro
+  h_2e4fad1f0ddac3 432
+hardware/ese-rust-board/ese-rust-board.kicad_sch
+  h_2e4fad1f0ddac3 5027-5037,5062-5067,5117,5140-5145,5195,5374,5474,5504,5564,5622-5631,5782-5791,5812-5821,5832-5841,5884,5954,6014,6114,6154,6262-6271,6342-6351,6353,6442-6451,6858,6869,6880,6890,6901,6912,8564,8575,8586,8596,8607,8618,9277,9288,9299,9310,9321,9332,9778-9856,9962,9973,9984,9994,10005,10016
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "1a9f348a35d9f40b60abff2c37964fcfd345caf7",
+  "prompts": {},
+  "humans": {
+    "h_2e4fad1f0ddac3": {
+      "author": "JuliDi <julian@systemscape.de>"
+    }
+  }
+}
