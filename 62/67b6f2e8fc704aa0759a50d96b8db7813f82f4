@@ -1,0 +1,26 @@
+.gitignore
+  h_2e4fad1f0ddac3 22-58
+hardware/ese-rust-board/buck_3v3.kicad_sch
+  h_2e4fad1f0ddac3 1-2662
+hardware/ese-rust-board/ese-rust-board.kicad_pcb
+  h_2e4fad1f0ddac3 1-2
+hardware/ese-rust-board/ese-rust-board.kicad_pro
+  h_2e4fad1f0ddac3 1-452
+hardware/ese-rust-board/ese-rust-board.kicad_sch
+  h_2e4fad1f0ddac3 1-10821
+hardware/ese-rust-board/libs/symbols/Sensor.kicad_sym
+  h_2e4fad1f0ddac3 1-247
+hardware/ese-rust-board/sym-lib-table
+  h_2e4fad1f0ddac3 1-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "6267b6f2e8fc704aa0759a50d96b8db7813f82f4",
+  "prompts": {},
+  "humans": {
+    "h_2e4fad1f0ddac3": {
+      "author": "JuliDi <julian@systemscape.de>"
+    }
+  }
+}
