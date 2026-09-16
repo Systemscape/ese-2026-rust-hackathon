@@ -3384,6 +3384,12 @@
 		(uuid "044e02ae-e14b-40b0-b1e7-596294e02753")
 	)
 	(junction
+		(at 149.86 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07838824-ff35-4c59-bf1c-a84b6b86369b")
+	)
+	(junction
 		(at 120.65 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3538,6 +3544,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1a89235-816e-43af-86db-d68bda1618b6")
+	)
+	(junction
+		(at 128.27 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d71c995c-fdc0-4b0b-bb34-b6529e3a1051")
 	)
 	(junction
 		(at 172.72 33.02)
@@ -3849,6 +3861,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 105.41) (xy 149.86 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2569ae6e-9b33-485a-b8d6-4635ecc5ab1d")
+	)
+	(wire
+		(pts
 			(xy 53.34 113.03) (xy 53.34 115.57)
 		)
 		(stroke
@@ -3869,7 +3891,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 33.02) (xy 140.97 33.02)
+			(xy 124.46 33.02) (xy 140.97 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3959,7 +3981,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 100.33) (xy 149.86 107.95)
+			(xy 149.86 100.33) (xy 149.86 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4039,6 +4061,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 91.44) (xy 149.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b17448f-48fa-4e0e-99fa-90fabc028536")
+	)
+	(wire
+		(pts
 			(xy 120.65 26.67) (xy 120.65 27.94)
 		)
 		(stroke
@@ -4099,7 +4131,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 107.95) (xy 153.67 107.95)
+			(xy 149.86 105.41) (xy 153.67 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4569,7 +4601,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 33.02) (xy 127 26.67)
+			(xy 124.46 33.02) (xy 124.46 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4699,16 +4731,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 91.44) (xy 149.86 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9696381-bc98-4242-bdcc-f351d8d73175")
-	)
-	(wire
-		(pts
 			(xy 142.24 113.03) (xy 144.78 113.03)
 		)
 		(stroke
@@ -4769,7 +4791,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 127 91.44)
+			(xy 128.27 87.63) (xy 128.27 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4819,7 +4841,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 26.67) (xy 120.65 26.67)
+			(xy 124.46 26.67) (xy 120.65 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4926,6 +4948,16 @@
 			(type default)
 		)
 		(uuid "feac26e5-3a91-40e2-914c-5a1c26d4c67e")
+	)
+	(wire
+		(pts
+			(xy 128.27 91.44) (xy 127 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffeb85c1-f20c-46e4-966a-7d674ade6119")
 	)
 	(label "USER_VBUS"
 		(at 185.42 91.44 0)
@@ -5043,7 +5075,7 @@
 	)
 	(hierarchical_label "USER_USB_ID"
 		(shape output)
-		(at 153.67 107.95 0)
+		(at 153.67 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5107,7 +5139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02adcca8-ef13-466f-a5ae-c924839a7f7d")
-		(property "Reference" "R215"
+		(property "Reference" "R211"
 			(at 106.68 98.552 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5180,7 +5212,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "R215")
+					(reference "R211")
 					(unit 1)
 				)
 			)
@@ -5197,7 +5229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d48f4cb-8bb6-4734-828e-92a26933f7b9")
-		(property "Reference" "R210"
+		(property "Reference" "R201"
 			(at 118.11 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5272,7 +5304,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "R210")
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -5291,7 +5323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12475411-7b3f-4a60-9dda-1d89714b2219")
-		(property "Reference" "R212"
+		(property "Reference" "R205"
 			(at 166.37 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5364,7 +5396,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "R212")
+					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -5383,7 +5415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f130c80-16d1-45f4-9082-648c1555733f")
-		(property "Reference" "U205"
+		(property "Reference" "U204"
 			(at 233.68 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5465,7 +5497,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "U205")
+					(reference "U204")
 					(unit 1)
 				)
 			)
@@ -5483,7 +5515,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "239aa4da-df82-4079-a6df-f274ce9aa026")
-		(property "Reference" "R201"
+		(property "Reference" "R202"
 			(at 66.04 30.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5556,7 +5588,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "R201")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -5574,7 +5606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25755654-79c4-42c0-9b0c-5e3ccbc7c688")
-		(property "Reference" "R206"
+		(property "Reference" "R210"
 			(at 152.4 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5649,7 +5681,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "R206")
+					(reference "R210")
 					(unit 1)
 				)
 			)
@@ -5667,7 +5699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27cbcc59-e870-4828-86ff-83206a1dd1c3")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0204"
 			(at 219.71 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5727,7 +5759,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "#PWR0203")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -5745,7 +5777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c1f25e3-b552-4fb3-b0a4-a1e653814ab4")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0202"
 			(at 120.65 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5805,7 +5837,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "#PWR0208")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -5822,7 +5854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f156e2e-7b94-4df7-a78e-152a612ba05d")
-		(property "Reference" "C203"
+		(property "Reference" "C204"
 			(at 120.65 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5906,7 +5938,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "C203")
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -5924,7 +5956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ffb5b36-1627-4196-9154-4694f8e7ddd3")
-		(property "Reference" "C201"
+		(property "Reference" "C202"
 			(at 201.93 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6010,7 +6042,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "C201")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -6028,7 +6060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3025235b-1245-4752-b99b-486689ef6b0e")
-		(property "Reference" "C204"
+		(property "Reference" "C206"
 			(at 209.042 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6114,7 +6146,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "C204")
+					(reference "C206")
 					(unit 1)
 				)
 			)
@@ -6132,7 +6164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3499b860-e9f1-46ab-bbd4-a0b642351c00")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0212"
 			(at 60.96 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6192,7 +6224,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "#PWR0211")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -6209,7 +6241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36cd2e86-059e-499b-b718-fab9b72479a7")
-		(property "Reference" "R214"
+		(property "Reference" "R209"
 			(at 252.984 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6282,7 +6314,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "R214")
+					(reference "R209")
 					(unit 1)
 				)
 			)
@@ -6523,7 +6555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45cb8ed8-cf38-4117-8c97-e3d942855a12")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0203"
 			(at 151.13 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6583,7 +6615,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "#PWR0202")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -6601,7 +6633,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52ef6f91-f919-4216-a83b-fd79365d4354")
-		(property "Reference" "C206"
+		(property "Reference" "C205"
 			(at 199.898 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6687,7 +6719,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "C206")
+					(reference "C205")
 					(unit 1)
 				)
 			)
@@ -6704,7 +6736,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "568235a5-33cf-43f5-864c-0f3f2b9932df")
-		(property "Reference" "R205"
+		(property "Reference" "R207"
 			(at 72.39 47.752 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6777,7 +6809,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "R205")
+					(reference "R207")
 					(unit 1)
 				)
 			)
@@ -6794,7 +6826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59f80afb-36b6-4677-8774-a11cb6b03249")
-		(property "Reference" "U206"
+		(property "Reference" "U203"
 			(at 60.96 51.562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6873,7 +6905,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "U206")
+					(reference "U203")
 					(unit 1)
 				)
 			)
@@ -6891,7 +6923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a608e93-3ba4-4912-a19a-0fe46dcec466")
-		(property "Reference" "C202"
+		(property "Reference" "C203"
 			(at 233.68 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6977,7 +7009,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "C202")
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -6994,7 +7026,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6156d691-a5d9-417d-b515-30f29e1eec99")
-		(property "Reference" "R208"
+		(property "Reference" "R212"
 			(at 72.39 113.792 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7067,7 +7099,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "R208")
+					(reference "R212")
 					(unit 1)
 				)
 			)
@@ -7233,7 +7265,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 127 88.9 0)
+		(at 128.27 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7243,8 +7275,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96e2beaf-61f3-4f2d-af03-bfb85e434b7e")
-		(property "Reference" "#PWR0207"
-			(at 127 92.71 0)
+		(property "Reference" "#PWR0209"
+			(at 128.27 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7255,7 +7287,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 127 83.82 0)
+			(at 128.27 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7265,7 +7297,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 127 88.9 0)
+			(at 128.27 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7276,7 +7308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 88.9 0)
+			(at 128.27 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7287,7 +7319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 127 88.9 0)
+			(at 128.27 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7303,7 +7335,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "#PWR0207")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -7321,7 +7353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fde9c50-759b-4e1d-8d87-87cb2b76273e")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0207"
 			(at 34.29 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7381,7 +7413,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "#PWR0201")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -7477,7 +7509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a67f1241-ebc0-4c31-a324-a00ee903eed3")
-		(property "Reference" "R203"
+		(property "Reference" "R208"
 			(at 249.174 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7550,7 +7582,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "R203")
+					(reference "R208")
 					(unit 1)
 				)
 			)
@@ -7568,7 +7600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aad14b14-ad7b-4b6c-9668-579e528f2d5e")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0201"
 			(at 80.01 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7629,7 +7661,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "#PWR0204")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -7647,7 +7679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b30f6eac-c31f-4910-b327-8b5673c2d69c")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0214"
 			(at 34.29 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -7707,7 +7739,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "#PWR0205")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -7724,7 +7756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b96b31e5-5c99-40dd-811b-b55d09c4ec6d")
-		(property "Reference" "R209"
+		(property "Reference" "R213"
 			(at 72.39 118.872 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7797,7 +7829,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "R209")
+					(reference "R213")
 					(unit 1)
 				)
 			)
@@ -7815,7 +7847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9c70213-b201-4c79-90b1-57bc2913c6f3")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR0211"
 			(at 226.06 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7875,7 +7907,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "#PWR0212")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -8072,7 +8104,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfb6239b-f836-41d4-8464-b0ffa9775a39")
-		(property "Reference" "U203"
+		(property "Reference" "U206"
 			(at 61.722 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8151,7 +8183,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "U203")
+					(reference "U206")
 					(unit 1)
 				)
 			)
@@ -8169,7 +8201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c76cd06a-2d14-4ed2-aa9f-e0ed18cfe1eb")
-		(property "Reference" "R211"
+		(property "Reference" "R204"
 			(at 118.11 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8244,7 +8276,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "R211")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -8262,7 +8294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9a2e02d-bb59-4ff4-84c0-20ca93354e26")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR0205"
 			(at 59.69 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8322,7 +8354,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "#PWR0214")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -8340,7 +8372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d373948d-cff1-4a8c-8ef4-9c1839c66fa4")
-		(property "Reference" "C205"
+		(property "Reference" "C207"
 			(at 217.932 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8426,7 +8458,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "C205")
+					(reference "C207")
 					(unit 1)
 				)
 			)
@@ -8444,7 +8476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d82bb5e5-67cc-4796-b3ab-ab7198f5e7dc")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0208"
 			(at 248.92 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8504,7 +8536,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "#PWR0209")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -8522,7 +8554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dacdb40e-843c-4395-8e71-dcb3dddc4b81")
-		(property "Reference" "C207"
+		(property "Reference" "C201"
 			(at 191.77 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8608,7 +8640,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "C207")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -8705,7 +8737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e63aff1f-ceb9-488e-a54b-34f5947316c5")
-		(property "Reference" "U204"
+		(property "Reference" "U205"
 			(at 130.1181 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8799,7 +8831,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "U204")
+					(reference "U205")
 					(unit 1)
 				)
 			)
@@ -8816,7 +8848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb6ac076-6f83-4e8d-9043-1899f263eaaa")
-		(property "Reference" "R204"
+		(property "Reference" "R206"
 			(at 72.39 42.672 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8889,7 +8921,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "R204")
+					(reference "R206")
 					(unit 1)
 				)
 			)
@@ -9032,7 +9064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebbaa557-7e93-43e1-b2d8-c2a5f6cf6066")
-		(property "Reference" "R202"
+		(property "Reference" "R203"
 			(at 66.04 40.386 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9105,7 +9137,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/59f503e8-ae1d-4175-aa29-6c2128bfb9e8"
-					(reference "R202")
+					(reference "R203")
 					(unit 1)
 				)
 			)

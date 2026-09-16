@@ -1423,7 +1423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cc01f13-9dc2-4dbd-b28e-186e2792dbbb")
-		(property "Reference" "#PWR0502"
+		(property "Reference" "#PWR0501"
 			(at 83.82 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -1483,7 +1483,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/f1575295-9b3d-4822-9eda-23f4206c896f"
-					(reference "#PWR0502")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -1616,7 +1616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5ea6577-b797-4f4c-bf01-488110377217")
-		(property "Reference" "#PWR0501"
+		(property "Reference" "#PWR0502"
 			(at 68.58 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -1676,7 +1676,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/f1575295-9b3d-4822-9eda-23f4206c896f"
-					(reference "#PWR0501")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
