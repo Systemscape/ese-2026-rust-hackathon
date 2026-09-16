@@ -3784,7 +3784,7 @@
 		)
 		(uuid "d4b2c16b-e3ba-451f-90df-bf6c15c5bbdc")
 	)
-	(text "Datasheet Sec. 9.4\nGPIO 37: USB VBUS DET -> Needs 3V3\nGPIO 38: USB VBUS EN\nGPIO 39: USB OVCUR DET"
+	(text "Datasheet Sec. 9.4\nGPIO 37: USB VBUS DET\nGPIO 39: USB OVCUR DET"
 		(exclude_from_sim no)
 		(at 192.024 161.29 0)
 		(effects
@@ -5742,7 +5742,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 48.26) (xy 62.23 48.26)
+			(xy 39.37 48.26) (xy 60.96 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6162,7 +6162,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 55.88) (xy 62.23 55.88)
+			(xy 39.37 57.15) (xy 53.34 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6381,7 +6381,7 @@
 		(uuid "015f58e3-64f0-4c3c-8921-a74eb54246ed")
 	)
 	(label "USER_USB_ID"
-		(at 62.23 55.88 180)
+		(at 53.34 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6551,7 +6551,7 @@
 		(uuid "720e824c-fe06-4def-80c7-83a5c895a2ec")
 	)
 	(label "USER_USB_VBUS_DET"
-		(at 62.23 48.26 180)
+		(at 60.96 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13039,7 +13039,7 @@
 			)
 		)
 		(pin "USER_USB_ID" output
-			(at 39.37 55.88 0)
+			(at 39.37 57.15 0)
 			(uuid "c34a34df-628f-49a7-84ef-625a0844cf93")
 			(effects
 				(font
