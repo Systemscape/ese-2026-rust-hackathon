@@ -3797,7 +3797,7 @@
 	)
 	(text "GPIO4/GPIO5 are\nI2C0 SDA/SCL"
 		(exclude_from_sim no)
-		(at 198.12 77.724 0)
+		(at 201.93 77.724 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3882,6 +3882,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 				(color 255 0 0 1)
 			)
 			(justify left)
@@ -4382,7 +4384,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 78.74) (xy 175.26 78.74)
+			(xy 163.83 78.74) (xy 179.07 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4492,7 +4494,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 93.98) (xy 175.26 93.98)
+			(xy 163.83 93.98) (xy 179.07 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4512,7 +4514,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 101.6) (xy 175.26 101.6)
+			(xy 163.83 101.6) (xy 179.07 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4552,7 +4554,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 109.22) (xy 175.26 109.22)
+			(xy 163.83 109.22) (xy 179.07 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4652,7 +4654,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 99.06) (xy 175.26 99.06)
+			(xy 163.83 99.06) (xy 179.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4662,7 +4664,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 35.56) (xy 54.61 35.56)
+			(xy 39.37 40.64) (xy 62.23 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4772,7 +4774,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 114.3) (xy 175.26 114.3)
+			(xy 163.83 114.3) (xy 179.07 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4832,7 +4834,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 76.2) (xy 175.26 76.2)
+			(xy 163.83 76.2) (xy 179.07 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5082,7 +5084,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 19.05) (xy 16.51 24.13)
+			(xy 15.24 19.05) (xy 15.24 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5112,7 +5114,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 81.28) (xy 175.26 81.28)
+			(xy 163.83 81.28) (xy 179.07 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5332,7 +5334,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 111.76) (xy 175.26 111.76)
+			(xy 163.83 111.76) (xy 179.07 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5342,7 +5344,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 53.34) (xy 62.23 53.34)
+			(xy 39.37 52.07) (xy 62.23 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5412,7 +5414,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 106.68) (xy 175.26 106.68)
+			(xy 163.83 106.68) (xy 179.07 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5442,7 +5444,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 116.84) (xy 175.26 116.84)
+			(xy 163.83 116.84) (xy 179.07 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5552,7 +5554,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 73.66) (xy 175.26 73.66)
+			(xy 163.83 73.66) (xy 179.07 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5642,7 +5644,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 96.52) (xy 175.26 96.52)
+			(xy 163.83 96.52) (xy 179.07 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5742,7 +5744,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 48.26) (xy 60.96 48.26)
+			(xy 39.37 48.26) (xy 62.23 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5822,7 +5824,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 24.13) (xy 17.78 24.13)
+			(xy 15.24 24.13) (xy 17.78 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6072,7 +6074,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 104.14) (xy 175.26 104.14)
+			(xy 163.83 104.14) (xy 179.07 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6152,7 +6154,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 44.45) (xy 64.77 44.45)
+			(xy 39.37 35.56) (xy 64.77 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6162,7 +6164,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 57.15) (xy 53.34 57.15)
+			(xy 39.37 55.88) (xy 62.23 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6172,7 +6174,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 39.37) (xy 54.61 39.37)
+			(xy 39.37 44.45) (xy 62.23 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6381,7 +6383,7 @@
 		(uuid "015f58e3-64f0-4c3c-8921-a74eb54246ed")
 	)
 	(label "USER_USB_ID"
-		(at 53.34 57.15 180)
+		(at 62.23 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6521,7 +6523,7 @@
 		(uuid "5f32e2e8-cd4f-4c8f-899d-aa696d519430")
 	)
 	(label "USER_USB_OVCUR_DET"
-		(at 62.23 53.34 180)
+		(at 62.23 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6551,7 +6553,7 @@
 		(uuid "720e824c-fe06-4def-80c7-83a5c895a2ec")
 	)
 	(label "USER_USB_VBUS_DET"
-		(at 60.96 48.26 180)
+		(at 62.23 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6611,7 +6613,7 @@
 		(uuid "a161edc5-d6d4-40a2-9b3e-1319015423c1")
 	)
 	(label "USER_USB_DM"
-		(at 54.61 39.37 180)
+		(at 62.23 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6631,7 +6633,7 @@
 		(uuid "a3bd2b96-726c-4388-a3d2-178430eb3d2e")
 	)
 	(label "USER_USB_DP"
-		(at 54.61 35.56 180)
+		(at 62.23 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9773,7 +9775,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 16.51 19.05 0)
+		(at 15.24 19.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9784,7 +9786,7 @@
 		(fields_autoplaced yes)
 		(uuid "66845bba-5855-43e1-bd76-d53e626df08b")
 		(property "Reference" "#PWR0101"
-			(at 16.51 22.86 0)
+			(at 15.24 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9795,7 +9797,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 16.51 13.97 0)
+			(at 15.24 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9805,7 +9807,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 16.51 19.05 0)
+			(at 15.24 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9816,7 +9818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.51 19.05 0)
+			(at 15.24 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9827,7 +9829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 16.51 19.05 0)
+			(at 15.24 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12989,7 +12991,7 @@
 			)
 		)
 		(pin "USER_USB_D+" bidirectional
-			(at 39.37 35.56 0)
+			(at 39.37 40.64 0)
 			(uuid "975445dc-80d0-429e-9296-f1d1d8cdc17f")
 			(effects
 				(font
@@ -12999,7 +13001,7 @@
 			)
 		)
 		(pin "USER_USB_D-" bidirectional
-			(at 39.37 39.37 0)
+			(at 39.37 44.45 0)
 			(uuid "9af795cd-1edd-4505-ab4b-804806b79045")
 			(effects
 				(font
@@ -13009,7 +13011,7 @@
 			)
 		)
 		(pin "DEBUGGER_VBUS" output
-			(at 39.37 44.45 0)
+			(at 39.37 35.56 0)
 			(uuid "d0fa32f4-2b2a-4888-87e4-9d735d30808b")
 			(effects
 				(font
@@ -13029,7 +13031,7 @@
 			)
 		)
 		(pin "USER_OVCUR_DET" output
-			(at 39.37 53.34 0)
+			(at 39.37 52.07 0)
 			(uuid "001a1757-4088-4e8b-ac6e-cc3f252d1039")
 			(effects
 				(font
@@ -13039,7 +13041,7 @@
 			)
 		)
 		(pin "USER_USB_ID" output
-			(at 39.37 57.15 0)
+			(at 39.37 55.88 0)
 			(uuid "c34a34df-628f-49a7-84ef-625a0844cf93")
 			(effects
 				(font
@@ -13057,7 +13059,7 @@
 		)
 	)
 	(sheet
-		(at 175.26 92.075)
+		(at 179.07 92.075)
 		(size 15.875 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13073,7 +13075,7 @@
 		)
 		(uuid "9da36eb9-c061-4a6c-ab15-3acd5db13b6c")
 		(property "Sheetname" "LED Strip"
-			(at 175.26 91.3634 0)
+			(at 179.07 91.3634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13084,7 +13086,7 @@
 			)
 		)
 		(property "Sheetfile" "LED_STRIP.kicad_sch"
-			(at 175.26 119.3296 0)
+			(at 179.07 119.3296 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13095,7 +13097,7 @@
 			)
 		)
 		(pin "LED_STRIP_9" output
-			(at 175.26 114.3 180)
+			(at 179.07 114.3 180)
 			(uuid "4741ed20-c7e5-4fa4-bcc6-799f386380d9")
 			(effects
 				(font
@@ -13105,7 +13107,7 @@
 			)
 		)
 		(pin "LED_STRIP_7" output
-			(at 175.26 109.22 180)
+			(at 179.07 109.22 180)
 			(uuid "7a6528c8-830b-452e-96d8-e2f1dddb047f")
 			(effects
 				(font
@@ -13115,7 +13117,7 @@
 			)
 		)
 		(pin "LED_STRIP_10" output
-			(at 175.26 116.84 180)
+			(at 179.07 116.84 180)
 			(uuid "6cb4f3dd-d1b6-48ea-b999-5d152a0e48eb")
 			(effects
 				(font
@@ -13125,7 +13127,7 @@
 			)
 		)
 		(pin "LED_STRIP_6" output
-			(at 175.26 106.68 180)
+			(at 179.07 106.68 180)
 			(uuid "e12e47ff-e671-41f8-82d8-f6f0acec88c4")
 			(effects
 				(font
@@ -13135,7 +13137,7 @@
 			)
 		)
 		(pin "LED_STRIP_8" output
-			(at 175.26 111.76 180)
+			(at 179.07 111.76 180)
 			(uuid "3dab30c2-d1fa-49e1-9728-fbe276c9d7bd")
 			(effects
 				(font
@@ -13145,7 +13147,7 @@
 			)
 		)
 		(pin "LED_STRIP_1" output
-			(at 175.26 93.98 180)
+			(at 179.07 93.98 180)
 			(uuid "6ba293b5-6446-4222-8423-d056d78e2699")
 			(effects
 				(font
@@ -13155,7 +13157,7 @@
 			)
 		)
 		(pin "LED_STRIP_3" output
-			(at 175.26 99.06 180)
+			(at 179.07 99.06 180)
 			(uuid "99398b05-240b-468f-939a-2340ff231f21")
 			(effects
 				(font
@@ -13165,7 +13167,7 @@
 			)
 		)
 		(pin "LED_STRIP_4" output
-			(at 175.26 101.6 180)
+			(at 179.07 101.6 180)
 			(uuid "7b03becf-ff0c-4138-83ed-19b5e2a2544a")
 			(effects
 				(font
@@ -13175,7 +13177,7 @@
 			)
 		)
 		(pin "LED_STRIP_5" output
-			(at 175.26 104.14 180)
+			(at 179.07 104.14 180)
 			(uuid "af3f8cd4-c381-4134-a134-7e820659df64")
 			(effects
 				(font
@@ -13185,7 +13187,7 @@
 			)
 		)
 		(pin "LED_STRIP_2" output
-			(at 175.26 96.52 180)
+			(at 179.07 96.52 180)
 			(uuid "d98e89ab-9b8d-4238-860a-ee1b492ce54b")
 			(effects
 				(font
@@ -13291,7 +13293,7 @@
 			)
 		)
 		(pin "DBG_USB_VBUS_DET" input
-			(at 64.77 44.45 180)
+			(at 64.77 35.56 180)
 			(uuid "2e299b6a-07b3-4ee8-98a6-ce0a90dd8bac")
 			(effects
 				(font
@@ -13329,7 +13331,7 @@
 		)
 	)
 	(sheet
-		(at 175.26 71.755)
+		(at 179.07 71.755)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13345,7 +13347,7 @@
 		)
 		(uuid "f1575295-9b3d-4822-9eda-23f4206c896f")
 		(property "Sheetname" "BME690"
-			(at 175.26 71.0434 0)
+			(at 179.07 71.0434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13356,7 +13358,7 @@
 			)
 		)
 		(property "Sheetfile" "BME690.kicad_sch"
-			(at 175.26 83.7696 0)
+			(at 179.07 83.7696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13367,7 +13369,7 @@
 			)
 		)
 		(pin "BME_CSB" input
-			(at 175.26 81.28 180)
+			(at 179.07 81.28 180)
 			(uuid "c2dc072e-093b-4506-89fb-f3f606499694")
 			(effects
 				(font
@@ -13377,7 +13379,7 @@
 			)
 		)
 		(pin "BME_SCK" input
-			(at 175.26 78.74 180)
+			(at 179.07 78.74 180)
 			(uuid "335b5a5e-f42b-4883-82e0-926f43706c91")
 			(effects
 				(font
@@ -13387,7 +13389,7 @@
 			)
 		)
 		(pin "BME_SDI" bidirectional
-			(at 175.26 76.2 180)
+			(at 179.07 76.2 180)
 			(uuid "022a5433-6e22-4059-b9a5-0357775da4da")
 			(effects
 				(font
@@ -13397,7 +13399,7 @@
 			)
 		)
 		(pin "BME_SDO" output
-			(at 175.26 73.66 180)
+			(at 179.07 73.66 180)
 			(uuid "29ba9984-2a01-405b-8dfe-aff4c2714376")
 			(effects
 				(font

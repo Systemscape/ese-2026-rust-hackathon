@@ -3229,6 +3229,40 @@
 		)
 		(uuid "699c183a-f95c-4eff-bf8d-e03cb72467dd")
 	)
+	(rectangle
+		(start 191.77 96.52)
+		(end 241.935 125.73)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "86e0d023-8c37-491b-940b-b857fda301b4")
+	)
+	(rectangle
+		(start 191.77 129.54)
+		(end 241.935 158.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "dacff4d6-087e-49b9-9a2e-5199b734f9f4")
+	)
+	(text "Use this to program the debugger chip"
+		(exclude_from_sim no)
+		(at 212.09 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c27ea44-e945-466d-9015-0ad51455628c")
+	)
 	(text "12MHz Crystal"
 		(exclude_from_sim no)
 		(at 33.274 138.176 0)
@@ -3249,6 +3283,16 @@
 			)
 		)
 		(uuid "8a4e92ee-8487-47f1-b05d-68b1e20efacc")
+	)
+	(text "Use this to debug an MCU on a different board"
+		(exclude_from_sim no)
+		(at 216.154 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "917cd733-8178-42c0-9aef-dcc737ea6555")
 	)
 	(text "Inductor orientation\nmatters (see DS p. 456)"
 		(exclude_from_sim no)
@@ -3771,7 +3815,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 63.5) (xy 119.38 72.39)
+			(xy 119.38 68.58) (xy 119.38 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3851,7 +3895,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 60.96) (xy 165.1 59.69)
+			(xy 213.36 116.84) (xy 213.36 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3861,7 +3905,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 73.66) (xy 137.16 73.66)
+			(xy 139.7 73.66) (xy 142.24 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3871,7 +3915,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 172.72) (xy 52.07 172.72)
+			(xy 219.71 144.78) (xy 201.93 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3931,7 +3975,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 170.18) (xy 52.07 170.18)
+			(xy 219.71 142.24) (xy 201.93 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3971,7 +4015,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 175.26) (xy 34.29 175.26)
+			(xy 205.74 147.32) (xy 219.71 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4141,7 +4185,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 167.64) (xy 52.07 167.64)
+			(xy 219.71 139.7) (xy 201.93 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4221,7 +4265,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 59.69) (xy 168.91 59.69)
+			(xy 213.36 115.57) (xy 217.17 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4231,7 +4275,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 63.5) (xy 121.92 63.5)
+			(xy 119.38 68.58) (xy 121.92 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4271,7 +4315,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 177.8) (xy 48.26 175.26)
+			(xy 205.74 149.86) (xy 205.74 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4571,7 +4615,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 57.15) (xy 168.91 57.15)
+			(xy 213.36 113.03) (xy 217.17 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4581,7 +4625,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 52.07) (xy 168.91 52.07)
+			(xy 213.36 107.95) (xy 217.17 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4741,7 +4785,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 71.12) (xy 129.54 71.12)
+			(xy 127 71.12) (xy 134.62 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4781,7 +4825,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 54.61) (xy 168.91 54.61)
+			(xy 213.36 110.49) (xy 217.17 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4871,7 +4915,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 73.66) (xy 129.54 73.66)
+			(xy 128.27 73.66) (xy 134.62 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5111,7 +5155,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 71.12) (xy 137.16 71.12)
+			(xy 139.7 71.12) (xy 142.24 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5250,12 +5294,12 @@
 		(uuid "065c9bfc-11d8-43b8-9580-3b8de0dce113")
 	)
 	(label "DEBUGGER_RUN"
-		(at 52.07 167.64 180)
+		(at 201.93 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "3feb6fc5-ec3d-4c6d-aee6-a4d30480dfc2")
 	)
@@ -5270,12 +5314,12 @@
 		(uuid "414650ce-09dd-4fe1-9928-1496f7602acd")
 	)
 	(label "DEBUGGER_SWCLK"
-		(at 52.07 172.72 180)
+		(at 201.93 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "84cf8d4b-045c-4a1a-abe0-55582ffd0b08")
 	)
@@ -5300,12 +5344,12 @@
 		(uuid "b3d6b451-7ee9-4b25-9b99-f73c16e277ee")
 	)
 	(label "DEBUGGER_SWDIO"
-		(at 52.07 170.18 180)
+		(at 201.93 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b6e3e9b6-1bc3-4f0d-a285-6a8a8483d253")
 	)
@@ -5331,7 +5375,7 @@
 	)
 	(hierarchical_label "DBG_SWCLK"
 		(shape output)
-		(at 137.16 71.12 0)
+		(at 142.24 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5342,7 +5386,7 @@
 	)
 	(hierarchical_label "DBG_SWDIO"
 		(shape bidirectional)
-		(at 165.1 54.61 180)
+		(at 213.36 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5353,7 +5397,7 @@
 	)
 	(hierarchical_label "DBG_RUN"
 		(shape output)
-		(at 165.1 52.07 180)
+		(at 213.36 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5375,7 +5419,7 @@
 	)
 	(hierarchical_label "DBG_RUN"
 		(shape output)
-		(at 121.92 63.5 0)
+		(at 121.92 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5408,7 +5452,7 @@
 	)
 	(hierarchical_label "DBG_SWDIO"
 		(shape bidirectional)
-		(at 137.16 73.66 0)
+		(at 142.24 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5441,7 +5485,7 @@
 	)
 	(hierarchical_label "DBG_SWCLK"
 		(shape output)
-		(at 165.1 57.15 180)
+		(at 213.36 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6001,7 +6045,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 132.08 73.66 270)
+		(at 137.16 73.66 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6011,7 +6055,7 @@
 		(dnp no)
 		(uuid "1fd73dc8-3788-4351-9e60-45b6aa49679f")
 		(property "Reference" "R303"
-			(at 132.08 75.438 90)
+			(at 137.16 75.438 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6021,7 +6065,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 132.08 76.962 90)
+			(at 137.16 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6031,7 +6075,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.08 73.66 0)
+			(at 137.16 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6042,7 +6086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 73.66 0)
+			(at 137.16 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6053,7 +6097,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 132.08 73.66 0)
+			(at 137.16 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6064,7 +6108,7 @@
 			)
 		)
 		(property "MPN" "GPR0603100R"
-			(at 132.08 73.66 90)
+			(at 137.16 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6091,8 +6135,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 29.21 170.18 0)
-		(mirror y)
+		(at 224.79 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6102,7 +6145,7 @@
 		(dnp no)
 		(uuid "23377836-8583-457a-be5f-a00b693b62d7")
 		(property "Reference" "J302"
-			(at 29.21 181.61 0)
+			(at 224.79 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6112,7 +6155,7 @@
 			)
 		)
 		(property "Value" "Debugger Prog Interface"
-			(at 29.21 179.07 0)
+			(at 224.79 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6122,7 +6165,7 @@
 			)
 		)
 		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-WST_490107670412"
-			(at 29.21 170.18 0)
+			(at 224.79 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6133,7 +6176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 170.18 0)
+			(at 224.79 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6144,7 +6187,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 29.21 170.18 0)
+			(at 224.79 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6155,7 +6198,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 29.21 170.18 0)
+			(at 224.79 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7832,7 +7875,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 60.96 0)
+		(at 213.36 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7842,7 +7885,7 @@
 		(dnp no)
 		(uuid "7e17b3fc-480b-4bc4-8763-b22f28e5f821")
 		(property "Reference" "#PWR0309"
-			(at 165.1 67.31 0)
+			(at 213.36 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7853,7 +7896,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 62.23 0)
+			(at 209.55 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7863,7 +7906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 60.96 0)
+			(at 213.36 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7874,7 +7917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 60.96 0)
+			(at 213.36 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7885,7 +7928,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 60.96 0)
+			(at 213.36 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7988,7 +8031,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 177.8 0)
+		(at 205.74 149.86 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7999,7 +8043,7 @@
 		(fields_autoplaced yes)
 		(uuid "8172fe2e-a323-4542-850d-84c01f003d89")
 		(property "Reference" "#PWR0314"
-			(at 48.26 184.15 0)
+			(at 205.74 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8010,7 +8054,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 182.88 0)
+			(at 205.74 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8020,7 +8064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 177.8 0)
+			(at 205.74 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8031,7 +8075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 177.8 0)
+			(at 205.74 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8042,7 +8086,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 177.8 0)
+			(at 205.74 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8611,7 +8655,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 173.99 54.61 0)
+		(at 222.25 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8622,7 +8666,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b7a221a-4bc9-4ca4-a0ed-7c234707f9fe")
 		(property "Reference" "J301"
-			(at 176.53 54.6099 0)
+			(at 224.79 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8633,7 +8677,7 @@
 			)
 		)
 		(property "Value" "DBG OUT"
-			(at 176.53 57.1499 0)
+			(at 224.79 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8644,7 +8688,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 173.99 54.61 0)
+			(at 222.25 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8655,7 +8699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 54.61 0)
+			(at 222.25 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8666,7 +8710,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 173.99 54.61 0)
+			(at 222.25 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8677,7 +8721,7 @@
 			)
 		)
 		(property "MPN" "GPHA-1X04"
-			(at 173.99 54.61 0)
+			(at 222.25 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9438,7 +9482,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 132.08 71.12 90)
+		(at 137.16 71.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9448,7 +9492,7 @@
 		(dnp no)
 		(uuid "d83d497a-7b26-4f3e-8da7-db0fc1612652")
 		(property "Reference" "R302"
-			(at 132.08 67.818 90)
+			(at 137.16 67.818 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9458,7 +9502,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 132.08 69.342 90)
+			(at 137.16 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9468,7 +9512,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.08 71.12 0)
+			(at 137.16 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9479,7 +9523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 71.12 0)
+			(at 137.16 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9490,7 +9534,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 132.08 71.12 0)
+			(at 137.16 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9501,7 +9545,7 @@
 			)
 		)
 		(property "MPN" "GPR0603100R"
-			(at 132.08 71.12 90)
+			(at 137.16 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -814,6 +814,19 @@
 		)
 		(uuid "3edb7191-89a0-42de-8a2e-1c0e053d2ef6")
 	)
+	(text "TODO: Once we tested with the BME690 breakout board,\ndecide whether to use I2C _OR_ SPI, don't use both..."
+		(exclude_from_sim no)
+		(at 67.564 20.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "47577435-5abd-4872-887f-9fb76629e0ef")
+	)
 	(junction
 		(at 118.11 36.83)
 		(diameter 0)
