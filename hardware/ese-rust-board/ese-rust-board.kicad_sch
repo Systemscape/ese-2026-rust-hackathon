@@ -4213,6 +4213,10 @@
 		(uuid "315a8286-a3c5-4040-8345-089137adbf81")
 	)
 	(no_connect
+		(at 163.83 73.66)
+		(uuid "3a125132-9469-4c53-b2dc-b97e2e33973f")
+	)
+	(no_connect
 		(at 163.83 152.4)
 		(uuid "46495a32-a04d-42bf-bb2f-462c4a4864e8")
 	)
@@ -4275,6 +4279,10 @@
 	(no_connect
 		(at 113.03 106.68)
 		(uuid "c8815f99-b2d7-418c-a29e-1e085fb1e2da")
+	)
+	(no_connect
+		(at 163.83 81.28)
+		(uuid "d12b6cff-86ae-406d-8838-97683b89a8b6")
 	)
 	(no_connect
 		(at 113.03 111.76)
@@ -5114,16 +5122,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 81.28) (xy 179.07 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5796be7b-ca8c-4b6e-8a6d-bc51919532f1")
-	)
-	(wire
-		(pts
 			(xy 72.39 119.38) (xy 72.39 129.54)
 		)
 		(stroke
@@ -5551,16 +5549,6 @@
 			(type default)
 		)
 		(uuid "833be441-42e7-4513-bcd4-888c4b594f15")
-	)
-	(wire
-		(pts
-			(xy 163.83 73.66) (xy 179.07 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86376a63-499e-40bb-a033-a21313f96e4b")
 	)
 	(wire
 		(pts
@@ -13331,8 +13319,8 @@
 		)
 	)
 	(sheet
-		(at 179.07 71.755)
-		(size 12.7 11.43)
+		(at 179.07 73.66)
+		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13347,7 +13335,7 @@
 		)
 		(uuid "f1575295-9b3d-4822-9eda-23f4206c896f")
 		(property "Sheetname" "BME690"
-			(at 179.07 71.0434 0)
+			(at 179.07 72.9484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13358,7 +13346,7 @@
 			)
 		)
 		(property "Sheetfile" "BME690.kicad_sch"
-			(at 179.07 83.7696 0)
+			(at 179.07 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13368,17 +13356,7 @@
 				(justify left top)
 			)
 		)
-		(pin "BME_CSB" input
-			(at 179.07 81.28 180)
-			(uuid "c2dc072e-093b-4506-89fb-f3f606499694")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "BME_SCK" input
+		(pin "BME_SCL" input
 			(at 179.07 78.74 180)
 			(uuid "335b5a5e-f42b-4883-82e0-926f43706c91")
 			(effects
@@ -13388,19 +13366,9 @@
 				(justify left)
 			)
 		)
-		(pin "BME_SDI" bidirectional
+		(pin "BME_SDA" bidirectional
 			(at 179.07 76.2 180)
 			(uuid "022a5433-6e22-4059-b9a5-0357775da4da")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "BME_SDO" output
-			(at 179.07 73.66 180)
-			(uuid "29ba9984-2a01-405b-8dfe-aff4c2714376")
 			(effects
 				(font
 					(size 1.27 1.27)
