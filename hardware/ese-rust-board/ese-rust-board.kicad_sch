@@ -3797,11 +3797,12 @@
 	)
 	(text "GPIO4/GPIO5 are\nI2C0 SDA/SCL"
 		(exclude_from_sim no)
-		(at 201.93 77.724 0)
+		(at 193.548 77.724 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "2755a156-3f23-4cac-bcb9-28a58ff06fc6")
 	)
@@ -3858,11 +3859,12 @@
 	)
 	(text "GPIO26/GPIO27 are\nI2C1 SDA/SCL"
 		(exclude_from_sim no)
-		(at 175.768 137.922 0)
+		(at 177.292 132.842 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "ad3b64b8-f54a-482c-bb5e-271288585a01")
 	)
@@ -9052,7 +9054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58b66b5e-6e9c-40ff-9ae8-755976790639")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0118"
 			(at 15.24 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9112,7 +9114,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR0119")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -9850,7 +9852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cee8f1e-7a36-4d39-91b9-ad61b1ecdcdd")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0116"
 			(at 45.72 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9910,7 +9912,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR0117")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -10130,7 +10132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8085ec8c-f7f9-47e3-85d9-b22356b71ac5")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0117"
 			(at 138.43 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -10190,7 +10192,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR0118")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -10580,7 +10582,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ae8e173-c9e5-46ca-929e-d2fa84ba6c8f")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0119"
 			(at 123.19 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -10640,7 +10642,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR0120")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
