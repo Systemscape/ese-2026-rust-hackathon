@@ -3786,7 +3786,7 @@
 	)
 	(text "Datasheet Sec. 9.4\nGPIO 37: USB VBUS DET\nGPIO 39: USB OVCUR DET"
 		(exclude_from_sim no)
-		(at 192.024 161.29 0)
+		(at 219.456 162.052 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4055,6 +4055,12 @@
 		(uuid "9ab1e1c4-88e4-47ae-b230-2e0172488d9a")
 	)
 	(junction
+		(at 191.77 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a48cd137-4caf-456d-b093-63462827582e")
+	)
+	(junction
 		(at 176.53 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4173,12 +4179,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea8d1cf3-e4c9-45b0-bdc5-7de46e1b8984")
-	)
-	(junction
-		(at 186.69 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5771f21-55d2-4b5f-ada9-bbf43806e6c9")
 	)
 	(junction
 		(at 133.35 55.88)
@@ -4404,6 +4404,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 149.86) (xy 186.69 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef1fdc5-8be5-423a-8096-6fb7371e5d35")
+	)
+	(wire
+		(pts
 			(xy 133.35 55.88) (xy 128.27 55.88)
 		)
 		(stroke
@@ -4624,16 +4634,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 153.67) (xy 186.69 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fd73a2e-c86f-447f-aa3e-5bdd9cf930d2")
-	)
-	(wire
-		(pts
 			(xy 153.67 38.1) (xy 153.67 41.91)
 		)
 		(stroke
@@ -4671,6 +4671,16 @@
 			(type default)
 		)
 		(uuid "2292f8fc-b369-47a9-addf-216b60dda0a8")
+	)
+	(wire
+		(pts
+			(xy 191.77 147.32) (xy 191.77 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2349ce1c-b8dd-49bb-a3d4-3ca843f94a20")
 	)
 	(wire
 		(pts
@@ -5204,6 +5214,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 139.7) (xy 191.77 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621aeac1-012d-4e9f-a3be-aa9abfcdef83")
+	)
+	(wire
+		(pts
 			(xy 241.3 26.67) (xy 241.3 27.94)
 		)
 		(stroke
@@ -5424,7 +5444,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 153.67) (xy 179.07 153.67)
+			(xy 191.77 158.75) (xy 191.77 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5561,6 +5581,16 @@
 			(type default)
 		)
 		(uuid "86b792ed-992d-449d-8fac-b80fd545dc6d")
+	)
+	(wire
+		(pts
+			(xy 191.77 149.86) (xy 186.69 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87567a1d-6fc6-47cd-88eb-4a219b7ef515")
 	)
 	(wire
 		(pts
@@ -5904,16 +5934,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 153.67) (xy 189.23 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9d4018a-b71c-4999-9711-94cd8a7ace6b")
-	)
-	(wire
-		(pts
 			(xy 128.27 55.88) (xy 128.27 58.42)
 		)
 		(stroke
@@ -5994,6 +6014,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 139.7) (xy 204.47 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ad33fb-d960-4f2b-9296-221844ff75ae")
+	)
+	(wire
+		(pts
 			(xy 135.89 26.67) (xy 135.89 29.21)
 		)
 		(stroke
@@ -6001,16 +6031,6 @@
 			(type default)
 		)
 		(uuid "cf6f04dc-f534-4064-9274-0796cc636dd9")
-	)
-	(wire
-		(pts
-			(xy 194.31 153.67) (xy 215.9 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d348c900-edcf-4652-89f8-1f2a95b2ed32")
 	)
 	(wire
 		(pts
@@ -6101,6 +6121,16 @@
 			(type default)
 		)
 		(uuid "e18adb6b-2cee-4867-8dc4-fc66d9a9e02b")
+	)
+	(wire
+		(pts
+			(xy 191.77 149.86) (xy 191.77 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a3fff4-3caa-4f39-9922-28c9390bec0a")
 	)
 	(wire
 		(pts
@@ -6251,16 +6281,6 @@
 			(type default)
 		)
 		(uuid "ecc6bb01-073c-4faa-a38b-c795242cb83f")
-	)
-	(wire
-		(pts
-			(xy 184.15 153.67) (xy 186.69 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eef4ee56-b0b2-4e85-b024-c7b3f4c1f6b5")
 	)
 	(wire
 		(pts
@@ -6452,8 +6472,8 @@
 		)
 		(uuid "43254976-d7d7-4309-96d8-68d3f31ac378")
 	)
-	(label "USER_USB_VBUS_DET"
-		(at 215.9 153.67 180)
+	(label "USER_VBUS"
+		(at 204.47 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6542,7 +6562,7 @@
 		)
 		(uuid "720e824c-fe06-4def-80c7-83a5c895a2ec")
 	)
-	(label "USER_USB_VBUS_DET"
+	(label "USER_VBUS"
 		(at 62.23 48.26 180)
 		(effects
 			(font
@@ -6942,7 +6962,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 191.77 153.67 90)
+		(at 191.77 144.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6953,27 +6973,29 @@
 		(fields_autoplaced yes)
 		(uuid "0babcf35-a761-4cb4-851d-ce4c631e2173")
 		(property "Reference" "R114"
-			(at 191.77 148.59 90)
+			(at 194.31 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "47k"
-			(at 191.77 151.13 90)
+		(property "Value" "27k"
+			(at 194.31 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 191.77 153.67 0)
+			(at 191.77 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6984,7 +7006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 153.67 0)
+			(at 191.77 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6995,7 +7017,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 191.77 153.67 0)
+			(at 191.77 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7005,8 +7027,8 @@
 				)
 			)
 		)
-		(property "MPN" "GPR060347K"
-			(at 191.77 153.67 90)
+		(property "MPN" "GPR060327K"
+			(at 191.77 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10200,7 +10222,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 153.67 270)
+		(at 191.77 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10211,7 +10233,7 @@
 		(fields_autoplaced yes)
 		(uuid "80c94276-72fa-499d-9012-0ce0029ff805")
 		(property "Reference" "#PWR0115"
-			(at 171.45 153.67 0)
+			(at 191.77 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10222,18 +10244,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 153.6699 90)
+			(at 194.31 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 153.67 0)
+			(at 191.77 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10244,7 +10266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 153.67 0)
+			(at 191.77 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10255,7 +10277,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 153.67 0)
+			(at 191.77 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11573,7 +11595,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 181.61 153.67 90)
+		(at 191.77 154.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11584,27 +11606,29 @@
 		(fields_autoplaced yes)
 		(uuid "cb19ccdd-a0fe-4115-b166-afff5e222d98")
 		(property "Reference" "R113"
-			(at 181.61 148.59 90)
+			(at 194.31 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "27k"
-			(at 181.61 151.13 90)
+		(property "Value" "47k"
+			(at 194.31 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 181.61 153.67 0)
+			(at 191.77 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11615,7 +11639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 153.67 0)
+			(at 191.77 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11626,7 +11650,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 181.61 153.67 0)
+			(at 191.77 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11636,8 +11660,8 @@
 				)
 			)
 		)
-		(property "MPN" "GPR060327K"
-			(at 181.61 153.67 90)
+		(property "MPN" "GPR060347K"
+			(at 191.77 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
