@@ -4754,7 +4754,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 69.85) (xy 105.41 69.85)
+			(xy 92.71 69.85) (xy 105.41 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6432,8 +6432,8 @@
 		)
 		(uuid "21ceb597-45ae-4494-a3d0-4c8bc454c999")
 	)
-	(label "DBG_RUN"
-		(at 95.25 69.85 0)
+	(label "TARGET_RUN"
+		(at 92.71 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6712,7 +6712,7 @@
 		)
 		(uuid "ce8a5232-a152-4920-a6e0-eb05aade768c")
 	)
-	(label "DBG_RUN"
+	(label "TARGET_RUN"
 		(at 114.3 35.56 180)
 		(effects
 			(font
@@ -12275,7 +12275,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 107.696 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12319,7 +12319,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPR06031K"
+		(property "MPN" "GPR060310K"
 			(at 105.41 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -13256,36 +13256,6 @@
 				(justify left top)
 			)
 		)
-		(pin "DBG_SWDIO" bidirectional
-			(at 97.79 31.75 0)
-			(uuid "b07cf97b-1bde-4622-aee9-69b7e8327840")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DBG_SWCLK" output
-			(at 97.79 27.94 0)
-			(uuid "04b6f16f-d773-43ac-a4e1-27d6b8f8fd5d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DBG_RUN" output
-			(at 97.79 35.56 0)
-			(uuid "3dd4beaf-e475-42c3-86e6-3c71f462e8ce")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DBG_USB_DM" bidirectional
 			(at 64.77 31.75 180)
 			(uuid "fac77b34-af13-494f-a4dd-7c5aa10f8917")
@@ -13299,16 +13269,6 @@
 		(pin "DBG_USB_DP" bidirectional
 			(at 64.77 27.94 180)
 			(uuid "8e3b4e50-616e-4f4e-b2ea-9eed430dd30e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DBG_USB_VBUS_DET" input
-			(at 64.77 35.56 180)
-			(uuid "2e299b6a-07b3-4ee8-98a6-ce0a90dd8bac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13334,6 +13294,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "TARGET_RUN" output
+			(at 97.79 35.56 0)
+			(uuid "dfc13f63-c910-42f3-8338-257401836862")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TARGET_SWDIO" bidirectional
+			(at 97.79 31.75 0)
+			(uuid "d31a50b5-0e6c-48b7-ab14-ba09f8c3bcde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TARGET_SWCLK" output
+			(at 97.79 27.94 0)
+			(uuid "20742af3-6cce-4c22-84bb-f1af488d3503")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DBG_VBUS" input
+			(at 64.77 35.56 180)
+			(uuid "f8c29063-a414-4142-a527-64f1242fcaa5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

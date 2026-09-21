@@ -3915,7 +3915,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 73.66) (xy 142.24 73.66)
+			(xy 142.24 73.66) (xy 144.78 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4815,7 +4815,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 71.12) (xy 134.62 71.12)
+			(xy 127 71.12) (xy 137.16 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4955,7 +4955,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 73.66) (xy 134.62 73.66)
+			(xy 128.27 73.66) (xy 137.16 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5195,7 +5195,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 71.12) (xy 142.24 71.12)
+			(xy 142.24 71.12) (xy 144.78 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5393,9 +5393,9 @@
 		)
 		(uuid "f9e59551-b940-47fd-bc74-b656ba41f177")
 	)
-	(hierarchical_label "DBG_SWCLK"
+	(hierarchical_label "TARGET_SWCLK"
 		(shape output)
-		(at 142.24 71.12 0)
+		(at 144.78 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5404,7 +5404,7 @@
 		)
 		(uuid "1f33bf14-e423-4984-952e-7e0eb8779f6d")
 	)
-	(hierarchical_label "DBG_SWDIO"
+	(hierarchical_label "TARGET_SWDIO"
 		(shape bidirectional)
 		(at 213.36 110.49 180)
 		(effects
@@ -5415,7 +5415,7 @@
 		)
 		(uuid "2427c608-3464-472f-8e9e-8881be38aafb")
 	)
-	(hierarchical_label "DBG_RUN"
+	(hierarchical_label "TARGET_RUN"
 		(shape output)
 		(at 213.36 107.95 180)
 		(effects
@@ -5437,7 +5437,7 @@
 		)
 		(uuid "3985a5ca-6ca6-4621-95d8-f319095b8d5a")
 	)
-	(hierarchical_label "DBG_RUN"
+	(hierarchical_label "TARGET_RUN"
 		(shape output)
 		(at 121.92 68.58 0)
 		(effects
@@ -5470,9 +5470,9 @@
 		)
 		(uuid "57a05362-cdd9-481c-9d3b-eb979f263410")
 	)
-	(hierarchical_label "DBG_SWDIO"
+	(hierarchical_label "TARGET_SWDIO"
 		(shape bidirectional)
-		(at 142.24 73.66 0)
+		(at 144.78 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5481,7 +5481,7 @@
 		)
 		(uuid "633711b7-242f-4e1c-b153-1166ed3ffaba")
 	)
-	(hierarchical_label "DBG_USB_VBUS_DET"
+	(hierarchical_label "DBG_VBUS"
 		(shape input)
 		(at 142.24 81.28 0)
 		(effects
@@ -5503,7 +5503,7 @@
 		)
 		(uuid "c84705cb-50b9-4fb2-bf6b-0d3aa9c2c1f0")
 	)
-	(hierarchical_label "DBG_SWCLK"
+	(hierarchical_label "TARGET_SWCLK"
 		(shape output)
 		(at 213.36 113.03 180)
 		(effects
@@ -6065,7 +6065,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 137.16 73.66 270)
+		(at 139.7 73.66 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6075,7 +6075,7 @@
 		(dnp no)
 		(uuid "1fd73dc8-3788-4351-9e60-45b6aa49679f")
 		(property "Reference" "R303"
-			(at 137.16 75.438 90)
+			(at 139.7 75.438 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6085,7 +6085,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 137.16 76.962 90)
+			(at 139.7 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6095,7 +6095,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 137.16 73.66 0)
+			(at 139.7 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6106,7 +6106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 73.66 0)
+			(at 139.7 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6117,7 +6117,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 137.16 73.66 0)
+			(at 139.7 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6128,7 +6128,7 @@
 			)
 		)
 		(property "MPN" "GPR0603100R"
-			(at 137.16 73.66 90)
+			(at 139.7 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9505,7 +9505,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 137.16 71.12 90)
+		(at 139.7 71.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9515,7 +9515,7 @@
 		(dnp no)
 		(uuid "d83d497a-7b26-4f3e-8da7-db0fc1612652")
 		(property "Reference" "R302"
-			(at 137.16 67.818 90)
+			(at 139.7 67.818 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9525,7 +9525,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 137.16 69.342 90)
+			(at 139.7 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9535,7 +9535,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 137.16 71.12 0)
+			(at 139.7 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9546,7 +9546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 71.12 0)
+			(at 139.7 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9557,7 +9557,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 137.16 71.12 0)
+			(at 139.7 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9568,7 +9568,7 @@
 			)
 		)
 		(property "MPN" "GPR0603100R"
-			(at 137.16 71.12 90)
+			(at 139.7 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
