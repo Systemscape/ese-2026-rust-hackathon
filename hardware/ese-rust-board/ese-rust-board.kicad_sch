@@ -13943,7 +13943,7 @@
 	)
 	(sheet
 		(at 17.78 21.59)
-		(size 21.59 37.465)
+		(size 21.59 53.975)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13969,7 +13969,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 17.78 59.6396 0)
+			(at 17.78 76.1496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14062,6 +14062,46 @@
 		(pin "USER_USB_ID" output
 			(at 39.37 55.88 0)
 			(uuid "c34a34df-628f-49a7-84ef-625a0844cf93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TUSB_EN" input
+			(at 39.37 72.39 0)
+			(uuid "35bfdddf-7c60-478b-aee9-762261527a2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TUSB_SCL" input
+			(at 39.37 64.77 0)
+			(uuid "7254a77d-3173-4272-823d-3b7c5728b396")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TUSB_SDA" bidirectional
+			(at 39.37 68.58 0)
+			(uuid "e8bbbc6c-9a5d-4877-a4da-c66f18a2afca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TUSB_INT" output
+			(at 39.37 60.96 0)
+			(uuid "61c1b271-2305-4862-9bc3-57d4595792bf")
 			(effects
 				(font
 					(size 1.27 1.27)
