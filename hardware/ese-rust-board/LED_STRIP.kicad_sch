@@ -354,7 +354,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -379,7 +379,7 @@
 					)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -411,7 +411,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -433,7 +433,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -471,7 +471,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -493,6 +493,18 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Note: LEDs are active low,\nthe GPIOs have to be set to\nLOW for the LED to be on."
+		(exclude_from_sim no)
+		(at 70.104 28.194 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "0d1c01ef-c10c-4009-89fc-f2019ee99f2c")
 	)
 	(junction
 		(at 25.4 88.9)
@@ -1059,6 +1071,84 @@
 		(uuid "db50c702-350d-4a5a-b957-ef3f77b616f6")
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 25.4 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "041921a4-d40c-4d1b-aead-32ae27388d96")
+		(property "Reference" "#PWR0401"
+			(at 25.4 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 25.4 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+			(at 25.4 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 25.4 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9a3e05c-743e-46e8-b74e-7cad9a1938b4")
+		)
+		(instances
+			(project "ese-rust-board"
+				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
+					(reference "#PWR0401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 33.02 80.01 90)
 		(unit 1)
@@ -1080,7 +1170,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 33.02 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1123,7 +1213,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPR0603330R"
+		(property "MPN" "GPR06031K"
 			(at 33.02 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -1171,7 +1261,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 33.02 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1214,7 +1304,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPR0603330R"
+		(property "MPN" "GPR06031K"
 			(at 33.02 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -1262,7 +1352,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 33.02 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1305,7 +1395,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPR0603330R"
+		(property "MPN" "GPR06031K"
 			(at 33.02 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -1455,7 +1545,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 33.02 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1498,7 +1588,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPR0603330R"
+		(property "MPN" "GPR06031K"
 			(at 33.02 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -1648,7 +1738,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 33.02 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1691,7 +1781,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPR0603330R"
+		(property "MPN" "GPR06031K"
 			(at 33.02 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -1739,7 +1829,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 33.02 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1782,7 +1872,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPR0603330R"
+		(property "MPN" "GPR06031K"
 			(at 33.02 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -1803,84 +1893,6 @@
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
 					(reference "R403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 25.4 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71feede2-3c6a-4bbc-8536-26a8e4248189")
-		(property "Reference" "#PWR0401"
-			(at 25.4 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 25.4 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 25.4 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 25.4 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8de6521e-0f94-4eb4-ba67-b7f5925c68f3")
-		)
-		(instances
-			(project "ese-rust-board"
-				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/9da36eb9-c061-4a6c-ab15-3acd5db13b6c"
-					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -1908,7 +1920,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 33.02 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1951,7 +1963,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPR0603330R"
+		(property "MPN" "GPR06031K"
 			(at 33.02 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -1999,7 +2011,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 33.02 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2042,7 +2054,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPR0603330R"
+		(property "MPN" "GPR06031K"
 			(at 33.02 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -2294,7 +2306,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 33.02 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2337,7 +2349,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPR0603330R"
+		(property "MPN" "GPR06031K"
 			(at 33.02 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -2385,7 +2397,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 33.02 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2428,7 +2440,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPR0603330R"
+		(property "MPN" "GPR06031K"
 			(at 33.02 35.56 90)
 			(hide yes)
 			(show_name no)
