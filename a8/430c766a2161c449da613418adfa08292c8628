@@ -1,0 +1,16 @@
+hardware/ese-rust-board/BME690.kicad_sch
+  h_2e4fad1f0ddac3 865-870,979-988,1121
+hardware/ese-rust-board/ese-rust-board.kicad_pro
+  h_2e4fad1f0ddac3 742
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "a8430c766a2161c449da613418adfa08292c8628",
+  "prompts": {},
+  "humans": {
+    "h_2e4fad1f0ddac3": {
+      "author": "JuliDi <julian@systemscape.de>"
+    }
+  }
+}
