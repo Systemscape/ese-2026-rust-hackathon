@@ -1,0 +1,14 @@
+hardware/ese-rust-board/usb.kicad_sch
+  h_2e4fad1f0ddac3 3725
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "aae0c572148bd0da844396d75b2b07f00c219132",
+  "prompts": {},
+  "humans": {
+    "h_2e4fad1f0ddac3": {
+      "author": "JuliDi <julian@systemscape.de>"
+    }
+  }
+}
