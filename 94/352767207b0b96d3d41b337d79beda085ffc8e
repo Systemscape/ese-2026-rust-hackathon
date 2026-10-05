@@ -1,0 +1,16 @@
+hardware/ese-rust-board/RP_DEBUGGER.kicad_sch
+  h_2e4fad1f0ddac3 4068-4077,4250,4378-4387,4660,5068-5077,5248-5257,5648-5657,5719,5743,5754,5765,5776,5783,5797,5824,5838,6514,6524,6594,6604,6614,6624,6635,6646,6657,7956-8045,8584-8674,10381,10391
+hardware/ese-rust-board/ese-rust-board.kicad_pro
+  h_2e4fad1f0ddac3 742
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "94352767207b0b96d3d41b337d79beda085ffc8e",
+  "prompts": {},
+  "humans": {
+    "h_2e4fad1f0ddac3": {
+      "author": "JuliDi <julian@systemscape.de>"
+    }
+  }
+}
