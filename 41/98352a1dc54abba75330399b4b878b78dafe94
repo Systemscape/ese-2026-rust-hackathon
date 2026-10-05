@@ -1,0 +1,18 @@
+hardware/ese-rust-board/BME690.kicad_sch
+  h_2e4fad1f0ddac3 809,818,878,925,945,955,1005,1023-1032,1105,1983-2075
+hardware/ese-rust-board/RP_DEBUGGER.kicad_sch
+  h_2e4fad1f0ddac3 6528,6588,7696,7756,7887,7947,7965,8026,8045,8105,9340,9400,9417,9477,9661,9721,10339,10399,10417,10477
+hardware/ese-rust-board/ese-rust-board.kicad_sch
+  h_2e4fad1f0ddac3 3800,3805,3862,3867,9057,9117,9855,9915,10135,10195,10585,10645
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "4198352a1dc54abba75330399b4b878b78dafe94",
+  "prompts": {},
+  "humans": {
+    "h_2e4fad1f0ddac3": {
+      "author": "JuliDi <julian@systemscape.de>"
+    }
+  }
+}
