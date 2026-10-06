@@ -3419,8 +3419,8 @@
 		(uuid "699c183a-f95c-4eff-bf8d-e03cb72467dd")
 	)
 	(rectangle
-		(start 191.77 96.52)
-		(end 241.935 125.73)
+		(start 200.66 96.52)
+		(end 250.825 125.73)
 		(stroke
 			(width 0)
 			(type default)
@@ -3431,8 +3431,8 @@
 		(uuid "86e0d023-8c37-491b-940b-b857fda301b4")
 	)
 	(rectangle
-		(start 191.77 129.54)
-		(end 241.935 158.75)
+		(start 200.66 129.54)
+		(end 250.825 158.75)
 		(stroke
 			(width 0)
 			(type default)
@@ -3442,9 +3442,9 @@
 		)
 		(uuid "dacff4d6-087e-49b9-9a2e-5199b734f9f4")
 	)
-	(text "Disconnect these jumpers\nto use the debug header"
+	(text "Disconnect these jumpers\nto use the debug header\nindependently."
 		(exclude_from_sim no)
-		(at 185.166 77.216 0)
+		(at 185.166 77.978 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3455,7 +3455,7 @@
 	)
 	(text "Disconnect the Solderjumpers first!"
 		(exclude_from_sim no)
-		(at 193.04 103.124 0)
+		(at 201.93 103.124 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3469,7 +3469,7 @@
 	)
 	(text "Use this to program the debugger chip"
 		(exclude_from_sim no)
-		(at 212.09 132.334 0)
+		(at 220.98 132.334 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3500,7 +3500,7 @@
 	)
 	(text "Use this to debug an MCU on a different board"
 		(exclude_from_sim no)
-		(at 216.154 99.314 0)
+		(at 225.044 99.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4067,7 +4067,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 146.05) (xy 227.33 146.05)
+			(xy 231.14 146.05) (xy 236.22 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4157,7 +4157,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 116.84) (xy 213.36 115.57)
+			(xy 222.25 116.84) (xy 222.25 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4247,7 +4247,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 148.59) (xy 227.33 148.59)
+			(xy 214.63 148.59) (xy 236.22 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4377,7 +4377,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 143.51) (xy 217.17 143.51)
+			(xy 201.93 143.51) (xy 226.06 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4447,7 +4447,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 107.95) (xy 217.17 107.95)
+			(xy 203.2 107.95) (xy 226.06 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4607,7 +4607,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 115.57) (xy 217.17 115.57)
+			(xy 222.25 115.57) (xy 226.06 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4657,7 +4657,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 149.86) (xy 205.74 148.59)
+			(xy 214.63 149.86) (xy 214.63 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4737,7 +4737,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 110.49) (xy 217.17 110.49)
+			(xy 203.2 110.49) (xy 226.06 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5067,7 +5067,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 146.05) (xy 217.17 146.05)
+			(xy 201.93 146.05) (xy 226.06 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5247,7 +5247,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 140.97) (xy 227.33 140.97)
+			(xy 201.93 140.97) (xy 236.22 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5297,7 +5297,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 113.03) (xy 217.17 113.03)
+			(xy 203.2 113.03) (xy 226.06 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5647,7 +5647,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 143.51) (xy 227.33 143.51)
+			(xy 231.14 143.51) (xy 236.22 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5716,7 +5716,7 @@
 		(uuid "065c9bfc-11d8-43b8-9580-3b8de0dce113")
 	)
 	(label "DEBUGGER_RUN"
-		(at 193.04 140.97 0)
+		(at 201.93 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5736,7 +5736,7 @@
 		(uuid "414650ce-09dd-4fe1-9928-1496f7602acd")
 	)
 	(label "DBG_OUT_RUN"
-		(at 194.31 107.95 0)
+		(at 203.2 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5758,7 +5758,7 @@
 		(uuid "4d93ba11-ee6e-434b-a533-cfd9092a9f5d")
 	)
 	(label "DBG_OUT_SWCLK"
-		(at 194.31 113.03 0)
+		(at 203.2 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5769,7 +5769,7 @@
 		(uuid "6b50c7dd-280e-49ef-b654-ee7709dd1fea")
 	)
 	(label "DBG_OUT_SWDIO"
-		(at 194.31 110.49 0)
+		(at 203.2 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5780,7 +5780,7 @@
 		(uuid "7b606876-cc06-452d-8c47-1cd5d7d0e725")
 	)
 	(label "DEBUGGER_SWCLK"
-		(at 193.04 146.05 0)
+		(at 201.93 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5821,7 +5821,7 @@
 		(uuid "b3d6b451-7ee9-4b25-9b99-f73c16e277ee")
 	)
 	(label "DEBUGGER_SWDIO"
-		(at 193.04 143.51 0)
+		(at 201.93 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6591,7 +6591,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 232.41 143.51 0)
+		(at 241.3 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6601,7 +6601,7 @@
 		(dnp no)
 		(uuid "23377836-8583-457a-be5f-a00b693b62d7")
 		(property "Reference" "J302"
-			(at 229.616 152.4 0)
+			(at 238.506 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6611,7 +6611,7 @@
 			)
 		)
 		(property "Value" "Debugger Prog Interface"
-			(at 229.616 154.94 0)
+			(at 238.506 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6621,7 +6621,7 @@
 			)
 		)
 		(property "Footprint" "Connector_THT_Wurth:J_Wurth_WR-WST_490107670412"
-			(at 232.41 143.51 0)
+			(at 241.3 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6632,7 +6632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 143.51 0)
+			(at 241.3 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6643,7 +6643,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 232.41 143.51 0)
+			(at 241.3 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6654,7 +6654,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 232.41 143.51 0)
+			(at 241.3 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7477,7 +7477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34cc4b99-b62c-48f2-af6f-9adf6bf17a05")
-		(property "Reference" "R305"
+		(property "Reference" "R304"
 			(at 142.24 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7552,7 +7552,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
-					(reference "R305")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -7955,7 +7955,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 219.71 143.51 90)
+		(at 228.6 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7965,7 +7965,7 @@
 		(dnp no)
 		(uuid "5c8d3843-0bd5-4855-b530-92ec76069f35")
 		(property "Reference" "R309"
-			(at 224.028 144.526 90)
+			(at 232.918 144.526 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7975,7 +7975,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 219.71 143.51 90)
+			(at 228.6 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7985,7 +7985,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.71 143.51 0)
+			(at 228.6 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7996,7 +7996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 143.51 0)
+			(at 228.6 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8007,7 +8007,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 219.71 143.51 0)
+			(at 228.6 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8018,7 +8018,7 @@
 			)
 		)
 		(property "MPN" "GPR0603100R"
-			(at 219.71 143.51 90)
+			(at 228.6 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8324,7 +8324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a9d4071-390a-45d5-83e3-b16d2f519c05")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR0308"
 			(at 24.13 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8384,7 +8384,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
-					(reference "#PWR0309")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -8506,7 +8506,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 116.84 0)
+		(at 222.25 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8516,7 +8516,7 @@
 		(dnp no)
 		(uuid "7e17b3fc-480b-4bc4-8763-b22f28e5f821")
 		(property "Reference" "#PWR0310"
-			(at 213.36 123.19 0)
+			(at 222.25 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8527,7 +8527,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 118.11 0)
+			(at 218.44 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8537,7 +8537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 116.84 0)
+			(at 222.25 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8548,7 +8548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 116.84 0)
+			(at 222.25 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8559,7 +8559,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 116.84 0)
+			(at 222.25 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8583,7 +8583,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 219.71 146.05 270)
+		(at 228.6 146.05 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8594,7 +8594,7 @@
 		(dnp no)
 		(uuid "7efe3a84-3dd6-47da-8709-5d6eb7ecce6c")
 		(property "Reference" "R310"
-			(at 224.028 147.066 90)
+			(at 232.918 147.066 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8604,7 +8604,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 219.71 146.05 90)
+			(at 228.6 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8614,7 +8614,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.71 146.05 0)
+			(at 228.6 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8625,7 +8625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 146.05 0)
+			(at 228.6 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8636,7 +8636,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 219.71 146.05 0)
+			(at 228.6 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8647,7 +8647,7 @@
 			)
 		)
 		(property "MPN" "GPR0603100R"
-			(at 219.71 146.05 90)
+			(at 228.6 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8684,7 +8684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8066ac68-9b98-4509-ab81-800838d7c42a")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0309"
 			(at 139.7 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8745,7 +8745,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
-					(reference "#PWR0308")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -8753,7 +8753,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 149.86 0)
+		(at 214.63 149.86 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8765,7 +8765,7 @@
 		(fields_autoplaced yes)
 		(uuid "8172fe2e-a323-4542-850d-84c01f003d89")
 		(property "Reference" "#PWR0313"
-			(at 205.74 156.21 0)
+			(at 214.63 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8776,7 +8776,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 154.94 0)
+			(at 214.63 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8786,7 +8786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 149.86 0)
+			(at 214.63 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8797,7 +8797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 149.86 0)
+			(at 214.63 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8808,7 +8808,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 149.86 0)
+			(at 214.63 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8841,7 +8841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ecf1c42-e78d-4fc4-a916-3a12362f28de")
-		(property "Reference" "R306"
+		(property "Reference" "R305"
 			(at 30.734 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8914,7 +8914,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
-					(reference "R306")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -9377,7 +9377,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 222.25 110.49 0)
+		(at 231.14 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9388,7 +9388,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b7a221a-4bc9-4ca4-a0ed-7c234707f9fe")
 		(property "Reference" "J301"
-			(at 224.79 110.4899 0)
+			(at 233.68 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9399,7 +9399,7 @@
 			)
 		)
 		(property "Value" "DBG OUT"
-			(at 224.79 113.0299 0)
+			(at 233.68 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9410,7 +9410,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 222.25 110.49 0)
+			(at 231.14 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9421,7 +9421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 110.49 0)
+			(at 231.14 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9432,7 +9432,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 222.25 110.49 0)
+			(at 231.14 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9443,7 +9443,7 @@
 			)
 		)
 		(property "MPN" "GPHA-1X04"
-			(at 222.25 110.49 0)
+			(at 231.14 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11019,7 +11019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea67545e-c65f-456d-8dd4-63d7789fce9d")
-		(property "Reference" "R304"
+		(property "Reference" "R306"
 			(at 142.24 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11094,7 +11094,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60/c9ab159d-5081-41fc-b3e3-47af1eb16f33"
-					(reference "R304")
+					(reference "R306")
 					(unit 1)
 				)
 			)
