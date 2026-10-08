@@ -4240,6 +4240,12 @@
 		(uuid "2011f9ff-e29c-40ac-9b60-d9d7abaa021d")
 	)
 	(junction
+		(at 238.76 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33aa6852-a2f7-48a2-b4fc-2df708052832")
+	)
+	(junction
 		(at 165.1 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4280,6 +4286,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a7c35d3-5a48-4003-b8c3-d71c878d11d9")
+	)
+	(junction
+		(at 248.92 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52691e79-03f2-4b83-8f53-598471c408e6")
 	)
 	(junction
 		(at 63.5 191.77)
@@ -4354,16 +4366,16 @@
 		(uuid "953fd17a-d714-49ac-b61c-1da0f25622f2")
 	)
 	(junction
+		(at 262.89 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97ba7536-4b75-4aac-a75c-ed8c17332b58")
+	)
+	(junction
 		(at 170.18 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ab1e1c4-88e4-47ae-b230-2e0172488d9a")
-	)
-	(junction
-		(at 248.92 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e0eebc7-a172-408a-a9f0-2d7b21a9cfce")
 	)
 	(junction
 		(at 203.2 147.32)
@@ -4671,6 +4683,26 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 44.45) (xy 238.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b510fc-22fd-43c4-ba8a-811c8450c91d")
+	)
+	(wire
+		(pts
+			(xy 262.89 44.45) (xy 262.89 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0853dad8-ff34-470a-935c-9f1178990afe")
+	)
+	(wire
+		(pts
 			(xy 97.79 181.61) (xy 97.79 184.15)
 		)
 		(stroke
@@ -4718,6 +4750,16 @@
 			(type default)
 		)
 		(uuid "0f3f051b-b775-484d-81e6-9e0b198efa2b")
+	)
+	(wire
+		(pts
+			(xy 248.92 125.73) (xy 269.24 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fefd1fd-d369-4ed2-ac3e-cc4936add518")
 	)
 	(wire
 		(pts
@@ -4861,7 +4903,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 125.73) (xy 269.24 125.73)
+			(xy 246.38 125.73) (xy 248.92 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5111,7 +5153,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 41.91) (xy 262.89 41.91)
+			(xy 273.05 44.45) (xy 262.89 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5451,16 +5493,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 124.46) (xy 248.92 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56651a4e-adae-46a3-b32d-9a07ba3cbf7d")
-	)
-	(wire
-		(pts
 			(xy 147.32 55.88) (xy 147.32 53.34)
 		)
 		(stroke
@@ -5621,7 +5653,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 41.91) (xy 238.76 48.26)
+			(xy 238.76 41.91) (xy 238.76 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5681,7 +5713,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 41.91) (xy 248.92 41.91)
+			(xy 238.76 44.45) (xy 248.92 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6041,7 +6073,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 48.26) (xy 248.92 41.91)
+			(xy 248.92 48.26) (xy 248.92 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6078,16 +6110,6 @@
 			(type default)
 		)
 		(uuid "90d46aa6-7b2e-49a7-845e-dc93f27bc697")
-	)
-	(wire
-		(pts
-			(xy 262.89 41.91) (xy 262.89 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90d50491-ba44-49c6-aa37-58892ec4c010")
 	)
 	(wire
 		(pts
@@ -6501,6 +6523,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 44.45) (xy 262.89 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1b16a0-d3ff-48c3-9bb1-90fd95340531")
+	)
+	(wire
+		(pts
 			(xy 147.32 24.13) (xy 147.32 26.67)
 		)
 		(stroke
@@ -6681,6 +6713,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 124.46) (xy 248.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e522fe96-e5db-44ea-8445-3c1ba35d24d1")
+	)
+	(wire
+		(pts
 			(xy 39.37 35.56) (xy 64.77 35.56)
 		)
 		(stroke
@@ -6801,7 +6843,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 48.26) (xy 273.05 41.91)
+			(xy 273.05 48.26) (xy 273.05 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7818,7 +7860,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 119.38 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10468,8 +10510,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 241.3 128.27 0)
-		(mirror y)
+		(at 241.3 130.81 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10479,7 +10520,7 @@
 		(dnp no)
 		(uuid "634d7d0d-7edb-4eec-b91d-f5d450d4e40d")
 		(property "Reference" "J101"
-			(at 237.744 130.556 0)
+			(at 237.744 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10490,7 +10531,7 @@
 			)
 		)
 		(property "Value" "SSD1306"
-			(at 237.744 128.016 0)
+			(at 237.744 131.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10501,7 +10542,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 223.266 140.97 0)
+			(at 223.266 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10512,7 +10553,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
-			(at 198.628 143.002 0)
+			(at 198.628 116.078 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10523,7 +10564,7 @@
 			)
 		)
 		(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
-			(at 214.63 145.034 0)
+			(at 214.63 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10534,7 +10575,7 @@
 			)
 		)
 		(property "MPN" "61300411821"
-			(at 241.3 128.27 0)
+			(at 241.3 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10770,7 +10811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cee8f1e-7a36-4d39-91b9-ad61b1ecdcdd")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0118"
 			(at 45.72 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10830,7 +10871,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR0117")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -10847,7 +10888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f6a21ff-16dd-472c-97ec-2b15ad62e644")
-		(property "Reference" "R110"
+		(property "Reference" "R109"
 			(at 91.694 91.694 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10920,7 +10961,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "R110")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -11221,7 +11262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8085ec8c-f7f9-47e3-85d9-b22356b71ac5")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0117"
 			(at 149.86 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -11281,7 +11322,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "#PWR0118")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -11581,7 +11622,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "990a8022-a88d-48cd-85bd-6023f29a9432")
-		(property "Reference" "R109"
+		(property "Reference" "R110"
 			(at 243.84 94.996 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11654,7 +11695,7 @@
 		(instances
 			(project "ese-rust-board"
 				(path "/66810f2f-e65f-4576-8743-4cd701ccca60"
-					(reference "R109")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -12395,7 +12436,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPR06031K6 "
+		(property "MPN" "GPR06031K6"
 			(at 243.84 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -14599,6 +14640,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "DBG_VBUS" input
+			(at 64.77 35.56 180)
+			(uuid "5fb8cca3-ceaf-4009-8dd4-9c5cda9b089c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
