@@ -1,0 +1,24 @@
+hardware/ese-rust-board/BME690.kicad_sch
+  h_2e4fad1f0ddac3 1208
+hardware/ese-rust-board/RP_DEBUGGER.kicad_sch
+  h_2e4fad1f0ddac3 6598,9023-9033,11028
+hardware/ese-rust-board/ese-rust-board.kicad_pcb
+  h_2e4fad1f0ddac3 154-36000
+hardware/ese-rust-board/ese-rust-board.kicad_pro
+  h_2e4fad1f0ddac3 549-556,566-571,625-630,758,760,763
+hardware/ese-rust-board/ese-rust-board.kicad_sch
+  h_2e4fad1f0ddac3 9802-9812,11540-11550,12561-12571,13955-13965,15341,15352,15374,15922-15932,16014-16024
+hardware/ese-rust-board/usb.kicad_sch
+  h_2e4fad1f0ddac3 7407-7417,7609-7619,8206-8216,9760-9770,9876-9886,10156-10166,10708-10718,10919-10929
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0c35c81f233d736212f6152231dc532786a2b3c5",
+  "prompts": {},
+  "humans": {
+    "h_2e4fad1f0ddac3": {
+      "author": "JuliDi <julian@systemscape.de>"
+    }
+  }
+}
