@@ -6406,7 +6406,7 @@
 				)
 			)
 		)
-		(property "MPN" "TPS2041BDBVRG4"
+		(property "MPN" "TPS2041BDBVR"
 			(at 233.68 91.44 0)
 			(hide yes)
 			(show_name no)
