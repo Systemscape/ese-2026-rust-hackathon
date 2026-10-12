@@ -6406,7 +6406,7 @@
 				)
 			)
 		)
-		(property "MPN" "TPS2041BDBVRG4"
+		(property "MPN" "TPS2041BDBVR"
 			(at 233.68 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7404,6 +7404,17 @@
 				)
 			)
 		)
+		(property "MPN" "TPS2116DRLR"
+			(at 151.13 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "56a63ff3-b31b-4de8-90e4-c4feb838fcfa")
 		)
@@ -7585,6 +7596,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 34.29 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "UJ20-C-H-G-SMT-1-P16-TR"
 			(at 34.29 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8171,6 +8193,17 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 59.69 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
 			(at 59.69 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9724,6 +9757,17 @@
 				)
 			)
 		)
+		(property "MPN" "MYRGP330060B21RC"
+			(at 226.06 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "9d6ab025-f68b-4c79-a4be-73bed2ab2ab9")
 		)
@@ -9819,6 +9863,17 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 60.96 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
 			(at 60.96 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10088,6 +10143,17 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 252.73 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BSS138NH6433XTMA1"
 			(at 252.73 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10639,6 +10705,17 @@
 				)
 			)
 		)
+		(property "MPN" "TUSB320LAIRWBR"
+			(at 132.08 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "12"
 			(uuid "76a66ee7-1d2a-49c9-b19e-94d964bd5c1e")
 		)
@@ -10829,6 +10906,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 34.29 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "UJ20-C-H-G-SMT-1-P16-TR"
 			(at 34.29 44.45 0)
 			(hide yes)
 			(show_name no)
