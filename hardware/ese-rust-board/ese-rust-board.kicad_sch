@@ -9799,6 +9799,17 @@
 				)
 			)
 		)
+		(property "MPN" "SC1512(13)-A4"
+			(at 149.86 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "12"
 			(uuid "226594e3-926a-4c0b-b2bf-37936d4e5185")
 		)
@@ -11526,6 +11537,17 @@
 				)
 			)
 		)
+		(property "MPN" "PTS526SM15SMTR2 LFS"
+			(at 262.89 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bf0f19c9-5771-4b4a-8cd6-591138a3b8df")
 		)
@@ -12526,6 +12548,17 @@
 			)
 		)
 		(property "MPN" "GPC0402104"
+			(at 273.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 273.05 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13919,6 +13952,17 @@
 				)
 			)
 		)
+		(property "MPN" "PTS526SM15SMTR2 LFS"
+			(at 238.76 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1c71ec21-d171-4054-abfb-97e0f36148dd")
 		)
@@ -15294,7 +15338,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 15.875 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15305,7 +15349,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ss26fl-d.pdf"
 			(at 20.32 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15327,7 +15371,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SS24FL"
 			(at 20.32 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15875,6 +15919,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 248.92 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c9375548-d91b-4d1d-adb5-34af93ffe2a8")
 		)
@@ -15946,6 +16001,17 @@
 			)
 		)
 		(property "Description" "Seeed Studio XIAO ESP32C6; hybrid THT/SMT mounting with underside solder access"
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "101991470"
 			(at 45.72 119.38 0)
 			(hide yes)
 			(show_name no)

@@ -6595,7 +6595,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9020,6 +9020,17 @@
 				)
 			)
 		)
+		(property "MPN" "SC1512(13)-A4"
+			(at 91.44 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "12"
 			(uuid "a1fccd95-5927-4a6c-8531-38217ea10b12")
 		)
@@ -11014,7 +11025,7 @@
 				)
 			)
 		)
-		(property "MPN" " AOTA-B201610S3R3-101-T"
+		(property "MPN" "AOTA-B201610S3R3-101-T"
 			(at 106.68 48.26 0)
 			(hide yes)
 			(show_name no)
