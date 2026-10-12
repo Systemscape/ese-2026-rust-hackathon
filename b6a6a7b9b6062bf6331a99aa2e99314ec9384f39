@@ -1,0 +1,16 @@
+hardware/ese-rust-board/ese-rust-board.kicad_pro
+  h_266fe4f058ae1a 768
+hardware/ese-rust-board/ese-rust-board.kicad_sch
+  h_266fe4f058ae1a 4014-4535,14737-14882
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b6a6a7b9b6062bf6331a99aa2e99314ec9384f39",
+  "prompts": {},
+  "humans": {
+    "h_266fe4f058ae1a": {
+      "author": "Joël Schulz-Andres <joel@systemscape.de>"
+    }
+  }
+}

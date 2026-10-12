@@ -1,0 +1,40 @@
+hardware/ese-rust-board/fp-lib-table
+  s_bc79e55d6ceb17::t_1dd8c285fff35d 3
+hardware/ese-rust-board/libs/3dmodels/seeed.3dshapes/Seeed_XIAO_ESP32C6.LICENSE.md
+  s_bc79e55d6ceb17::t_0e226ea79dd868 1-26
+hardware/ese-rust-board/libs/3dmodels/seeed.3dshapes/Seeed_XIAO_ESP32C6.step
+  s_bc79e55d6ceb17::t_b74ce9a532f9b4 1-31995
+hardware/ese-rust-board/libs/README.txt
+  s_bc79e55d6ceb17::t_5e59b5d813e507 1-22
+hardware/ese-rust-board/libs/footprints/seeed.pretty/XIAO-ESP32C6-Hybrid.kicad_mod
+  s_bc79e55d6ceb17::t_63c9aca1dd1a5c 1-446
+hardware/ese-rust-board/libs/fp-lib-table
+  s_bc79e55d6ceb17::t_696542fe43ef15 1-5
+hardware/ese-rust-board/libs/sym-lib-table
+  s_bc79e55d6ceb17::t_c4db71f8113eba 1-6
+hardware/ese-rust-board/libs/symbols/seeed/seeed.kicad_sym
+  s_bc79e55d6ceb17::t_9b75f63760043c 1-92
+hardware/ese-rust-board/sym-lib-table
+  s_bc79e55d6ceb17::t_16d070e0d65077 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1b2aaab83f4fdb901e053673854fe913eec44ff0",
+  "prompts": {},
+  "humans": {
+    "h_266fe4f058ae1a": {
+      "author": "Joël Schulz-Andres <joel@systemscape.de>"
+    }
+  },
+  "sessions": {
+    "s_bc79e55d6ceb17": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a11bfd-619e-7ef1-b5c4-61fc0fb4c9ee",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Joël Schulz-Andres <joel@systemscape.de>"
+    }
+  }
+}
