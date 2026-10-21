@@ -13024,7 +13024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 96.52 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -13057,7 +13057,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPHA-1X06"
+		(property "MPN" "GPHA-1X05"
 			(at 96.52 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -15741,7 +15741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 96.52 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15774,7 +15774,7 @@
 				)
 			)
 		)
-		(property "MPN" "GPHA-1X06"
+		(property "MPN" "GPHA-1X05"
 			(at 96.52 149.86 0)
 			(hide yes)
 			(show_name no)
