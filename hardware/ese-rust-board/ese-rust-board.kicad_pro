@@ -63,7 +63,7 @@
           "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.1,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -178,7 +178,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +189,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +200,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -563,8 +560,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -821,7 +818,7 @@
         "uuid": "66810f2f-e65f-4576-8743-4cd701ccca60"
       }
     ],
-    "used_designators": "#FLG101-102,#FLG201-203,#FLG301-302,#FLG1101-1104,#PWR1-15,#PWR101-126,#PWR201-216,#PWR301-315,#PWR401,#PWR501-506,#PWR901-902,#PWR1101,#PWR1105-1117,BTN_BOOTSEL101,BTN_RESET1,BTN_RESET101,C1-4,C101-120,C201-208,C301-318,C501-502,C901-902,C1101-1120,D1-2,D101-112,D201,D401-410,J1-2,J101-103,J201-202,J301-302,JP101-104,JP301-303,L1,L101,L301,L901,L1101-1102,PWR_LED101,Q201,R1-12,R101-117,R201-218,R301-310,R401-410,R501-504,R901-903,R1103-1104,R1106-1109,SW1-2,SW101-104,SW301,TP1,TP901,U1-7,U101-104,U201-206,U301,U501,U901,Y101,Y301,Y1101-1102",
+    "used_designators": "SW1-2,SW101-104,SW301,Q201,TP1,TP901,R1-12,R101-117,R201-218,R301-310,R401-410,R501-504,R901-903,R1103-1104,R1106-1109,PWR_LED101,JP101-104,JP301-303,#FLG101-102,#FLG201-203,#FLG301-302,#FLG1101-1104,BTN_BOOTSEL101,Y101,Y301,Y1101-1102,#PWR1-15,#PWR101-126,#PWR201-216,#PWR301-315,#PWR401,#PWR501-506,#PWR901-902,#PWR1101,#PWR1105-1117,BTN_RESET1,BTN_RESET101,C1-4,C101-120,C201-208,C301-318,C501-502,C901-902,C1101-1120,D1-2,D101-112,D201,D401-410,U1-7,U101-104,U201-206,U301,U501,U901,J1-2,J101-103,J201-202,J301-302,L1,L101,L301,L901,L1101-1102",
     "variants": []
   },
   "sheets": [
