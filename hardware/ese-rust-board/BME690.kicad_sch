@@ -1205,7 +1205,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BME690"
 			(at 86.36 63.5 0)
 			(hide yes)
 			(show_name no)

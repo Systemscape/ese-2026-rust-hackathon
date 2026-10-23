@@ -60,16 +60,22 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.2,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -140,8 +146,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.2,
+        "min_connection": 0.2,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -172,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -183,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -203,7 +212,14 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.25,
+        0.3,
+        0.5,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +246,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -260,7 +285,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_filter|2413000|1435100|23377836-8583-457a-be5f-a00b693b62d7|00000000-0000-0000-0000-000000000000|||",
+        "doesn't match the glob/regex pattern"
+      ],
+      [
+        "power_pin_not_driven|228600|1066800|a0e9b482-b7fd-4f74-835b-9fb1c48c92b4|00000000-0000-0000-0000-000000000000|/66810f2f-e65f-4576-8743-4cd701ccca60|/66810f2f-e65f-4576-8743-4cd701ccca60|",
+        "Diode pins are passive, but +5V is powered"
+      ],
+      [
+        "power_pin_not_driven|609600|1066800|a0e9b482-b7fd-4f74-835b-9fb1c48c92b4|00000000-0000-0000-0000-000000000000|/66810f2f-e65f-4576-8743-4cd701ccca60|/66810f2f-e65f-4576-8743-4cd701ccca60|",
+        "Diode pins are passive, but +5V is powered"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -469,6 +507,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -506,19 +545,36 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": ""
       }
     ],
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "net_colors": {},
+    "netclass_assignments": {},
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "*V*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -571,6 +627,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -616,12 +678,6 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
           "show": true
         },
         {
@@ -703,12 +759,12 @@
           "show": false
         }
       ],
-      "filter_string": "C",
+      "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "MPN"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -765,7 +821,7 @@
         "uuid": "66810f2f-e65f-4576-8743-4cd701ccca60"
       }
     ],
-    "used_designators": "U1-7,U101-104,U201-206,U301,U501,U901,D1-2,D101-112,D201,D401-410,Q201,Y101,Y301,Y1101-1102,#PWR1-15,#PWR101-122,#PWR201-216,#PWR301-315,#PWR401,#PWR501-506,#PWR901-902,#PWR1101,#PWR1105-1117,SW1-2,SW101-104,SW301,R1-12,R101-117,R201-218,R301-310,R401-410,R501-504,R901-903,R1103-1104,R1106-1109,TP1,TP901,L1,L101,L301,L901,L1101-1102,JP101-104,JP301-303,PWR_LED101,J1-2,J101,J201-202,J301-302,#FLG101-102,#FLG201-203,#FLG301-302,#FLG1101-1104,BTN_BOOTSEL101,BTN_RESET1,BTN_RESET101,C1-4,C101-120,C201-208,C301-318,C501-502,C901-902,C1101-1120",
+    "used_designators": "#FLG101-102,#FLG201-203,#FLG301-302,#FLG1101-1104,#PWR1-15,#PWR101-126,#PWR201-216,#PWR301-315,#PWR401,#PWR501-506,#PWR901-902,#PWR1101,#PWR1105-1117,BTN_BOOTSEL101,BTN_RESET1,BTN_RESET101,C1-4,C101-120,C201-208,C301-318,C501-502,C901-902,C1101-1120,D1-2,D101-112,D201,D401-410,J1-2,J101-103,J201-202,J301-302,JP101-104,JP301-303,L1,L101,L301,L901,L1101-1102,PWR_LED101,Q201,R1-12,R101-117,R201-218,R301-310,R401-410,R501-504,R901-903,R1103-1104,R1106-1109,SW1-2,SW101-104,SW301,TP1,TP901,U1-7,U101-104,U201-206,U301,U501,U901,Y101,Y301,Y1101-1102",
     "variants": []
   },
   "sheets": [
