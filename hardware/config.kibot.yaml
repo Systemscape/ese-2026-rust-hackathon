@@ -99,10 +99,6 @@ outputs:
   comment: 3D model (step)
   type: step
   dir: step
-- name: stencil_3d
-  comment: 3d-printable stencil
-  type: stencil_3d
-  dir: stencils
 - name: pcbdraw
   comment: pcbdraw file
   type: pcbdraw
