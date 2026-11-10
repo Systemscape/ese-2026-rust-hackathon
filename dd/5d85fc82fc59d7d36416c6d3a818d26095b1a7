@@ -1,0 +1,26 @@
+hardware/README.md
+  s_7fe25b3b1b8cdd::t_1c04504cacb46d 5-9,15-19
+  s_7fe25b3b1b8cdd::t_c645b74dc32de2 10-14
+downloads.md
+  s_7fe25b3b1b8cdd::t_1c04504cacb46d 19-31
+  s_7fe25b3b1b8cdd::t_c645b74dc32de2 10-18
+_layouts/default.html
+  s_7fe25b3b1b8cdd::t_1c04504cacb46d 1-27,32-49
+  s_7fe25b3b1b8cdd::t_c645b74dc32de2 28-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "dd5d85fc82fc59d7d36416c6d3a818d26095b1a7",
+  "prompts": {},
+  "sessions": {
+    "s_7fe25b3b1b8cdd": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c4d9-6d7b-7bb1-8504-4179ac9afaea",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Joël Schulz-Andres <joel@systemscape.de>"
+    }
+  }
+}
