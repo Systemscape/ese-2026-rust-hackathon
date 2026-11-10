@@ -2,6 +2,21 @@
 
 [Hackathon](../README.md) · [PCB downloads](../downloads.md) · [Hardware CI](../docs/ci.md)
 
+{% assign schematic = site.static_files | where: 'path', '/downloads/pdf/ese-rust-board-schematic.pdf' | first %}
+{% if schematic %}
+<p><a href="{{ schematic.path | relative_url }}" target="_blank" rel="noopener noreferrer">Open schematic (PDF) in a new window</a></p>
+{% endif %}
+
+{% assign ibom = site.static_files | where: 'path', '/downloads/ibom/ese-rust-board-ibom.html' | first %}
+{% if ibom %}
+<p><a href="{{ ibom.path | relative_url }}" target="_blank" rel="noopener noreferrer">Open interactive BOM (iBOM) in a new window</a></p>
+{% endif %}
+
+{% assign board_render = site.static_files | where: 'path', '/downloads/pcbdraw/ese-rust-board-top.svg' | first %}
+{% if board_render %}
+![ESE Rust Devboard — top view]({{ board_render.path | relative_url }})
+{% endif %}
+
 ## MCU Foundation
 - 2x Raspberry Pi RP2354B (SC1512-A4) https://mou.sr/4yLfwo5 ca. 0.80 €
   - 1x as debugger using https://github.com/raspberrypi/debugprobe or https://github.com/probe-rs/rusty-probe-firmware
