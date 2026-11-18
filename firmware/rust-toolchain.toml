@@ -1,0 +1,9 @@
+[toolchain]
+channel = "1.100.0"
+components = ["rustfmt", "clippy", "rust-analyzer"]
+targets = [
+    "thumbv8m.main-none-eabihf",     # Cortex-M33
+    "riscv32imac-unknown-none-elf",  # Hazard3 (RISC-V)
+]
+profile = "minimal"
+
