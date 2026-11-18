@@ -1,5 +1,9 @@
 # Embedded Rust zum Anfassen: Hackathon auf dem exklusiven ESE 2026 Rust Devboard
 
+> [!IMPORTANT]
+> Gerenderte Dokumentation: https://systemscape.github.io/ese-2026-rust-hackathon/
+
+
 [Hardware](hardware/README.md) · [PCB-Downloads](downloads.md) · [CI](docs/ci.md)
 
 ## Worum geht es?
@@ -40,3 +44,59 @@ Konkret nehmen Sie mit:
 * Embedded-Software im Team und mit Git-Workflow entwickeln
 
 Das Gelernte lässt sich direkt auf andere Cortex-M-Plattformen übertragen.
+
+***
+
+# Vorbereitung
+
+## Toolchain Setup
+
+Bitte vor dem Hackathon erledigen, denn das WLAN vor Ort ist erfahrungsgemäß langsam.
+Allgemeine Infos: https://rust-lang.org/learn/get-started/
+
+### 1. Rust installieren
+
+**Linux/macOS**
+```sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+**Windows:** `rustup-init.exe` von https://rustup.rs herunterladen und ausführen. Die angebotenen Visual Studio C++ Build Tools mitinstallieren.
+
+### 2. Targets für den RP2354 hinzufügen
+```sh
+# Cortex-M33 (wird im Hackathon genutzt)
+rustup target add thumbv8m.main-none-eabihf
+# RISC-V (Hazard3, zum selbst Ausprobieren)
+rustup target add riscv32imac-unknown-none-elf
+```
+
+### 3. probe-rs installieren (Flashen & Debuggen)
+
+**Linux/macOS**
+```sh
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/probe-rs/probe-rs/releases/latest/download/probe-rs-tools-installer.sh | sh
+```
+**Windows (PowerShell)**
+```powershell
+irm https://github.com/probe-rs/probe-rs/releases/latest/download/probe-rs-tools-installer.ps1 | iex
+```
+**Linux:** zusätzlich die udev-Regeln einrichten: https://probe.rs/docs/getting-started/probe-setup/
+
+### 4. Repository klonen und Build testen
+```sh
+git clone https://github.com/Systemscape/ese-2026-rust-hackathon.git
+cd ese-2026-rust-hackathon/firmware
+cargo build
+```
+Wenn der Build durchläuft, ist alles bereit. Beim ersten Mal werden alle Abhängigkeiten heruntergeladen, das kann ein paar Minuten dauern.
+
+### Editor (empfohlen)
+VS Code mit der Erweiterung **rust-analyzer**, oder ein anderer Editor mit rust-analyzer-Unterstützung, zum Beispiel Zed.
+
+## Rust lernen
+- Übungen: https://rustlings.rust-lang.org/
+- Das Rust Book: https://doc.rust-lang.org/stable/book/
+- Interaktive Version mit Quizfragen: https://rust-book.cs.brown.edu/
+
+## Kontaktdaten für Rückfragen
+Per E-Mail oder Telefon: https://www.systemscape.com/de/contact/
