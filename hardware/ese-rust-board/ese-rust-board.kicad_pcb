@@ -31236,7 +31236,7 @@
 			(uuid "0c0bbe8d-c39c-47c9-a845-a61d061fd094")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/ArtInChip_QFN-88-1EP_10x10mm_P0.4mm_EP6.74x6.74mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35500,7 +35500,7 @@
 			(uuid "5321e19c-9bf9-41e4-8599-be89274c39ea")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/ArtInChip_QFN-88-1EP_10x10mm_P0.4mm_EP6.74x6.74mm.step"
 			(offset
 				(xyz 0 0 0)
 			)

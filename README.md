@@ -4,7 +4,7 @@
 > Gerenderte Dokumentation: https://systemscape.github.io/ese-2026-rust-hackathon/
 
 
-[Hardware](hardware/README.md) · [PCB-Downloads](downloads.md) · [CI](docs/ci.md)
+[Das Board](hardware/board.md) · [Hardware](hardware/README.md) · [PCB-Downloads](downloads.md) · [CI](docs/ci.md)
 
 ## Worum geht es?
 
