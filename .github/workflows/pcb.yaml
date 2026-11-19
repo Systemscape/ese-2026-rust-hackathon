@@ -85,6 +85,9 @@ jobs:
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
 
+      - name: Remove GitHub-only admonition from README
+        run: sed -i '/^> \[!IMPORTANT\]/,/^$/d' README.md
+
       - name: Render Markdown with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
