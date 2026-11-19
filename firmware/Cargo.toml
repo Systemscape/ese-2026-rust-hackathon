@@ -22,6 +22,14 @@ cortex-m = "0.7.10"
 cortex-m-rt = "0.7.7"
 critical-section = "1.2.0"
 
+# Async version of Embedded HAL: a powerful abstraction that allows reusing drivers across chips and platforms
+embedded-hal-async = "1.0.0"
+
+# Driver for SSD1306 I2C display
+ssd1306 = { version = "0.10.0", features = ["async"] }
+# Embedded no_std graphics framework
+embedded-graphics = { version = "0.8.2", features = ["defmt"] }
+
 # Overwriting the published crate versions from crates.io with a specific commit from the git repo
 # Background: embassy has some huge crates because it builds hardware abstraction layers (HALs) for
 # hundreds of different microcontrollers. Generating the documentation alone generates big load on
