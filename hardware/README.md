@@ -18,8 +18,8 @@
 {% endif %}
 
 ## MCU Foundation
-- 2x Raspberry Pi RP2354B (SC1512-A4) https://mou.sr/4yLfwo5 ca. 0.80 €
-  - 1x as debugger using https://github.com/raspberrypi/debugprobe or https://github.com/probe-rs/rusty-probe-firmware
+- 2x Raspberry Pi RP2354B (SC1512-A4) <https://mou.sr/4yLfwo5> ca. 0.80 €
+  - 1x as debugger using <https://github.com/raspberrypi/debugprobe> or <https://github.com/probe-rs/rusty-probe-firmware>
   - 1x application processor
 
 ## Peripherals and I/O

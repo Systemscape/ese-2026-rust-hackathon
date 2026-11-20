@@ -4,7 +4,7 @@
 > Gerenderte Dokumentation: https://systemscape.github.io/ese-2026-rust-hackathon/
 
 
-[Hardware](hardware/README.md) · [PCB-Downloads](downloads.md) · [CI](docs/ci.md)
+[Das Board](hardware/board.md) · [Hardware](hardware/README.md) · [PCB-Downloads](downloads.md) · [CI](docs/ci.md)
 
 ## Worum geht es?
 
@@ -52,7 +52,7 @@ Das Gelernte lässt sich direkt auf andere Cortex-M-Plattformen übertragen.
 ## Toolchain Setup
 
 Bitte vor dem Hackathon erledigen, denn das WLAN vor Ort ist erfahrungsgemäß langsam.
-Allgemeine Infos: https://rust-lang.org/learn/get-started/
+Allgemeine Infos: <https://rust-lang.org/learn/get-started/>
 
 ### 1. Rust installieren
 
@@ -60,7 +60,7 @@ Allgemeine Infos: https://rust-lang.org/learn/get-started/
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
-**Windows:** `rustup-init.exe` von https://rustup.rs herunterladen und ausführen. Die angebotenen Visual Studio C++ Build Tools mitinstallieren.
+**Windows:** `rustup-init.exe` von <https://rustup.rs> herunterladen und ausführen. Die angebotenen Visual Studio C++ Build Tools mitinstallieren.
 
 ### 2. Targets für den RP2354 hinzufügen
 ```sh
@@ -80,7 +80,7 @@ curl --proto '=https' --tlsv1.2 -LsSf https://github.com/probe-rs/probe-rs/relea
 ```powershell
 irm https://github.com/probe-rs/probe-rs/releases/latest/download/probe-rs-tools-installer.ps1 | iex
 ```
-**Linux:** zusätzlich die udev-Regeln einrichten: https://probe.rs/docs/getting-started/probe-setup/
+**Linux:** zusätzlich die udev-Regeln einrichten: <https://probe.rs/docs/getting-started/probe-setup/>
 
 ### 4. Repository klonen und Build testen
 ```sh
@@ -94,9 +94,9 @@ Wenn der Build durchläuft, ist alles bereit. Beim ersten Mal werden alle Abhän
 VS Code mit der Erweiterung **rust-analyzer**, oder ein anderer Editor mit rust-analyzer-Unterstützung, zum Beispiel Zed.
 
 ## Rust lernen
-- Übungen: https://rustlings.rust-lang.org/
-- Das Rust Book: https://doc.rust-lang.org/stable/book/
-- Interaktive Version mit Quizfragen: https://rust-book.cs.brown.edu/
+- Übungen: <https://rustlings.rust-lang.org/>
+- Das Rust Book: <https://doc.rust-lang.org/stable/book/>
+- Interaktive Version mit Quizfragen: <https://rust-book.cs.brown.edu/>
 
 ## Kontaktdaten für Rückfragen
-Per E-Mail oder Telefon: https://www.systemscape.com/de/contact/
+Per E-Mail oder Telefon: <https://www.systemscape.com/de/contact/>
