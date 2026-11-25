@@ -6,6 +6,8 @@
 
 [Das Board](hardware/board.md) · [Hardware](hardware/README.md) · [PCB-Downloads](downloads.md) · [CI](docs/ci.md)
 
+![Bild des bestückten Boards](hardware/board_picture.jpg)
+
 ## Worum geht es?
 
 Rust ist auch in der Embedded-Entwicklung auf dem Vormarsch. Aber wie funktioniert “dieses Rust” auf echter Hardware? Wie schreibe ich einen Sensor-Treiber? Wie steuere ich ein Display an? Und wie sieht “Fearless Concurrency” in der Praxis aus?
