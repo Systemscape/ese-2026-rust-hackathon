@@ -4,6 +4,20 @@
 
 ![ESE Rust Devboard mit nummerierten Bauteilen](board-top.png)
 
+## Inbetriebnahme
+1. Debugger firmware flashen: Falls das Board über den `DBG USB` port noch nicht als debug probe erkannt wird, muss die debugger firmware noch geflasht werden:
+  - USB Verbindung trennen
+  - DBG BOOTSEL gedrückt halten und währenddessen `DBG USB` port mit PC verbinden
+    - Debugger wird dann als USB Speichermedium erkannt
+  - Datei `dist/ese_debugprobe.uf2` auf das Speichermedium kopieren, um die Debugger Firmware zu flashen
+  - (Debugger startet sich neu und wird dann vom PC als Debug Probe erkannt)
+2. Firmware flashen, z.B. die Testfirmware unter `dist/board-test`
+    ```sh
+    probe-rs run --chip RP235x dist/board-test
+    ```
+    -> Das Display sollte unten "PASS" anzeigen und "APP USB: plug PC". Zum Testen des User USB-Ports kann nun der PC mit dem Port `USER USB` verbunden werden.
+    Daraufhin zeigt das Display "APP USB: PC OK" an.
+
 ## Was ist wo?
 
 | Nr. | Bauteil | Pins | Hinweis |
@@ -23,6 +37,20 @@
 | 13 | Erweiterung J103 | GPIO44, GPIO43, GPIO42 | ADC-fähig |
 | 14 | DBG OUT | RUN, SWDIO, SWCLK, GND | Board als RP-Debugger nutzen (vorher Jumper durchtrennen!) |
 | 15 | Steckplatz Seeed XIAO (nicht bestückt) | UART1: TX GPIO40, RX GPIO41; I2C1 | z. B. XIAO ESP32-C6 für WLAN/Bluetooth |
+
+## Inbetriebnahme
+1. Debugger firmware flashen: Falls das Board über den `DBG USB` port noch nicht als debug probe erkannt wird, muss die debugger firmware noch geflasht werden:
+  - USB Verbindung trennen
+  - DBG BOOTSEL gedrückt halten und währenddessen `DBG USB` port mit PC verbinden
+    - Debugger wird dann als USB Speichermedium erkannt
+  - Datei `dist/ese_debugprobe.uf2` auf das Speichermedium kopieren, um die Debugger Firmware zu flashen
+  - (Debugger startet sich neu und wird dann vom PC als Debug Probe erkannt)
+2. Firmware flashen, z.B. die Testfirmware unter `dist/board-test`
+    ```sh
+    probe-rs run --chip RP235x dist/board-test
+    ```
+    -> Das Display sollte unten "PASS" anzeigen und "APP USB: plug PC". Zum Testen des User USB-Ports kann nun der PC mit dem Port `USER USB` verbunden werden.
+    Daraufhin zeigt das Display "APP USB: PC OK" an.
 
 ## Gut zu wissen
 

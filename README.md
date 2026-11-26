@@ -6,7 +6,7 @@
 
 [Das Board](hardware/board.md) · [Hardware](hardware/README.md) · [PCB-Downloads](downloads.md) · [CI](docs/ci.md)
 
-![Bild des bestückten Boards](hardware/board_picture.jpg)
+[<img src="hardware/board_picture.jpg" alt="Bild des bestückten Boards">](hardware/board.md)
 
 ## Worum geht es?
 
