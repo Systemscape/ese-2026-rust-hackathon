@@ -83,6 +83,11 @@ curl --proto '=https' --tlsv1.2 -LsSf https://github.com/probe-rs/probe-rs/relea
 irm https://github.com/probe-rs/probe-rs/releases/latest/download/probe-rs-tools-installer.ps1 | iex
 ```
 **Linux:** zusätzlich die udev-Regeln einrichten: <https://probe.rs/docs/getting-started/probe-setup/>
+```sh
+sudo curl -fsSL https://probe.rs/files/69-probe-rs.rules \
+  -o /etc/udev/rules.d/69-probe-rs.rules &&
+sudo udevadm control --reload
+```
 
 ### 4. Repository klonen und Build testen
 ```sh
